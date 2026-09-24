@@ -5,7 +5,7 @@ Turn public **Greenhouse**, **Lever** and **Ashby** job boards into clean, label
 - **Internship / co-op detection**: intern, internship, co-op, student and working-student roles. It excludes look-alikes such as "Internal Tools" and "International Trade", plus recruiter jobs that only mention interns.
 - **Term**: `Summer 2027`, `Fall 2026`, `Spring 2027`, `Winter 2027`, including formats like `Summer/Fall 2026` and `Spring '27`.
 - **Hardware discipline tags**: embedded/firmware, FPGA/RTL/ASIC, analog/mixed-signal, RF, power electronics, PCB/hardware design, test/validation, controls/robotics, semiconductor process/device, photonics. There is also a 0 to 100 hardware-relevance score.
-- **Class-year signal**: `fs` means the posting mentions freshman, sophomore, first-year, second-year, rising-junior or all-class-year eligibility, or a freshman/sophomore graduation year. `jplus` means junior/senior standing, an earlier graduation date or a graduate degree. `unspecified` means none of these.
+- **Class year**: `fs` means the posting says freshmen, sophomores, first-years, second-years, rising juniors or all class years can apply, or gives a freshman/sophomore graduation year. `jplus` means junior/senior standing, an earlier graduation date or a graduate degree. `unspecified` means the posting does not say, which is the most common case; it does not mean juniors only.
 - **Restriction flags**: US citizenship, US person / permanent residency, ITAR/EAR export control, security clearance and "no visa sponsorship". Equal-opportunity boilerplate is ignored.
 - **Locations, regions and workplace** (remote, hybrid, onsite), plus publish date and pay when the board publishes it.
 
@@ -27,7 +27,7 @@ It never stores full job descriptions. Each item includes a link to the original
 | `internshipOnly` | boolean | `true` | Keep internships, co-ops and student roles only. |
 | `hardwareOnly` | boolean | `false` | Keep hardware/EE roles only. |
 | `disciplines` | multi-select | | Keep postings tagged with any selected discipline. |
-| `classYear` | select | `any` | `fs`, `open` (anything but `jplus`), `jplus` or `any`. |
+| `classYear` | select | `any` | `any` (every posting), `fs`, `open` (anything but `jplus`, including postings that state no class year) or `jplus`. |
 | `excludeRestricted` | boolean | `false` | Drop postings flagged for citizenship, permanent residency, export control or clearance. |
 | `maxItems` | integer | `1000` | Stop after this many items. |
 | `includeSnippet` | boolean | `true` | Include the evidence excerpt (at most 300 characters). |
@@ -109,4 +109,4 @@ Pay per result: you are charged for each item saved to the dataset (see the Pric
 
 **How fresh is the data?** Every run reads the boards live. Schedule the Actor daily to track changes.
 
-**Why did an internship get `unspecified` for class year?** Most postings never mention it. `unspecified` does not mean juniors only.
+**Why did an internship get `unspecified` for class year?** Most postings never mention it. `unspecified` does not mean juniors only. To find roles a first- or second-year student can apply to, use `classYear: "open"`: it keeps postings that say so plus every posting that does not state a class year.

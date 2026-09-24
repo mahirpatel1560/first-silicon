@@ -10,25 +10,29 @@ from the build environment on 2026-09-23 (Reddit blocked the request). Read it b
 If in doubt, message the moderators first. Post this at least a few days apart from the r/ECE post.
 
 WHEN TO POST
-- After the first daily data run (real roles on the site).
+- The list has real roles since the first live run on September 24, 2026.
 - Suggested (heuristic, not measured): Tuesday to Thursday, 9 to 11 a.m. US Eastern.
   This subreddit also has working engineers, so the post asks them for feedback.
 
-FILL IN BEFORE POSTING (from https://firstsilicon.pages.dev/data/meta.json)
-[ROLE_COUNT] = counts.roles   [FS_COUNT] = counts.fs   [DATE] = last_run (date part)
+NUMBERS IN THIS POST (September 24, 2026 run; they change every morning)
+Re-check on the day you post, from https://firstsilicon.pages.dev/data/meta.json:
+  191 = counts.roles   34 = counts.companies   4 / 15 / 172 = counts.fs / counts.jplus / counts.unspecified
 
 TITLE
-Feedback wanted: a free hardware internship list with class-year and ITAR labels, built for EE underclassmen
+Feedback wanted: a free daily list of hardware internships labeled by discipline, class year and ITAR. 172 of 191 postings don't say what year you need to be
 
 BODY
-I'm an electrical engineering student at the University of Illinois. I built First Silicon, a free list of hardware internships and co-ops that updates daily from companies' public job boards: https://firstsilicon.pages.dev/?ref=r-ee
+I'm an electrical engineering student at the University of Illinois. I built First Silicon, a free list of every hardware internship and co-op on the company job boards it reads, updated every morning: https://firstsilicon.pages.dev/?ref=r-ee
 
-Each role is tagged by discipline (embedded, FPGA/ASIC, analog, RF, power, PCB, test, controls, semiconductor process, photonics). It also gets a class-year label (does the posting welcome first- and second-year students?) and flags for US citizenship, ITAR/export control and clearance. As of [DATE] there are [ROLE_COUNT] open roles, and [FS_COUNT] of them mention freshman/sophomore eligibility.
+As of September 24 it has 191 roles at 34 companies (the numbers change daily). Each role is tagged by discipline (test, PCB, controls, embedded, analog, FPGA/ASIC, RF, power, photonics, semiconductor process), by class year, and with flags for US citizenship, ITAR/export control and clearance.
+
+The class-year split: 4 postings say freshmen or sophomores can apply, 15 ask for juniors or later, and 172 don't say anything about class year.
 
 There are also short guides for each discipline: what interns actually do, the skills to show, and a few starter projects (https://firstsilicon.pages.dev/disciplines/).
 
-Two questions for the engineers here:
-1. If you've hosted interns, what would you add to those guides? What made a first- or second-year applicant stand out?
-2. Which hardware companies should be on the list? It only reads Greenhouse, Lever and Ashby boards today, so companies on Workday and similar systems are missing.
+Three questions for the engineers here:
+1. When a posting doesn't state a class year, would your team look at a strong sophomore? The site's advice for those 172 is: apply unless the posting says juniors/seniors or a graduation date you can't meet. Tell me if that's wrong for your field.
+2. If you've hosted interns, what would you add to the discipline guides? What made a first- or second-year applicant stand out?
+3. Which hardware companies should be on the list? It only reads Greenhouse, Lever and Ashby boards today, so companies on Workday and similar systems are missing.
 
 Labels are automatic and can be wrong; every role links to the employer's own posting.

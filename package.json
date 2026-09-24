@@ -2,7 +2,7 @@
   "name": "firstsilicon",
   "version": "0.1.0",
   "private": true,
-  "description": "First Silicon: hardware, EE, embedded and semiconductor internships freshmen and sophomores can apply to, updated automatically.",
+  "description": "First Silicon: every hardware, EE, embedded and semiconductor internship and co-op on employers' public job boards, labeled by class year, discipline and citizenship. Updated daily.",
   "type": "module",
   "engines": {
     "node": ">=22"

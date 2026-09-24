@@ -96,7 +96,7 @@
     "classYear": {
       "title": "Class-year signal",
       "type": "string",
-      "description": "fs = the posting mentions first-year/sophomore/rising-junior eligibility or a freshman/sophomore graduation year; jplus = junior/senior standing, earlier graduation or a graduate degree; open = anything except jplus.",
+      "description": "Filter on the class-year label. fs = the posting says first-year, sophomore or rising-junior students can apply, or gives a freshman/sophomore graduation year; jplus = junior/senior standing, an earlier graduation date or a graduate degree; open = everything except jplus, including postings that state no class year (the most common case). Any keeps every posting.",
       "editor": "select",
       "enum": [
         "any",

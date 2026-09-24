@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Renders static brand images with Playwright (local Chromium): og.png (1200x630), favicon PNGs, icon-512.
 // Output goes to src/static/ and is committed, so the site build itself needs no browser.
+// The OG image carries no counts on purpose: it is rendered by hand, not by the daily data run, so any number
+// in it would go stale the next morning. Live counts belong in the page copy (src/lib/copy.mjs).
 // Usage: PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers node scripts/og.mjs
 
 import fs from 'node:fs/promises';
@@ -26,13 +28,15 @@ const OG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .chips{display:flex;gap:12px;flex-wrap:wrap;position:relative}
   .chip{font:600 22px ui-monospace,Menlo,Consolas,monospace;border:2px solid #16181d;border-radius:999px;padding:6px 16px;background:#fff}
   .chip.g{border-color:#1d6a45;color:#1d6a45;background:#e3f1e9}
-  .chips{max-width:860px}
+  .chip.a{border-color:#7d4f00;color:#7d4f00;background:#fbf0d9}
+  .chips{max-width:1056px}
+  .sub{font-size:27px;line-height:1.3;color:#4b5260;margin:16px 0 0;max-width:860px;position:relative}
   .trace{position:absolute;right:-70px;top:170px;width:250px;height:250px;border:3px solid #c0612b;border-radius:24px;opacity:.9}
   .trace:after{content:'';position:absolute;inset:36px;border:3px dashed #c0612b;border-radius:14px}
 </style></head><body><div class="grid"></div><div class="trace"></div>
   <div class="top">${LOGO_SVG}<span class="name">First Silicon</span></div>
-  <div><div class="kicker">Hardware · EE · Embedded · Semiconductors</div><h1>Hardware internships you can apply to as a freshman or sophomore.</h1></div>
-  <div class="chips"><span class="chip g">Fr/So friendly</span><span class="chip">FPGA/RTL/ASIC</span><span class="chip">Embedded</span><span class="chip">RF</span><span class="chip">Power</span><span class="chip">No-citizenship filter</span></div>
+  <div><div class="kicker">Hardware · EE · Embedded · Semiconductors</div><h1>Every hardware internship, labeled.</h1><p class="sub">Internships and co-ops from hardware companies' own job boards, tagged by class year, discipline and citizenship. Updated every morning.</p></div>
+  <div class="chips"><span class="chip">PCB</span><span class="chip">Embedded</span><span class="chip">RF</span><span class="chip">Test</span><span class="chip">Silicon</span><span class="chip g">Class year</span><span class="chip a">Citizenship</span></div>
 </body></html>`;
 
 async function main() {

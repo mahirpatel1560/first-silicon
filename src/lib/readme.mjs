@@ -7,6 +7,7 @@ import { FLAG_LABELS } from './classify.mjs';
 import { isNew } from './pipeline.mjs';
 import { upcomingDeadlines } from './programs.mjs';
 import { classYearWindows } from './classify.mjs';
+import { heroSubhead, classYearGuidance } from './copy.mjs';
 
 const CY_LABEL = { fs: 'Fr/So', jplus: 'Jr+', unspecified: '' };
 
@@ -31,18 +32,26 @@ export function buildReadme({ jobs, meta, programs, site, today }) {
   const counts = (meta && meta.counts) || {};
   const pending = !meta || !meta.last_run;
   const lines = [];
-  lines.push('# First Silicon: hardware internships for freshmen and sophomores');
-  lines.push('');
-  lines.push(
-    `Hardware, EE, embedded and semiconductor internships and co-ops pulled daily from public employer job boards (Greenhouse, Lever and Ashby), labeled by discipline, class-year signal and citizenship/export flags. Filter the list at **[${site.BASE_URL.replace(/^https:\/\//, '')}](${site.BASE_URL}/?ref=github)**.`,
-  );
+  const link = `**[${site.BASE_URL.replace(/^https:\/\//, '')}](${site.BASE_URL}/?ref=github)**`;
+  lines.push('# First Silicon: every hardware internship, labeled');
   lines.push('');
   if (pending) {
+    lines.push(
+      `Hardware, EE, embedded and semiconductor internships and co-ops pulled daily from public employer job boards (Greenhouse, Lever and Ashby), tagged by class year, discipline and citizenship/export flags. Filter the list at ${link}.`,
+    );
+    lines.push('');
     lines.push('**Status:** the first automatic data run has not happened yet. The table fills in after the daily GitHub Action runs.');
   } else {
+    lines.push(`${heroSubhead(counts)} Filter the list at ${link}.`);
+    lines.push('');
     lines.push(
-      `**Updated ${longDate(meta.last_run.slice(0, 10))}** · ${counts.roles || 0} open roles at ${counts.companies || 0} employers · ${counts.fs || 0} mention freshman/sophomore eligibility · ${counts.new_this_week || 0} new this week`,
+      `**Updated ${longDate(meta.last_run.slice(0, 10))}** · ${counts.roles || 0} open roles · ${counts.new_this_week || 0} new this week · ${counts.citizenship_free || 0} without citizenship or export flags`,
     );
+    const guide = classYearGuidance(counts);
+    if (guide) {
+      lines.push('');
+      lines.push(`**Class year:** ${guide}`);
+    }
   }
   lines.push('');
   lines.push('> Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer\'s site before applying. Closed roles are removed on the next daily run.');
@@ -50,7 +59,7 @@ export function buildReadme({ jobs, meta, programs, site, today }) {
   lines.push('## Legend');
   lines.push('');
   const win = classYearWindows(new Date(`${today}T12:00:00Z`));
-  lines.push(`- **Class year**: \`Fr/So\` = the posting mentions first-year, sophomore, rising-junior or all-class-year eligibility (or a ${win.fs[0]}-${win.fs[1]} graduation date); \`Jr+\` = it asks for junior/senior standing, graduation by ${win.jplus[0]}-${win.jplus[1]}, or a graduate degree; blank = not stated (often still open to sophomores, so read it).`);
+  lines.push(`- **Class year**: \`Fr/So\` = the posting mentions first-year, sophomore, rising-junior or all-class-year eligibility (or a ${win.fs[0]}-${win.fs[1]} graduation date); \`Jr+\` = it asks for junior/senior standing, graduation by ${win.jplus[0]}-${win.jplus[1]}, or a graduate degree; blank = not stated (apply unless the posting says juniors/seniors or a graduation date you can't meet).`);
   lines.push('- **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.');
   lines.push('- **Posted**: the employer\'s publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).');
   lines.push('');

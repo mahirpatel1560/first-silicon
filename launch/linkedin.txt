@@ -8,24 +8,27 @@ Personal posts about your own free project are normal on LinkedIn; avoid tagging
 who did not ask to be tagged, and do not use engagement bait ("comment YES for the link").
 
 WHEN
-After the first daily data run. Suggested (heuristic, not measured): Tuesday to Thursday, 8 to 10 a.m.
-US Central. Put the link in the post body.
+Any time now (first live data run: September 24, 2026). Suggested (heuristic, not measured): Tuesday to
+Thursday, 8 to 10 a.m. US Central. Put the link in the post body.
 
-FILL IN FROM https://firstsilicon.pages.dev/data/meta.json
-[ROLE_COUNT] = counts.roles   [FS_COUNT] = counts.fs   [EMPLOYER_COUNT] = counts.companies
+NUMBERS IN THIS POST (September 24, 2026 run; they change every morning)
+Re-check on the day you post, from https://firstsilicon.pages.dev/data/meta.json, and update the date:
+  15,969 = postings_seen   88 = boards.ok   191 = counts.roles   34 = counts.companies
+  4 / 15 / 172 = counts.fs / counts.jplus / counts.unspecified
 
 POST
-Hardware internships are a small slice of the big internship lists (the popular Summer 2027 list on GitHub counted 275 hardware engineering roles next to 681 software engineering ones on Sept 23), and hardware postings rarely say whether a first- or second-year student can apply.
+I set out to build a list of hardware internships that freshmen and sophomores can apply to. The first live run said that list would have 4 roles on it.
 
-So I built First Silicon, a free list of hardware internships and co-ops that updates every day from companies' public job boards: https://firstsilicon.pages.dev/?ref=linkedin
+On September 24, First Silicon read 15,969 postings on 88 hardware companies' job boards. 191 were hardware internships or co-ops, at 34 companies. Of those:
+- 4 say freshmen or sophomores can apply
+- 15 ask for junior standing or later
+- 172 don't state a class year at all
 
-Each role is labeled with:
-- its discipline (embedded, FPGA/ASIC, analog, RF, power, PCB, test, controls, semiconductor process, photonics)
-- whether the posting welcomes freshmen and sophomores
-- US citizenship, ITAR/export-control and clearance requirements
+So First Silicon is now every hardware internship, labeled: https://firstsilicon.pages.dev/?ref=linkedin
 
-Right now it lists [ROLE_COUNT] roles at [EMPLOYER_COUNT] employers, and [FS_COUNT] of them mention freshman/sophomore eligibility. There's also a calendar of programs open before junior year (DOE SULI, NASA, NIST SURF, NSF REU).
+Each role is tagged with its discipline (test, PCB, controls, embedded, analog, FPGA/ASIC, RF, power, photonics, semiconductor process), its class year, and any US citizenship, ITAR/export-control or clearance requirement. It updates every morning from the companies' own job boards. There's also a calendar of programs open before junior year (DOE SULI, NASA, NIST SURF, NSF REU).
 
-If you're an EE or CE underclassman, or you mentor one, I'd love to hear what's missing.
+For students: if a posting doesn't say juniors/seniors or a graduation date you can't meet, apply.
+For engineers who write internship postings: one sentence on which class years can apply would answer the question for a lot of students.
 
-Built by Mahir Patel, an electrical-engineering student at the University of Illinois Urbana-Champaign.
+Numbers are from September 24 and change daily. Built by Mahir Patel, an electrical-engineering student at the University of Illinois Urbana-Champaign.

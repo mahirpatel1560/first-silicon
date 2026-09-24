@@ -114,7 +114,7 @@ function llmsTxt({ meta, counts, boardsOk, programs, disciplinePages }) {
   const lines = [];
   lines.push('# First Silicon');
   lines.push('');
-  lines.push(`> ${site.DESCRIPTION} Focused on roles that first- and second-year students can apply to.`);
+  lines.push(`> ${site.DESCRIPTION} Every role is listed with its labels, including roles whose posting does not state a class year.`);
   lines.push('');
   lines.push('## Key pages');
   lines.push(`- [Open roles](${site.BASE_URL}/): filterable list of hardware internships and co-ops (discipline, class year, citizenship/export flags, term, location)`);
@@ -132,7 +132,8 @@ function llmsTxt({ meta, counts, boardsOk, programs, disciplinePages }) {
   lines.push('- Sources: the public Greenhouse Job Board API (https://developers.greenhouse.io/job-board.html), Lever Postings API (https://github.com/lever/postings-api) and Ashby public job posting API (https://developers.ashbyhq.com/docs/public-job-posting-api).');
   lines.push(`- Employer job boards read: ${boardsOk} (see ${site.BASE_URL}/how-it-works/).`);
   if (meta && meta.last_run) {
-    lines.push(`- As of ${meta.last_run.slice(0, 10)}: ${counts.roles} open hardware internships and co-ops, ${counts.fs} with freshman/sophomore eligibility language, ${counts.citizenship_free} without citizenship or export flags (source: ${site.BASE_URL}/data/meta.json).`);
+    const v = (count, one, many) => `${count} ${count === 1 ? one : many}`;
+    lines.push(`- As of ${meta.last_run.slice(0, 10)}: ${counts.roles} open hardware internships and co-ops at ${counts.companies} companies. Class year: ${v(counts.fs, 'says', 'say')} freshmen or sophomores can apply, ${v(counts.jplus, 'requires', 'require')} junior standing or later, ${v(counts.unspecified, 'does', 'do')} not state one. ${v(counts.citizenship_free, 'has', 'have')} no citizenship or export flags (source: ${site.BASE_URL}/data/meta.json).`);
   } else {
     lines.push('- The first automatic data run has not happened yet.');
   }

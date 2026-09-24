@@ -6,6 +6,7 @@ import { DISCIPLINES, GENERAL, disciplineLabel } from './disciplines.mjs';
 import { FLAG_LABELS } from './classify.mjs';
 import { upcomingDeadlines } from './programs.mjs';
 import { isNew } from './pipeline.mjs';
+import { classYearGuidance } from './copy.mjs';
 
 const CY_TEXT = { fs: 'Fr/So friendly', jplus: 'Juniors+', unspecified: 'Class year not stated' };
 const CY_RANK = { fs: 0, unspecified: 1, jplus: 2 };
@@ -45,22 +46,27 @@ function utm(url, siteUrl, campaign) {
 export function buildDigest({ jobs, programs, today, siteUrl, unsubscribeUrl = '{{UNSUBSCRIBE_URL}}', mailingAddress = '{{MAILING_ADDRESS}}', featured = null, maxPerGroup = 12, notice = '' }) {
   const week = rolesForWeek(jobs, today);
   const fsCount = week.filter((j) => j.class_year === 'fs').length;
+  const unstated = week.filter((j) => j.class_year !== 'fs' && j.class_year !== 'jplus').length;
+  const companies = new Set(week.map((j) => j.company_slug || j.company)).size;
+  const atCompanies = `at ${companies} ${companies === 1 ? 'company' : 'companies'}`;
   const groups = groupByDiscipline(week);
   const deadlines = upcomingDeadlines(programs, today, { withinDays: 60 });
   const campaign = `digest-${today}`;
   const refYear = Number(today.slice(0, 4));
   const subject = week.length
-    ? `${week.length} new hardware internship${week.length === 1 ? '' : 's'} this week (${fsCount} Fr/So friendly)`
+    ? `${week.length} new hardware internship${week.length === 1 ? '' : 's'} this week ${atCompanies}`
     : 'First Silicon weekly: program deadlines and this week\'s list';
+  // Intro: every new role, then the class-year guidance computed from this week's roles.
+  const intro = week.length
+    ? `${week.length} hardware ${week.length === 1 ? 'internship or co-op' : 'internships and co-ops'} ${atCompanies} ${week.length === 1 ? 'was' : 'were'} first seen in the last 7 days, grouped by discipline below. ${classYearGuidance({ roles: week.length, fs: fsCount, unspecified: unstated })}`
+    : 'No new hardware internships were first seen in the last 7 days.';
 
   // ---------- plain text
   const t = [];
   if (notice) t.push(`*** ${notice} ***`, '');
   t.push(`FIRST SILICON WEEKLY · ${longDate(today)}`);
   t.push('');
-  t.push(week.length
-    ? `${week.length} hardware internships and co-ops were first seen in the last 7 days; ${fsCount} mention freshman/sophomore eligibility.`
-    : 'No new hardware internships were first seen in the last 7 days.');
+  t.push(intro);
   t.push('Labels are automatic. Always check the posting on the employer\'s site.');
   t.push('');
   if (featured && featured.title && featured.url) {
@@ -102,6 +108,7 @@ export function buildDigest({ jobs, programs, today, siteUrl, unsubscribeUrl = '
   if (notice) h.push(`<tr><td style="padding:8px 12px;background:#fbf0d9;border:1px solid #d8b86a;border-radius:6px;font-size:14px;font-weight:700;">${escapeHtml(notice)}</td></tr><tr><td style="height:12px;"></td></tr>`);
   h.push(`<tr><td style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:${c.accent};font-weight:700;">First Silicon weekly · ${escapeHtml(longDate(today))}</td></tr>`);
   h.push(`<tr><td style="padding:8px 0 4px;font-size:22px;font-weight:700;line-height:1.3;">${escapeHtml(subject)}</td></tr>`);
+  if (week.length) h.push(`<tr><td style="padding:0 0 8px;font-size:15px;line-height:1.5;">${escapeHtml(intro)}</td></tr>`);
   h.push(`<tr><td style="padding:0 0 16px;font-size:14px;color:${c.muted};line-height:1.5;">Labels are automatic and can be wrong. Always check the posting on the employer's site before applying.</td></tr>`);
   if (featured && featured.title && featured.url) {
     h.push(`<tr><td style="padding:12px;border:1px solid ${c.line};border-radius:8px;"><div style="font-size:12px;color:${c.muted};">Featured role (sponsored)</div><a href="${escapeHtml(featured.url)}" style="color:${c.accent};font-weight:700;font-size:16px;">${escapeHtml(featured.company)}: ${escapeHtml(featured.title)}</a></td></tr>`);
@@ -135,5 +142,5 @@ export function buildDigest({ jobs, programs, today, siteUrl, unsubscribeUrl = '
   h.push('</table></body></html>');
   const html = h.join('\n');
 
-  return { subject, text, html, stats: { new_roles: week.length, fs: fsCount, groups: groups.map((g) => ({ slug: g.slug, count: g.jobs.length })), deadlines: deadlines.length } };
+  return { subject, text, html, stats: { new_roles: week.length, companies, fs: fsCount, unspecified: unstated, groups: groups.map((g) => ({ slug: g.slug, count: g.jobs.length })), deadlines: deadlines.length } };
 }

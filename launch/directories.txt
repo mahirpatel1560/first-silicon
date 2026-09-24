@@ -1,6 +1,20 @@
 WHERE TO LIST FIRST SILICON FOR FREE
 (Checked 2026-09-23 where marked VERIFIED; everything else is UNVERIFIED and needs a quick check before you submit.)
 
+LISTING COPY (paste into the submission forms)
+- Name: First Silicon
+- Tagline: Every hardware internship, labeled.
+- Short description (no counts, so it never goes stale):
+  Hardware, EE, embedded and semiconductor internships and co-ops from hardware companies' own job boards,
+  tagged by discipline, class year and US-citizenship/ITAR flags. Updated every morning. Free, no sign-up.
+- Long description (counts from the September 24, 2026 run; re-check data/meta.json before submitting):
+  First Silicon reads 88 hardware companies' public job boards every morning and lists every hardware internship
+  and co-op it finds: 191 at 34 companies on September 24. Each role is tagged by discipline (test, PCB,
+  controls, embedded, analog, FPGA/ASIC, RF and more), by class year, and with US-citizenship, ITAR and
+  clearance flags. Only 4 of those postings said freshmen or sophomores can apply; 172 did not state a class
+  year, and the site tells students to apply to those unless the posting rules them out.
+- Category: Engineering / Internships / Students
+
 1. JobBoardSearch (meta-directory of niche job boards)
    URL: https://jobboardsearch.com/add-board
    VERIFIED: the homepage says "Submit Your Job Board Free listing available" and lists boards by industry,

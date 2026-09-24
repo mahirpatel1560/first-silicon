@@ -18,7 +18,8 @@ export const SITE_KEY = 'fs'; // Portfolio Pulse site key
 export const PULSE_ORIGIN = 'https://pulse.ringlatch.workers.dev';
 export const PULSE_SRC = `${PULSE_ORIGIN}/pulse.js`;
 
-export const TAGLINE = 'Hardware internships you can apply to as a freshman or sophomore.';
+// Home-page H1. The numbers that back it (roles, companies, class-year counts) come from src/lib/copy.mjs at build time.
+export const TAGLINE = 'Every hardware internship, labeled.';
 export const DESCRIPTION =
   'Hardware, EE, embedded and semiconductor internships and co-ops from employer job boards, labeled by discipline, class year and citizenship flags. Updated daily.';
 

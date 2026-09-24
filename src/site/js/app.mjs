@@ -1,9 +1,10 @@
 // Browser entry: role finder (filters, URL state, data refresh) + lead forms + analytics hooks.
 // Works without the Pulse script: every analytics call is guarded.
 
-import { parseState, serializeState, applyFilters, facets, isActive, DEFAULT_STATE } from './filters.mjs';
+import { parseState, serializeState, applyFilters, facets, classYearOptionCounts, isActive, DEFAULT_STATE } from './filters.mjs';
 import { rolesHtml } from './render.mjs';
 import { initForms } from './forms.mjs';
+import { classYearGuidance } from '../../lib/copy.mjs';
 
 const PAGE = 50;
 
@@ -88,14 +89,24 @@ function writeForm(form, s) {
 /** Refresh option labels with live counts; rebuild the term list from the data. */
 function updateFacetLabels(form, jobs) {
   const f = facets(jobs);
-  const d = form.elements.namedItem('d');
-  if (d) {
-    for (const o of d.options) {
+  const relabel = (select, countFor) => {
+    if (!select) return;
+    for (const o of select.options) {
       if (!o.value) continue;
       const base = o.getAttribute('data-label') || o.textContent.replace(/\s*\(\d+\)$/, '');
       o.setAttribute('data-label', base);
-      o.textContent = `${base} (${f.disciplines[o.value] || 0})`;
+      o.textContent = `${base} (${countFor(o.value)})`;
     }
+  };
+  relabel(form.elements.namedItem('d'), (v) => f.disciplines[v] || 0);
+  const cyCounts = classYearOptionCounts(f);
+  relabel(form.elements.namedItem('cy'), (v) => cyCounts[v] || 0);
+  // Class-year guidance next to the filter: same text as the build, from the list actually loaded.
+  const guide = document.getElementById('cy-guide');
+  if (guide) {
+    const text = classYearGuidance({ roles: jobs.length, fs: f.classYears.fs, unspecified: f.classYears.unspecified });
+    if (guide.textContent !== text) guide.textContent = text;
+    guide.hidden = !text;
   }
   const t = form.elements.namedItem('t');
   if (t) {

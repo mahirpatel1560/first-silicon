@@ -6,34 +6,39 @@ Before posting: read the channel's pinned rules, use the internships/opportuniti
 and ask a moderator or officer when unsure. Do not paste the same message in several channels at once.
 
 WHEN
-After the first daily data run. Weekday evenings (7 to 9 p.m. Central) are usually when student servers
-are active (a heuristic, not measured). Good moments: the week before a career fair, and before program
-deadlines (DOE SULI and CCI Spring 2027 applications close September 30, 2026 at 5 p.m. ET).
+Any time now: the first live data run finished on September 24, 2026. Weekday evenings (7 to 9 p.m. Central)
+are usually when student servers are active (a heuristic, not measured). Good moments: the week before a
+career fair, and before program deadlines (DOE SULI and CCI Spring 2027 applications close September 30, 2026
+at 5 p.m. ET).
 
-FILL IN FROM https://firstsilicon.pages.dev/data/meta.json
-[ROLE_COUNT] = counts.roles   [FS_COUNT] = counts.fs
+NUMBERS IN THESE MESSAGES (September 24, 2026 run; they change every morning)
+Re-check on the day you post, from https://firstsilicon.pages.dev/data/meta.json:
+  191 = counts.roles   34 = counts.companies   88 = boards.ok   4 = counts.fs   172 = counts.unspecified
+  79 = counts.citizenship_free   17 = counts.by_discipline.digital
 
 ------------------------------------------------------------------
 1) ECE DISCORD (#internships, #opportunities or #career channel)
 ------------------------------------------------------------------
-Made a free list of hardware internships that shows which ones say freshmen/sophomores can apply: https://firstsilicon.pages.dev/?ref=uiuc-discord
-It updates daily from company job boards. You can filter by discipline (embedded, FPGA, analog, RF, power, PCB...), class year, "no ITAR/citizenship flags" and term. Right now: [ROLE_COUNT] roles, [FS_COUNT] with Fr/So language. Labels can be wrong, so tell me if you spot one.
+Made a free list of the hardware internships on 88 company job boards, labeled by class year, discipline and ITAR: https://firstsilicon.pages.dev/?ref=uiuc-discord
+As of Sept 24: 191 roles at 34 companies. Only 4 say freshmen/sophomores can apply, but 172 don't list a class year at all, so if you're a freshman or sophomore, read those instead of skipping them. Filters for discipline (test, PCB, controls, embedded, analog, FPGA, RF...), class year, term and "no ITAR/citizenship flags" (79 roles). It updates every morning. Labels can be wrong, so tell me if you spot one.
 
 ------------------------------------------------------------------
 2) HKN (for the officers' email or newsletter; ask an officer to include it)
 ------------------------------------------------------------------
-Subject: Free resource for underclassmen: hardware internships labeled by class year
+Subject: Free resource: every hardware internship, labeled by class year
 
-Hi, I'm Mahir Patel, an EE student here. I built First Silicon (https://firstsilicon.pages.dev/?ref=uiuc-hkn), a free list of hardware internships and co-ops that updates daily from company job boards. Each role shows its discipline, whether the posting welcomes first- and second-year students, and any US-citizenship or ITAR requirement. There's also a calendar of programs open before junior year (DOE SULI, NASA, NIST SURF, NSF REU). If it's useful for members, I'd appreciate a mention in the next newsletter, and I'm happy to take feedback.
+Hi, I'm Mahir Patel, an EE student here. I built First Silicon (https://firstsilicon.pages.dev/?ref=uiuc-hkn), a free list of the hardware internships and co-ops on 88 company job boards, updated every morning. Each role shows its discipline, its class-year requirement and any US-citizenship or ITAR requirement. On September 24 it listed 191 roles at 34 companies. Only 4 said freshmen or sophomores can apply, and 172 didn't state a class year at all, which underclassmen should know before they rule themselves out. There's also a calendar of programs open before junior year (DOE SULI, NASA, NIST SURF, NSF REU). If it's useful for members, I'd appreciate a mention in the next newsletter, and I'm happy to take feedback.
 
 ------------------------------------------------------------------
 3) IEEE STUDENT BRANCH (newsletter or Discord)
 ------------------------------------------------------------------
-Looking for a hardware internship before junior year? First Silicon lists embedded, FPGA/ASIC, analog, RF, power, PCB, test and controls internships from company job boards, updated daily, with a "Fr/So friendly" filter and ITAR/citizenship flags: https://firstsilicon.pages.dev/?ref=uiuc-ieee
+Looking for a hardware internship? First Silicon lists the hardware internships and co-ops on 88 company job boards (191 at 34 companies as of Sept 24), updated every morning and tagged by discipline, class year and ITAR/citizenship: https://firstsilicon.pages.dev/?ref=uiuc-ieee
+Freshmen and sophomores: only 4 postings say you can apply, but 172 don't list a class year at all. Apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 Each discipline has a short guide with starter projects you can build this semester: https://firstsilicon.pages.dev/disciplines/
 
 ------------------------------------------------------------------
 4) SIGAIDA (adjust the wording to the group's focus before posting)
 ------------------------------------------------------------------
-For anyone interested in chip design and verification: First Silicon has a filter for FPGA/RTL/ASIC internships (design verification, physical design, RTL, emulation) from semiconductor and hardware companies' job boards, updated daily, plus a guide with starter projects (UART + FIFO testbench, a small RISC-V core, an async FIFO): https://firstsilicon.pages.dev/?d=digital&ref=uiuc-sigaida
-If the FPGA/RTL/ASIC guide page isn't live yet (it appears once 5+ roles are open), use the filter link above.
+For anyone interested in chip design and verification: First Silicon has a filter for FPGA/RTL/ASIC internships (design verification, physical design, RTL, emulation) from semiconductor and hardware companies' job boards, updated every morning. 17 were open on Sept 24: https://firstsilicon.pages.dev/?d=digital&ref=uiuc-sigaida
+The guide has starter projects (UART + FIFO testbench, a small RISC-V core, an async FIFO): https://firstsilicon.pages.dev/disciplines/digital/
+(The guide page only exists while 5 or more FPGA/RTL/ASIC roles are open; if the link 404s, use the filter link above.)

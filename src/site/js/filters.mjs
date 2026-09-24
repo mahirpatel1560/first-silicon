@@ -113,15 +113,18 @@ export function applyFilters(jobs, s, today, newDays = 7) {
   return (jobs || []).filter((j) => matches(j, s, today, newDays));
 }
 
-/** Facet counts for select options. */
+/** Facet counts for select options (and the class-year guidance next to the class-year filter). */
 export function facets(jobs) {
   const disc = {};
   const terms = {};
+  const classYears = { fs: 0, jplus: 0, unspecified: 0 };
   let coop = 0;
   let noterm = 0;
   for (const j of jobs || []) {
     for (const d of j.disciplines || []) disc[d] = (disc[d] || 0) + 1;
     for (const t of j.terms || []) terms[t] = (terms[t] || 0) + 1;
+    const cy = j.class_year === 'fs' || j.class_year === 'jplus' ? j.class_year : 'unspecified';
+    classYears[cy]++;
     if (j.type === 'co-op') coop++;
     if (!(j.terms || []).length) noterm++;
   }
@@ -133,5 +136,11 @@ export function facets(jobs) {
       const [sb, yb] = b.term.split(' ');
       return Number(ya) - Number(yb) || seasonOrder[sa] - seasonOrder[sb];
     });
-  return { disciplines: disc, terms: termList, coop, noterm };
+  return { disciplines: disc, terms: termList, coop, noterm, classYears };
+}
+
+/** Role counts shown in the class-year select, keyed by option value. */
+export function classYearOptionCounts(f) {
+  const c = f.classYears;
+  return { fs: c.fs, open: c.fs + c.unspecified, jplus: c.jplus };
 }

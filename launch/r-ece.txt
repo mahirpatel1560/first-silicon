@@ -10,31 +10,42 @@ If self-promotion is restricted, message the moderators first and ask whether a 
 resource is OK. Do not cross-post the same text to several subreddits on the same day.
 
 WHEN TO POST
-- Only after the first daily data run, so the list shows real roles (see DEPLOY.txt, step 0).
+- The first live data run finished on September 24, 2026, so the list has real roles now.
 - Suggested (a common heuristic, not measured): Tuesday to Thursday, 8 to 10 a.m. US Central,
   during the September to November summer-internship application season.
 - Stay around for the first two hours to answer questions and fix reported labels.
 
-FILL IN BEFORE POSTING (from https://firstsilicon.pages.dev/data/meta.json)
-[ROLE_COUNT] = counts.roles   [FS_COUNT] = counts.fs   [EMPLOYER_COUNT] = counts.companies   [DATE] = last_run (date part)
+NUMBERS IN THIS POST (September 24, 2026 run; they change every morning)
+Re-check each one on the day you post, from https://firstsilicon.pages.dev/data/meta.json:
+  191 = counts.roles   34 = counts.companies   4 / 15 / 172 = counts.fs / counts.jplus / counts.unspecified
+  79 = counts.citizenship_free   15,969 = postings_seen   88 = boards.ok
+  test 82, PCB 53, controls 39, embedded 33, analog 18, FPGA/RTL/ASIC 17, RF 17 = counts.by_discipline
+  (test, pcb, controls, embedded, analog, digital, rf)
+"All 4 Fr/So postings carry US-person/ITAR language": on the site, pick Class year = Fr/So friendly and tick
+"No citizenship or export flags". It showed 0 roles on September 24. If it shows more, delete that sentence.
 
 TITLE
-I built a free list of hardware internships that shows which ones say freshmen and sophomores can apply
+I built a daily list of hardware internships labeled by class year. Of 191 postings, 4 say freshmen/sophomores can apply and 172 don't mention class year at all
 
 BODY
-I'm an electrical-engineering student at UIUC. The big internship lists are mostly software, and hardware postings rarely make it obvious whether a first- or second-year student can apply. (On Sept 23 the popular Summer 2027 list on GitHub counted 275 hardware engineering roles next to 681 software engineering ones: https://github.com/SimplifyJobs/Summer2027-Internships)
+I'm an electrical engineering student at UIUC. I started out building a list of hardware internships that freshmen and sophomores can apply to. The first live run (September 24) read 15,969 postings on 88 hardware companies' job boards and found 191 hardware internships and co-ops at 34 companies. By class year:
 
-So I made First Silicon: https://firstsilicon.pages.dev/?ref=r-ece
+- 4 say freshmen or sophomores can apply
+- 15 ask for junior standing or later, a graduate degree, or a graduation date that rules out underclassmen
+- 172 don't mention class year at all
 
-What it does:
-- Reads hardware companies' public job boards once a day (Greenhouse, Lever and Ashby) and keeps the internships and co-ops that look like hardware work.
-- Tags each role by discipline: embedded/firmware, FPGA/RTL/ASIC, analog, RF, power electronics, PCB, test, controls/robotics, semiconductor process and photonics.
-- Labels class year from the posting text. "Fr/So friendly" means it mentions freshmen, sophomores, rising juniors, all class years or 2029/2030 graduation. "Juniors+" means it asks for junior standing or a grad degree.
-- Flags US citizenship, ITAR/export control and clearance requirements, with a filter to hide them.
-- Has a calendar of programs whose official pages list no junior-standing requirement (DOE SULI, NASA OSTEM, NIST SURF, NSF REU and a couple of national labs).
+A list of 4 isn't much use, so First Silicon now lists every hardware internship and labels it: https://firstsilicon.pages.dev/?ref=r-ece
 
-As of [DATE]: [ROLE_COUNT] open roles at [EMPLOYER_COUNT] employers, and [FS_COUNT] of them mention freshman/sophomore eligibility.
+If you're a freshman or sophomore, the 172 are the ones to read. Apply unless the posting says juniors/seniors or a graduation date you can't meet.
 
-Caveats: the labels come from pattern matching, so they can be wrong. Every role links to the employer's posting and has a "Why these labels?" excerpt so you can check. It only covers companies on those three job-board systems, so many big semiconductor and defense companies aren't in it yet.
+What each role shows:
+- Discipline: test/validation (82 today), PCB/hardware (53), controls/robotics (39), embedded/firmware (33), analog (18), FPGA/RTL/ASIC (17), RF (17), plus power, photonics and semiconductor process. A role can have more than one.
+- Class year: Fr/So friendly, Juniors+ or "not stated", with a "Why these labels?" excerpt from the posting so you can check it.
+- US citizenship, US-person/ITAR and clearance flags. 79 of the 191 have none, and one checkbox hides the rest. All 4 of today's Fr/So postings carry US-person/ITAR language.
+- Term, internship vs co-op, and location.
 
-It's free and there's no sign-up. If a label is wrong or your target company is missing, tell me in the comments. What filter would make this more useful to you?
+There's also a calendar of programs whose official pages list no junior-standing requirement (DOE SULI, NASA OSTEM, NIST SURF, NSF REU and a couple of national labs).
+
+Caveats: the labels come from pattern matching, so some are wrong. It only reads companies on Greenhouse, Lever and Ashby, so a lot of big semiconductor and defense companies on Workday aren't in it yet. The numbers above are from September 24 and change every morning.
+
+It's free and there's no sign-up. If a label is wrong or your target company is missing, tell me in the comments.

@@ -1,26 +1,31 @@
 FIVE SHORT-FORM VIDEO SCRIPTS (each 45 seconds or less; faceless: screen recordings + captions + voiceover)
 
 HOW TO MAKE THEM
-- Record the live site (after the first data run) on a phone-sized browser window, 1080x1920.
+- Record the live site on a phone-sized browser window, 1080x1920.
 - A friend reads the voiceover; burn in captions. No music needed; if used, keep it quiet.
 - Post to YouTube Shorts, Instagram Reels and TikTok. Suggested (heuristic, not measured): weekday
   evenings, 6 to 9 p.m. Central, when students scroll after classes.
-- Numbers in brackets come from https://firstsilicon.pages.dev/data/meta.json on the day you record.
 - End card for all: firstsilicon.pages.dev (put the link in the bio or description with ?ref=shorts).
 - Never show fictional/demo data; record the real site only.
 
+NUMBERS (September 24, 2026 run; they change every morning)
+The voiceover numbers below are from that run. On recording day, read https://firstsilicon.pages.dev/data/meta.json
+and replace any that changed, so the voiceover matches the screen:
+  191 = counts.roles   34 = counts.companies   4 = counts.fs   172 = counts.unspecified
+  79 = counts.citizenship_free (112 = 191 - 79)   82 test, 33 embedded, 17 FPGA/RTL/ASIC, 17 RF = counts.by_discipline
+
 ------------------------------------------------------------------
-1) "FRESHMAN? THESE HARDWARE INTERNSHIPS SAY YOU CAN APPLY"   (~40 s)
+1) "WHAT YEAR DO YOU NEED TO BE? MOST HARDWARE INTERNSHIPS DON'T SAY"   (~40 s)
 ------------------------------------------------------------------
 HOOK (0-4 s)
-  VO: "Everyone says you need to be a junior to get a hardware internship. Some postings say otherwise."
-  Screen: the landing page headline.
+  VO: "191 hardware internships this morning. 172 of them never say what year you need to be."
+  Screen: the landing page headline and subhead.
 BEAT 1 (4-15 s)
-  VO: "First Silicon pulls hardware internships from company job boards every day."
-  Screen: scroll the list; on-screen text: "[ROLE_COUNT] open hardware roles".
+  VO: "First Silicon pulls every hardware internship from company job boards each morning and labels it."
+  Screen: scroll the list; on-screen text: "191 roles · 34 companies".
 BEAT 2 (15-27 s)
-  VO: "Set class year to Fr/So friendly. You only see postings that mention freshmen, sophomores or rising juniors."
-  Screen: select "Fr/So friendly"; the count drops to [FS_COUNT].
+  VO: "Only 4 say freshmen or sophomores can apply. So if a posting doesn't say juniors, seniors, or a graduation date you can't meet, apply anyway."
+  Screen: the class-year note under the filter; open the Class year menu showing "Fr/So friendly (4)".
 BEAT 3 (27-37 s)
   VO: "Tap 'Why these labels?' to read the exact sentence from the posting."
   Screen: open the excerpt on one role.
@@ -34,10 +39,10 @@ CTA (37-42 s)
 HOOK (0-4 s)
   VO: "Found the perfect hardware internship, then page three says U.S. citizens only?"
 BEAT 1 (4-14 s)
-  VO: "Some aerospace and defense internships require U.S. citizenship, U.S. person status under ITAR, or a clearance."
+  VO: "112 of this morning's 191 hardware internships mention U.S. citizenship, U.S.-person status, ITAR or a clearance."
   Screen: a role with "ITAR / export" and "US citizen" tags.
 BEAT 2 (14-26 s)
-  VO: "First Silicon flags those from the posting text. One checkbox hides them."
+  VO: "First Silicon flags those from the posting text. One checkbox hides them, and 79 are left."
   Screen: tick "No citizenship or export flags"; the count changes.
 BEAT 3 (26-36 s)
   VO: "No flag doesn't guarantee there's no restriction, so always read the full posting."
@@ -52,16 +57,16 @@ CTA (36-42 s)
 HOOK (0-4 s)
   VO: "Hardware isn't one job. Here are three of them in thirty seconds."
 BEAT 1 (4-15 s)
-  VO: "Embedded: you write the code that runs on microcontrollers, like drivers, real-time tasks and bootloaders."
+  VO: "Embedded: you write the code that runs on microcontrollers, like drivers, real-time tasks and bootloaders. 33 open internships this morning."
   Screen: /disciplines/embedded/ intro.
 BEAT 2 (15-27 s)
-  VO: "FPGA and ASIC: you describe digital logic in Verilog and try to break it with testbenches."
+  VO: "FPGA and ASIC: you describe digital logic in Verilog and try to break it with testbenches. 17 open."
   Screen: FPGA/RTL/ASIC guide (or the list filtered by that discipline).
 BEAT 3 (27-39 s)
-  VO: "RF: antennas, radios and radar, where every trace behaves like a transmission line."
+  VO: "RF: antennas, radios and radar, where every trace behaves like a transmission line. 17 open."
   Screen: RF guide or filtered list.
 CTA (39-45 s)
-  VO: "Ten disciplines, each with starter projects. First Silicon, link in bio."
+  VO: "Every hardware internship, labeled by discipline. First Silicon, link in bio."
 
 ------------------------------------------------------------------
 4) "BUILD THIS BEFORE YOU APPLY FOR AN EMBEDDED INTERNSHIP"   (~40 s)
@@ -76,7 +81,7 @@ BEAT 3 (26-36 s)
   VO: "Three: a battery sensor node that sleeps between readings. Measure the current and show the drop."
   Screen for all beats: the "Starter projects" card on /disciplines/embedded/.
 CTA (36-41 s)
-  VO: "Then find embedded internships on First Silicon."
+  VO: "Then find all 33 embedded internships on First Silicon."
 
 ------------------------------------------------------------------
 5) "TWO GOVERNMENT PROGRAM DEADLINES ON SEPTEMBER 30"   (~40 s; post before Sept 30, 2026)

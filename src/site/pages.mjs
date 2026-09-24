@@ -5,9 +5,10 @@ import { DISCIPLINES } from '../lib/disciplines.mjs';
 import { DISCIPLINE_LABELS, FLAG_LABELS, CATEGORY_LABELS } from '../lib/labels.mjs';
 import { sortPrograms, nextDeadline, upcomingDeadlines } from '../lib/programs.mjs';
 import { rolesHtml } from './js/render.mjs';
-import { facets } from './js/filters.mjs';
+import { facets, classYearOptionCounts } from './js/filters.mjs';
 import { breadcrumbLd, breadcrumbsHtml } from './layout.mjs';
 import { classYearWindows } from '../lib/classify.mjs';
+import { heroSubhead, classYearGuidance, homeDescription } from '../lib/copy.mjs';
 
 const h = escapeHtml;
 const n = (x) => Number(x || 0).toLocaleString('en-US');
@@ -57,11 +58,19 @@ function finderForm(jobs) {
   const discOptions = DISCIPLINES.map((d) => `<option value="${d.slug}" data-label="${h(d.short)}">${h(d.short)} (${f.disciplines[d.slug] || 0})</option>`).join('') +
     `<option value="general" data-label="General EE">General EE (${f.disciplines.general || 0})</option>`;
   const termOptions = f.terms.map((t) => `<option value="${h(t.term)}">${h(t.term)} (${t.count})</option>`).join('');
+  // Default view is every role ("All class years"); the Fr/So option narrows to postings that say so explicitly.
+  const cyCounts = classYearOptionCounts(f);
+  const cyOptions = [['fs', 'Fr/So friendly'], ['open', 'Fr/So friendly or not stated'], ['jplus', 'Juniors+ only']]
+    .map(([value, label]) => `<option value="${value}" data-label="${h(label)}">${h(label)} (${cyCounts[value]})</option>`)
+    .join('');
+  // Guidance next to the class-year filter; app.mjs re-renders it with classYearGuidance() if it loads a newer list.
+  const guide = classYearGuidance({ roles: jobs.length, fs: f.classYears.fs, unspecified: f.classYears.unspecified });
   return (
     '<form id="filters" class="filters" role="search" aria-label="Filter roles">' +
     '<div class="field search"><label for="f-q">Search</label><input id="f-q" name="q" type="search" placeholder="Company, role, city, or skill" autocomplete="off" enterkeyhint="search"></div>' +
     `<div class="field"><label for="f-d">Discipline</label><select id="f-d" name="d"><option value="">All disciplines</option>${discOptions}</select></div>` +
-    '<div class="field"><label for="f-cy">Class year</label><select id="f-cy" name="cy"><option value="">Any class year</option><option value="fs">Fr/So friendly</option><option value="open">Fr/So friendly or not stated</option><option value="jplus">Juniors+ only</option></select></div>' +
+    `<div class="field"><label for="f-cy">Class year</label><select id="f-cy" name="cy" aria-describedby="cy-guide"><option value="">All class years</option>${cyOptions}</select></div>` +
+    `<p id="cy-guide" class="cy-guide"${guide ? '' : ' hidden'}>${h(guide)}</p>` +
     `<div class="field"><label for="f-t">Term</label><select id="f-t" name="t"><option value="">Any term</option>${termOptions}<option value="coop">Co-ops only (${f.coop})</option><option value="none">Term not stated (${f.noterm})</option></select></div>` +
     '<div class="field"><label for="f-loc">Location</label><select id="f-loc" name="loc"><option value="">Anywhere</option><option value="remote">Remote</option><option value="us">United States</option><option value="ca">Canada</option><option value="intl">Outside US and Canada</option></select></div>' +
     '<div class="checks">' +
@@ -81,11 +90,14 @@ export function homePage(ctx) {
   const pending = !meta || !meta.last_run;
   const win = classYearWindows(new Date(`${today}T12:00:00Z`));
   const lede = pending
-    ? 'Internships and co-ops from employer job boards, labeled by discipline, class year and citizenship requirements. The first automatic update has not run yet, so the list below is empty for now; the programs calendar is ready.'
-    : `${n(counts.roles)} open internships and co-ops from ${n(counts.companies)} employers' job boards, labeled by discipline, class year and citizenship requirements.`;
+    ? 'Internships and co-ops from hardware companies\' job boards, tagged by class year, discipline and citizenship. The first automatic update has not run yet, so the list below is empty for now; the programs calendar is ready.'
+    : heroSubhead(counts);
+  const fsAnswer = pending
+    ? `Some postings say so directly: they mention first-year or sophomore students, rising juniors, all class years, or graduation in ${win.fs[0]} or ${win.fs[1]}. Those get the Fr/So friendly label. Many more postings never state a class year. "Class year not stated" means exactly that, so read the requirements and apply if you meet them.`
+    : `Some postings say so directly. In the ${longDate(today)} update, ${n(counts.fs)} of ${n(counts.roles)} did: they mention first-year or sophomore students, rising juniors, all class years, or graduation in ${win.fs[0]} or ${win.fs[1]}, and get the Fr/So friendly label. ${n(counts.unspecified)} ${counts.unspecified === 1 ? 'does' : 'do'} not state a class year at all. "Class year not stated" means exactly that: apply unless the posting asks for junior or senior standing or a graduation date you can't meet.`;
   const faq = [
-    ['What is First Silicon?', `A free, filterable list of hardware, electrical, embedded and semiconductor internships and co-ops. Once a day it reads the public job boards (Greenhouse, Lever and Ashby) of ${n(ctx.boardsOk)} hardware-heavy employers, keeps the internship and co-op postings that look like hardware work, and labels them.`],
-    ['Can freshmen and sophomores get hardware internships?', `Some postings say so directly: they mention first-year or sophomore students, rising juniors, all class years, or graduation in ${win.fs[0]} or ${win.fs[1]}. Those get the Fr/So friendly label. Many more postings never state a class year. "Class year not stated" means exactly that, so read the requirements and apply if you meet them.`],
+    ['What is First Silicon?', `A free, filterable list of every hardware, electrical, embedded and semiconductor internship and co-op on the public job boards (Greenhouse, Lever and Ashby) of ${n(ctx.boardsOk)} hardware-heavy employers. Once a day it reads those boards, keeps the internship and co-op postings that look like hardware work, and labels each one by discipline, class year and citizenship.`],
+    ['Can freshmen and sophomores get hardware internships?', fsAnswer],
     ['How are the class-year labels decided?', `From the posting text. Fr/So friendly: it mentions first-year, freshman, sophomore, second-year, rising sophomore or junior, all class years, or a ${win.fs[0]} to ${win.fs[1]} graduation date. Juniors+: it asks for junior or senior standing, graduation by ${win.jplus[0]} or ${win.jplus[1]}, or a graduate degree. Anything else is "not stated". The label can be wrong, so each role has a "Why these labels?" excerpt.`],
     ['What does "No citizenship or export flags" hide?', 'Roles whose posting mentions U.S. citizenship, U.S. person or permanent-resident status, ITAR or export control, or a security clearance. No flag does not prove there is no restriction; some employers only mention it in the application.'],
     ['How often is the list updated?', 'Once a day by an automated job. Roles that disappear from an employer\'s board are removed on the next run. "New this week" means First Silicon first saw the role in the last 7 days and, when the employer lists a publish date, it was posted within the last 14 days.'],
@@ -115,11 +127,11 @@ export function homePage(ctx) {
     (pending ? '' : `<li><span class="num">${n(counts.roles)}</span><span class="lab">open roles</span></li>`) +
     (pending
       ? ''
-      : `<li><span class="num">${n(counts.fs)}</span><span class="lab">mention Fr/So eligibility</span></li>` +
+      : `<li><span class="num">${n(counts.companies)}</span><span class="lab">companies with open roles</span></li>` +
         `<li><span class="num">${n(counts.new_this_week)}</span><span class="lab">new this week</span></li>` +
         `<li><span class="num">${n(counts.citizenship_free)}</span><span class="lab">no citizenship or export flags</span></li>` +
         '</ul>') +
-    `<p class="updated small">${pending ? 'Waiting for the first daily update.' : `Updated daily. Last update: <time datetime="${h(meta.last_run.slice(0, 10))}">${longDate(meta.last_run.slice(0, 10))}</time>.`}</p>` +
+    `<p class="updated small">${pending ? 'Waiting for the first daily update.' : `Last update: <time datetime="${h(meta.last_run.slice(0, 10))}">${longDate(meta.last_run.slice(0, 10))}</time>.`}</p>` +
     '</section>' +
     `<section id="finder" class="finder" aria-labelledby="finder-h" data-raw-base="${h(site.REPO_RAW_BASE)}" data-last-run="${h(meta && meta.last_run ? meta.last_run : '')}" data-new-days="${site.NEW_DAYS}">` +
     '<h2 id="finder-h" class="visually-hidden">Find roles</h2>' +
@@ -150,8 +162,8 @@ export function homePage(ctx) {
     '</div>';
   return {
     path: '/',
-    title: 'First Silicon: hardware internships for freshmen',
-    description: 'Hardware, EE, embedded and chip internships from employer job boards, labeled by discipline, class year and citizenship flags. Updated daily.',
+    title: 'First Silicon: every hardware internship, labeled',
+    description: homeDescription(pending ? {} : counts),
     jsonld,
     body,
   };
@@ -226,6 +238,7 @@ export function disciplinePage(ctx, d) {
   const { site, jobs, today } = ctx;
   const roles = jobs.filter((j) => (j.disciplines || []).includes(d.slug));
   const fs = roles.filter((j) => j.class_year === 'fs').length;
+  const unstated = roles.filter((j) => j.class_year !== 'fs' && j.class_year !== 'jplus').length;
   const crumbs = [{ name: 'Home', path: '/' }, { name: 'Disciplines', path: '/disciplines/' }, { name: d.label, path: `/disciplines/${d.slug}/` }];
   const others = DISCIPLINES.filter((x) => x.slug !== d.slug && ctx.disciplinePages.includes(x.slug));
   const body =
@@ -233,7 +246,7 @@ export function disciplinePage(ctx, d) {
     breadcrumbsHtml(crumbs) +
     `<div class="page-head prose"><p class="kicker">Discipline guide</p><h1>${h(d.label)} internships</h1>` +
     `<p class="lede">${h(d.intro)}</p>` +
-    `<p class="small">${n(roles.length)} open role${roles.length === 1 ? '' : 's'} right now, ${n(fs)} with freshman/sophomore language. <a href="/?d=${d.slug}">Filter this discipline in the full list</a>.</p></div>` +
+    `<p class="small">${n(roles.length)} open role${roles.length === 1 ? '' : 's'} right now: ${fs ? n(fs) : 'none'} ${fs === 1 ? 'says' : 'say'} freshmen or sophomores can apply, ${n(unstated)} ${unstated === 1 ? "doesn't" : "don't"} list a class year. <a href="/?d=${d.slug}">Filter this discipline in the full list</a>.</p></div>` +
     '<div class="grid-3">' +
     `<section class="card" aria-labelledby="work-h"><h2 id="work-h" class="h3">What interns do</h2><ul>${d.work.map((w) => `<li>${h(w)}</li>`).join('')}</ul></section>` +
     `<section class="card" aria-labelledby="skills-h"><h2 id="skills-h" class="h3">Skills to show</h2><ul>${d.skills.map((w) => `<li>${h(w)}</li>`).join('')}</ul></section>` +
@@ -339,8 +352,12 @@ export function newsletterPage(ctx) {
 
 // ------------------------------------------------------------------ about
 export function aboutPage(ctx) {
-  const { site } = ctx;
+  const { site, counts, meta } = ctx;
   const crumbs = [{ name: 'Home', path: '/' }, { name: 'About', path: '/about/' }];
+  const hasData = Boolean(meta && meta.last_run && counts && counts.roles);
+  const classYearFacts = hasData
+    ? `<p>In the ${longDate(meta.last_run.slice(0, 10))} update, ${n(counts.fs)} of ${n(counts.roles)} roles said freshmen or sophomores can apply, ${n(counts.jplus)} asked for junior standing or later, and ${n(counts.unspecified)} did not state a class year at all. That is why First Silicon lists every role with its label instead of only the ones that mention first- and second-year students.</p>`
+    : '';
   const body =
     '<div class="wrap">' +
     breadcrumbsHtml(crumbs) +
@@ -348,10 +365,11 @@ export function aboutPage(ctx) {
     `<p class="lede">${h(site.FOUNDER_LINE)}</p></div>` +
     '<div class="prose">' +
     '<h2>Why it exists</h2>' +
-    '<p>Hardware internships are harder to find than software ones, and it is often unclear whether a first- or second-year student can apply. On September 23, 2026 the widely used <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Summer 2027 tech internships list on GitHub</a> (47.6k stars) showed 275 hardware engineering internships next to 681 software engineering ones in its <a href="https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/README.md">category counts</a>, with no class-year column and no hardware sub-discipline tags. That list is great for what it does; First Silicon narrows the focus to hardware.</p>' +
+    '<p>Hardware internships are harder to find than software ones, and it is often unclear whether a first- or second-year student can apply. On September 23, 2026 the widely used <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Summer 2027 tech internships list on GitHub</a> (47.6k stars) showed 275 hardware engineering internships next to 681 software engineering ones in its <a href="https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/README.md">category counts</a>, with no class-year column and no hardware sub-discipline tags. That list is great for what it does; First Silicon lists every hardware internship and co-op on the job boards it reads and labels each one.</p>' +
+    classYearFacts +
     '<h2>What it does differently</h2>' +
     '<ul><li>Hardware only, tagged by discipline: embedded, FPGA/ASIC, analog, RF, power, PCB, test, controls, semiconductor process and photonics.</li>' +
-    '<li>A class-year signal so freshmen and sophomores can find postings that welcome them.</li>' +
+    '<li>A class-year label on every role: Fr/So friendly when the posting says first- or second-year students can apply, Juniors+ when it asks for junior standing or later, and "not stated" for the rest.</li>' +
     '<li>Citizenship, ITAR/export and clearance flags up front.</li>' +
     '<li>A calendar of government and national-lab programs open before junior year.</li></ul>' +
     '<h2>What it is not</h2>' +
@@ -476,7 +494,7 @@ export function sponsorPage(ctx) {
     `<p class="lede">Sponsorships open once the weekly email reaches ${n(site.SPONSOR_THRESHOLD)} subscribers. Until then there is nothing to sell, and audience numbers will not be published until they are real.</p></div>` +
     '<div class="prose"><h2>What sponsorship will look like</h2><ul>' +
     '<li>A clearly labeled sponsor line in the weekly email.</li>' +
-    '<li>One "featured role" slot per issue for an internship that is open to first- or second-year students, marked as sponsored.</li>' +
+    '<li>One "featured role" slot per issue for a hardware internship or co-op, marked as sponsored and labeled by class year and citizenship like every other role.</li>' +
     '<li>Sponsored items never change how organic roles are labeled or ordered.</li></ul>' +
     '<p>Want a note when sponsorships open? Leave your work email.</p></div>' +
     '<form class="form" data-lead="sponsor" data-success="Thanks. You will hear from us when sponsorships open." aria-label="Sponsorship interest form">' +

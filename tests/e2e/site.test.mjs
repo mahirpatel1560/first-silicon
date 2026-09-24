@@ -13,7 +13,9 @@ const { chromium } = await import('playwright');
 const { startServer } = await import('../../scripts/serve.mjs');
 const { build } = await import('../../build.mjs');
 const { makeDemoData } = await import('../../scripts/make-demo-data.mjs');
-const { applyFilters, DEFAULT_STATE } = await import('../../src/site/js/filters.mjs');
+const { applyFilters, facets, DEFAULT_STATE } = await import('../../src/site/js/filters.mjs');
+const { classYearGuidance } = await import('../../src/lib/copy.mjs');
+const site = await import('../../config/site.mjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const SHOTS = path.join(ROOT, 'screenshots');
@@ -26,13 +28,20 @@ let browser;
 let prod;
 let demo;
 let demoJobs;
+let prodJobs;
 const results = { axe: [], links: 0, screenshots: [] };
+/** Guidance text the page should show for a list of roles (same rule as the build). */
+const guidanceFor = (jobs) => {
+  const f = facets(jobs);
+  return classYearGuidance({ roles: jobs.length, fs: f.classYears.fs, unspecified: f.classYears.unspecified });
+};
 
 before(async () => {
   await makeDemoData({ out: '.demo-data' });
   await build({ dataDir: '.demo-data', outDir: '.demo-dist', demo: true });
   await build({ dataDir: 'data', outDir: 'dist' });
   demoJobs = JSON.parse(await fs.readFile(path.join(ROOT, '.demo-dist/data/jobs.json'), 'utf8')).jobs;
+  prodJobs = JSON.parse(await fs.readFile(path.join(ROOT, 'dist/data/jobs.json'), 'utf8')).jobs;
   prod = await startServer(path.join(ROOT, 'dist'), 0);
   demo = await startServer(path.join(ROOT, '.demo-dist'), 0);
   browser = await chromium.launch();
@@ -115,23 +124,69 @@ async function shot(page, name, fullPage = false) {
 const countText = (page) => page.locator('#result-count').textContent();
 const renderedIds = (page) => page.locator('#roles .role').evaluateAll((els) => els.map((e) => e.getAttribute('data-id')));
 
-test('production landing: zero console errors, CSP header, honest empty state, pageview sent', async () => {
+test('production landing: zero console errors, CSP header, every role by default, class-year guidance from the data, pageview sent', async () => {
   const t = await openPage();
   const res = await t.page.goto(`${prod.url}/`, { waitUntil: 'networkidle' });
   assert.match(res.headers()['content-security-policy'], /script-src 'self' https:\/\/pulse\.ringlatch\.workers\.dev/);
   assert.equal(res.headers()['x-content-type-options'], 'nosniff');
   await t.page.waitForFunction(() => document.querySelector('#finder').classList.contains('is-live'));
-  assert.match(await t.page.locator('#roles').textContent(), /No roles yet/);
-  assert.equal(await countText(t.page), 'No roles yet');
+  assert.equal(await t.page.locator('h1').textContent(), 'Every hardware internship, labeled.');
+  await shot(t.page, 'landing-production-desktop');
+  if (!prodJobs.length) {
+    // Before the first daily run: honest empty state, no guidance.
+    assert.match(await t.page.locator('#roles').textContent(), /No roles yet/);
+    assert.equal(await countText(t.page), 'No roles yet');
+    assert.equal(await t.page.locator('#cy-guide').isHidden(), true);
+  } else {
+    // Default view: every role, newest first.
+    assert.equal(await t.page.inputValue('#f-cy'), '');
+    assert.equal(await countText(t.page), `Showing ${Math.min(50, prodJobs.length)} of ${prodJobs.length} roles, newest first`);
+    assert.match(await t.page.locator('.lede').textContent(), new RegExp(`^${prodJobs.length.toLocaleString('en-US')} internships and co-ops at \\d+ companies — `));
+    // Guidance next to the class-year filter, with counts from the data; the select points to it.
+    const guide = t.page.locator('#cy-guide');
+    assert.equal(await guide.isVisible(), true);
+    assert.equal(await guide.textContent(), guidanceFor(prodJobs));
+    assert.equal(await t.page.locator('#f-cy').getAttribute('aria-describedby'), 'cy-guide');
+    // The Fr/So filter still works and shows exactly the explicit roles.
+    const fsIds = applyFilters(prodJobs, { ...DEFAULT_STATE, cy: 'fs' }, TODAY).map((j) => j.id);
+    assert.equal(await t.page.locator('#f-cy option[value="fs"]').textContent(), `Fr/So friendly (${fsIds.length})`);
+    await t.page.selectOption('#f-cy', 'fs');
+    await t.page.waitForTimeout(60);
+    assert.deepEqual(await renderedIds(t.page), fsIds.slice(0, 50));
+    assert.equal(await countText(t.page), `Showing ${Math.min(50, fsIds.length)} of ${fsIds.length} matching roles (${prodJobs.length} total)`);
+  }
   assert.deepEqual(t.consoleErrors, []);
   assert.deepEqual(t.pageErrors, []);
   assert.ok(t.events.some((e) => e.t === 'pageview' && e.s === 'fs' && e.p === '/'), 'pageview event with site key fs');
-  await shot(t.page, 'landing-production-desktop');
   await t.close();
   const m = await openPage({ viewport: { width: 390, height: 844 } });
   await m.page.goto(`${prod.url}/`, { waitUntil: 'networkidle' });
+  await m.page.waitForFunction(() => document.querySelector('#finder').classList.contains('is-live'));
   await shot(m.page, 'landing-production-mobile');
   await m.close();
+});
+
+test('class-year guidance and option counts follow a newer list loaded from the public data repo', async () => {
+  if (!site.REPO_RAW_BASE || !prodJobs.length) return;
+  // A newer list in which two more roles say Fr/So (fictional edit of the real list, served only to this test).
+  let flipped = 0;
+  const newer = prodJobs.map((j) => (j.class_year === 'unspecified' && flipped < 2 ? (flipped++, { ...j, class_year: 'fs' }) : j));
+  const t = await openPage();
+  await t.context.route(`${site.REPO_RAW_BASE}/data/jobs.json`, (route) =>
+    route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ schema: 1, generated_at: '2099-01-01T00:00:00.000Z', count: newer.length, jobs: newer }) }),
+  );
+  await t.page.goto(`${prod.url}/`, { waitUntil: 'networkidle' });
+  await t.page.waitForFunction(() => document.querySelector('#finder').classList.contains('is-live'));
+  assert.match(await t.page.locator('#data-notice').textContent(), /Loaded the latest list from the public data repo/);
+  assert.notEqual(guidanceFor(newer), guidanceFor(prodJobs));
+  assert.equal(await t.page.locator('#cy-guide').textContent(), guidanceFor(newer));
+  const fsCount = newer.filter((j) => j.class_year === 'fs').length;
+  assert.equal(await t.page.locator('#f-cy option[value="fs"]').textContent(), `Fr/So friendly (${fsCount})`);
+  await t.page.selectOption('#f-cy', 'fs');
+  await t.page.waitForTimeout(60);
+  assert.equal((await renderedIds(t.page)).length, Math.min(50, fsCount));
+  assert.deepEqual(t.pageErrors, []);
+  await t.close();
 });
 
 test('demo landing: all roles load, zero console errors, stats match data', async () => {
@@ -320,6 +375,8 @@ test('mobile 390x844: no horizontal scroll, filters and first roles above the fo
     assert.ok(box.y + box.height < 844, 'search box above the fold');
     const cy = await t.page.locator('#f-cy').boundingBox();
     assert.ok(cy.y + cy.height < 844, 'class-year filter above the fold');
+    const guide = await t.page.locator('#cy-guide').boundingBox();
+    if (guide) assert.ok(guide.y >= cy.y + cy.height && guide.y + guide.height < 844, 'class-year guidance right below the filter and above the fold');
     if (name) await shot(t.page, name);
     for (const p of ['/programs/', '/how-it-works/', '/about/']) {
       await t.page.goto(`${server.url}${p}`, { waitUntil: 'networkidle' });

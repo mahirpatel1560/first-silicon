@@ -76,7 +76,7 @@ function head({ site, title, description, path, jsonld = [], assets, noindex = f
     `<meta property="og:image" content="${site.BASE_URL}${ogImage}">`,
     '<meta property="og:image:width" content="1200">',
     '<meta property="og:image:height" content="630">',
-    `<meta property="og:image:alt" content="${escapeHtml(site.SITE_NAME)}: hardware internships for freshmen and sophomores">`,
+    `<meta property="og:image:alt" content="${escapeHtml(site.SITE_NAME)}: every hardware internship, labeled by class year, discipline and citizenship">`,
     '<meta name="twitter:card" content="summary_large_image">',
     `<meta name="twitter:title" content="${escapeHtml(title)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
@@ -104,7 +104,7 @@ function header(path, demo) {
       ? '<aside class="demo-banner" aria-label="Preview notice"><div class="wrap"><strong>Preview build with fictional test data.</strong> Companies and roles on this preview are invented to test the site. They are not real job postings.</div></aside>'
       : '') +
     '<header class="site-header"><div class="wrap">' +
-    `<a class="brand" href="/">${LOGO_SVG}<span>First Silicon</span><span class="tagline">Hardware internships · Fr/So</span></a>` +
+    `<a class="brand" href="/">${LOGO_SVG}<span>First Silicon</span><span class="tagline">Hardware internships · Updated daily</span></a>` +
     `<nav class="nav" aria-label="Main"><ul>${items}</ul></nav>` +
     '</div></header>'
   );

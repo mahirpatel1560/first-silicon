@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseState, serializeState, applyFilters, matches, facets, isActive, textMatch, isNewJob, DEFAULT_STATE } from '../../src/site/js/filters.mjs';
+import { parseState, serializeState, applyFilters, matches, facets, classYearOptionCounts, isActive, textMatch, isNewJob, DEFAULT_STATE } from '../../src/site/js/filters.mjs';
 import { roleHtml } from '../../src/site/js/render.mjs';
 
 const TODAY = '2026-09-23';
@@ -26,6 +26,21 @@ test('URL state round-trips and rejects unknown values', () => {
   assert.equal(serializeState(DEFAULT_STATE), '');
   assert.equal(isActive(DEFAULT_STATE), false);
   assert.equal(isActive({ ...DEFAULT_STATE, cf: true }), true);
+});
+
+test('default view is every role; the Fr/So filter keeps only postings labeled Fr/So', () => {
+  assert.equal(DEFAULT_STATE.cy, '');
+  assert.deepEqual(ids({}), ['a', 'b', 'c', 'd', 'e']);
+  assert.deepEqual(applyFilters(jobs, parseState(''), TODAY).map((j) => j.id), ['a', 'b', 'c', 'd', 'e'], 'no URL parameters = all roles');
+  assert.deepEqual(ids({ cy: 'fs' }), jobs.filter((j) => j.class_year === 'fs').map((j) => j.id));
+});
+
+test('class-year facet counts feed the select options and the guidance', () => {
+  const f = facets(jobs);
+  assert.deepEqual(f.classYears, { fs: 2, jplus: 1, unspecified: 2 });
+  assert.deepEqual(classYearOptionCounts(f), { fs: 2, open: 4, jplus: 1 });
+  assert.deepEqual(facets([J({ class_year: undefined })]).classYears, { fs: 0, jplus: 0, unspecified: 1 }, 'missing label counts as not stated');
+  for (const [cy, n] of Object.entries(classYearOptionCounts(f))) assert.equal(ids({ cy }).length, n, cy);
 });
 
 test('each filter narrows the list correctly', () => {

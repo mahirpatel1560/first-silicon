@@ -35,8 +35,24 @@ test('README lists open roles newest first in the order given and omits closed r
 
 test('README pending state before the first run', () => {
   const md = buildReadme({ jobs: [], meta: { last_run: null }, programs, site, today: TODAY });
+  assert.match(md, /^# First Silicon: every hardware internship, labeled\n/);
   assert.match(md, /first automatic data run has not happened yet/);
   assert.match(md, /No roles yet/);
+  assert.doesNotMatch(md, /Class year:\*\*/, 'no class-year numbers before the first run');
+});
+
+test('README leads with the new positioning and class-year guidance, numbers taken from meta.counts', () => {
+  const counts = { roles: 191, companies: 34, fs: 4, jplus: 15, unspecified: 172, citizenship_free: 79, new_this_week: 80 };
+  const md = buildReadme({ jobs: [job()], meta: { last_run: '2026-09-24T04:40:53.324Z', counts, boards: { ok: 88 } }, programs, site, today: '2026-09-24' });
+  const lines = md.split('\n');
+  assert.equal(lines[0], '# First Silicon: every hardware internship, labeled');
+  assert.equal(
+    lines[2],
+    "191 internships and co-ops at 34 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.",
+  );
+  assert.equal(lines[4], '**Updated September 24, 2026** · 191 open roles · 80 new this week · 79 without citizenship or export flags');
+  assert.equal(lines[6], "**Class year:** Only 4 postings say freshmen or sophomores can apply. 172 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.");
+  assert.doesNotMatch(md, /for freshmen and sophomores|mention freshman\/sophomore eligibility/);
 });
 
 test('newsletter uses only roles first seen in the last 7 days, grouped by discipline, Fr/So first', () => {
@@ -44,7 +60,7 @@ test('newsletter uses only roles first seen in the last 7 days, grouped by disci
     job({ id: 'a', title: 'Old role', first_seen: '2026-09-10' }),
     job({ id: 'b', title: 'Juniors RTL', class_year: 'jplus', first_seen: '2026-09-22' }),
     job({ id: 'c', title: 'Friendly FPGA', class_year: 'fs', first_seen: '2026-09-20' }),
-    job({ id: 'd', title: 'Board bring-up', disciplines: ['pcb', 'test'], first_seen: '2026-09-23' }),
+    job({ id: 'd', title: 'Board bring-up', disciplines: ['pcb', 'test'], class_year: 'unspecified', first_seen: '2026-09-23' }),
     job({ id: 'e', title: 'General EE', disciplines: ['general'], first_seen: '2026-09-18' }),
   ];
   assert.deepEqual(rolesForWeek(jobs, TODAY).map((j) => j.id).sort(), ['b', 'c', 'd', 'e']);
@@ -53,7 +69,11 @@ test('newsletter uses only roles first seen in the last 7 days, grouped by disci
   assert.deepEqual(groups[0].jobs.map((j) => j.id), ['c', 'b']);
   const d = buildDigest({ jobs, programs, today: TODAY, siteUrl: site.BASE_URL });
   assert.equal(d.stats.new_roles, 4);
-  assert.match(d.subject, /^4 new hardware internships this week \(3 Fr\/So friendly\)$/);
+  assert.equal(d.subject, '4 new hardware internships this week at 1 company');
+  const intro = "4 hardware internships and co-ops at 1 company were first seen in the last 7 days, grouped by discipline below. 2 postings say freshmen or sophomores can apply. 1 doesn't list a class year at all: apply to it unless the posting says juniors/seniors or a graduation date you can't meet.";
+  assert.ok(d.text.includes(intro), 'text intro has the week counts and the class-year guidance');
+  assert.ok(d.html.includes(intro.replace(/'/g, '&#39;')), 'HTML intro matches the text version');
+  assert.deepEqual([d.stats.fs, d.stats.unspecified, d.stats.companies], [2, 1, 1]);
   assert.doesNotMatch(d.text, /Old role/);
   assert.match(d.text, /Friendly FPGA/);
   assert.match(d.text, /September 30, 2026 \(7 days\): Community College Internships/);
