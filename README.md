@@ -1,14 +1,16 @@
-# First Silicon: hardware internships for freshmen and sophomores
+# First Silicon: every hardware internship, labeled
 
-Hardware, EE, embedded and semiconductor internships and co-ops pulled daily from public employer job boards (Greenhouse, Lever and Ashby), labeled by discipline, class-year signal and citizenship/export flags. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
+191 internships and co-ops at 34 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated September 24, 2026** · 191 open roles at 34 employers · 4 mention freshman/sophomore eligibility · 80 new this week
+**Updated September 24, 2026** · 191 open roles · 80 new this week · 79 without citizenship or export flags
+
+**Class year:** Only 4 postings say freshmen or sophomores can apply. 172 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
 > Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer's site before applying. Closed roles are removed on the next daily run.
 
 ## Legend
 
-- **Class year**: `Fr/So` = the posting mentions first-year, sophomore, rising-junior or all-class-year eligibility (or a 2029-2030 graduation date); `Jr+` = it asks for junior/senior standing, graduation by 2027-2028, or a graduate degree; blank = not stated (often still open to sophomores, so read it).
+- **Class year**: `Fr/So` = the posting mentions first-year, sophomore, rising-junior or all-class-year eligibility (or a 2029-2030 graduation date); `Jr+` = it asks for junior/senior standing, graduation by 2027-2028, or a graduate degree; blank = not stated (apply unless the posting says juniors/seniors or a graduation date you can't meet).
 - **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.
 - **Posted**: the employer's publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).
 

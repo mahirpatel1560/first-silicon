@@ -1,6 +1,6 @@
 # First Silicon
 
-> Hardware, EE, embedded and semiconductor internships and co-ops from employer job boards, labeled by discipline, class year and citizenship flags. Updated daily. Focused on roles that first- and second-year students can apply to.
+> Hardware, EE, embedded and semiconductor internships and co-ops from employer job boards, labeled by discipline, class year and citizenship flags. Updated daily. Every role is listed with its labels, including roles whose posting does not state a class year.
 
 ## Key pages
 - [Open roles](https://firstsilicon.pages.dev/): filterable list of hardware internships and co-ops (discipline, class year, citizenship/export flags, term, location)
@@ -22,7 +22,7 @@
 ## Facts
 - Sources: the public Greenhouse Job Board API (https://developers.greenhouse.io/job-board.html), Lever Postings API (https://github.com/lever/postings-api) and Ashby public job posting API (https://developers.ashbyhq.com/docs/public-job-posting-api).
 - Employer job boards read: 87 (see https://firstsilicon.pages.dev/how-it-works/).
-- As of 2026-09-24: 191 open hardware internships and co-ops, 4 with freshman/sophomore eligibility language, 79 without citizenship or export flags (source: https://firstsilicon.pages.dev/data/meta.json).
+- As of 2026-09-24: 191 open hardware internships and co-ops at 34 companies. Class year: 4 say freshmen or sophomores can apply, 15 require junior standing or later, 172 do not state one. 79 have no citizenship or export flags (source: https://firstsilicon.pages.dev/data/meta.json).
 - Programs calendar: 7 programs, each verified on its official page (dates in https://firstsilicon.pages.dev/data/programs.json).
 - Update cadence: once a day. Closed roles are removed on the next run.
 - Labels are automatic pattern matches and can be wrong; the original employer posting is authoritative.
