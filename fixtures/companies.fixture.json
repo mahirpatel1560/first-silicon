@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "about": "FICTIONAL companies for offline tests and the demo build. Tokens map to files in fixtures/api/<ats>/<token>.json.",
+  "companies": [
+    {
+      "name": "Vireo Silicon",
+      "slug": "vireo-silicon",
+      "category": "semiconductors",
+      "ats": "greenhouse",
+      "token": "vireosilicon",
+      "status": "ok"
+    },
+    {
+      "name": "Halcyon Orbital",
+      "slug": "halcyon-orbital",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "halcyonorbital",
+      "status": "ok"
+    },
+    {
+      "name": "Halcyon Orbital",
+      "slug": "halcyon-orbital",
+      "category": "space",
+      "ats": "lever",
+      "token": "halcyonorbital",
+      "status": "ok"
+    },
+    {
+      "name": "Kestrel Grid",
+      "slug": "kestrel-grid",
+      "category": "energy",
+      "ats": "greenhouse",
+      "token": "kestrelgrid",
+      "status": "ok"
+    },
+    {
+      "name": "Tamarack Robotics",
+      "slug": "tamarack-robotics",
+      "category": "robotics",
+      "ats": "lever",
+      "token": "tamarackrobotics",
+      "status": "ok"
+    },
+    {
+      "name": "Brightwater Avionics",
+      "slug": "brightwater-avionics",
+      "category": "aerospace",
+      "ats": "lever",
+      "token": "BrightwaterAvionics",
+      "status": "ok"
+    },
+    {
+      "name": "Lumen Fab",
+      "slug": "lumen-fab",
+      "category": "photonics",
+      "ats": "ashby",
+      "token": "lumenfab",
+      "status": "ok"
+    },
+    {
+      "name": "Quill Circuits",
+      "slug": "quill-circuits",
+      "category": "eda",
+      "ats": "ashby",
+      "token": "quillcircuits",
+      "status": "ok"
+    },
+    {
+      "name": "Empty Co",
+      "slug": "empty-co",
+      "category": "consumer",
+      "ats": "ashby",
+      "token": "emptyco",
+      "status": "empty"
+    },
+    {
+      "name": "Ghost Board Inc",
+      "slug": "ghost-board",
+      "category": "consumer",
+      "ats": "greenhouse",
+      "token": "ghostboard",
+      "status": "ok"
+    },
+    {
+      "name": "Never Probed Labs",
+      "slug": "never-probed",
+      "category": "robotics",
+      "ats": null,
+      "token": null,
+      "status": "not_found"
+    }
+  ]
+}

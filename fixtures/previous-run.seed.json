@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "note": "Seed of a previous run (FICTIONAL). make-demo-data computes ids from company_slug + title.",
+  "roles": [
+    {
+      "company": "Vireo Silicon",
+      "company_slug": "vireo-silicon",
+      "title": "Physical Design Student Worker",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "company": "Halcyon Orbital",
+      "company_slug": "halcyon-orbital",
+      "title": "Power Systems Intern (Fall 2026)",
+      "first_seen": "2026-08-21"
+    },
+    {
+      "company": "Halcyon Orbital",
+      "company_slug": "halcyon-orbital",
+      "title": "GNC Intern (Summer 2027)",
+      "first_seen": "2026-09-09"
+    },
+    {
+      "company": "Kestrel Grid",
+      "company_slug": "kestrel-grid",
+      "title": "Controls Engineering Intern (Spring 2027)",
+      "first_seen": "2026-09-02"
+    },
+    {
+      "company": "Kestrel Grid",
+      "company_slug": "kestrel-grid",
+      "title": "Battery Management Systems Intern",
+      "first_seen": "2026-09-10"
+    },
+    {
+      "company": "Tamarack Robotics",
+      "company_slug": "tamarack-robotics",
+      "title": "Mechatronics Co-op",
+      "first_seen": "2026-09-05"
+    },
+    {
+      "company": "Brightwater Avionics",
+      "company_slug": "brightwater-avionics",
+      "title": "Wire Harness Design Intern",
+      "first_seen": "2026-08-31"
+    },
+    {
+      "company": "Lumen Fab",
+      "company_slug": "lumen-fab",
+      "title": "Laser Systems Co-op",
+      "first_seen": "2026-09-03"
+    },
+    {
+      "company": "Quill Circuits",
+      "company_slug": "quill-circuits",
+      "title": "PCB Layout Intern",
+      "first_seen": "2026-09-07"
+    },
+    {
+      "company": "Vireo Silicon",
+      "company_slug": "vireo-silicon",
+      "title": "Mixed-Signal Layout Intern (Summer 2026)",
+      "first_seen": "2026-06-01",
+      "closed": true
+    }
+  ]
+}

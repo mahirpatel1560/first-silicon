@@ -1,0 +1,74 @@
+FIRST SILICON: HOW TO DEPLOY
+(Nothing has been deployed, pushed or published. Every step below is for you to do.)
+
+STEP 0. GET REAL DATA FIRST (the site's job list is empty until this happens)
+The build machine could not reach the Greenhouse/Lever/Ashby APIs (its network proxy blocked them),
+so data/jobs.json is empty on purpose. Two ways to fill it:
+
+  Option A (recommended): GitHub does it for you, every day
+  1. Create a PUBLIC GitHub repo (suggested name: firstsilicon or hardware-internships).
+  2. Upload/push the contents of this folder (products/firstsilicon/) as the repo root.
+     .gitignore already skips node_modules, .demo-data and .demo-dist.
+  3. In the repo: Settings > Actions > General > Workflow permissions > "Read and write permissions" > Save.
+  4. Actions tab > "Daily data update" > "Run workflow" (tick "Re-probe every employer" the first time).
+     It runs the tests, checks the job boards, writes data/jobs.json, data/meta.json and README.md,
+     rebuilds dist/, and commits. After that it runs every day at 11:17 UTC (about 6 a.m. Central).
+  5. Open config/site.mjs and set (both one-line changes):
+       REPO_RAW_BASE = 'https://raw.githubusercontent.com/<your-github-user>/<repo>/main'
+       REPO_URL      = 'https://github.com/<your-github-user>/<repo>'
+     Commit. The next Action run rebuilds dist/ so the live site loads the newest list straight
+     from GitHub, even between deploys.
+
+  Option B: on your laptop (Node 22+)
+     npm ci
+     node scripts/probe.mjs --all      (optional; re-checks every employer board)
+     node scripts/fetch.mjs
+     npm run build
+
+STEP 1 (a). DRAG-AND-DROP DEPLOY TO CLOUDFLARE PAGES
+  1. dash.cloudflare.com > Workers & Pages > Create > Pages > Upload assets.
+  2. Project name: firstsilicon  (gives https://firstsilicon.pages.dev)
+  3. Drag the dist/ folder in (the folder itself, with index.html inside it). Click Deploy.
+  4. Check: https://firstsilicon.pages.dev/ , /programs/ , /how-it-works/ , /404 page.
+  To update later: Pages > firstsilicon > Create deployment > drag the new dist/ again.
+
+STEP 1 (b). COMMAND-LINE ALTERNATIVE
+     npx wrangler pages deploy dist --project-name firstsilicon
+  (Asks you to log in to Cloudflare the first time.)
+
+STEP 1 (c). OPTIONAL: AUTO-DEPLOY FROM GITHUB
+  Cloudflare Pages > Create > Pages > Connect to Git > pick the repo.
+  Build command: (leave empty)   Build output directory: dist
+  Every daily data commit then redeploys the site automatically. No build step runs on Cloudflare.
+
+WHEN YOU BUY A CUSTOM DOMAIN
+  1. config/site.mjs: change BASE_URL to https://yourdomain.com (one line). The crawler User-Agent,
+     canonicals, sitemap, Open Graph tags, llms.txt and robots.txt all follow it.
+  2. npm run build, then redeploy dist/ (or let the Action/Git integration do it).
+  3. Cloudflare Pages > firstsilicon > Custom domains > Set up a domain.
+  4. Update the links in launch/*.txt and the Apify README if they mention firstsilicon.pages.dev.
+
+ANALYTICS AND FORMS (Portfolio Pulse)
+  - Every page loads https://pulse.ringlatch.workers.dev/pulse.js with data-site="fs".
+  - Until the shared Pulse worker is deployed, the site still works: analytics are skipped and the
+    newsletter/contact/sponsor forms show "Couldn't send. Please try again later." without losing text.
+  - No tracked redirects are used, so there is no seed-links.sql for this product. Launch links use
+    ?ref=<channel> which Pulse records as the source.
+
+NEWSLETTER (sending is manual)
+  - The Action drafts newsletter/out/<date>.html and .txt every Monday (and on manual runs).
+  - Subscribers arrive through Pulse leads (form "subscribe"). Paste the HTML into your email tool.
+  - Replace {{UNSUBSCRIBE_URL}} and {{MAILING_ADDRESS}}. US anti-spam law (CAN-SPAM) expects an
+    unsubscribe option and a valid postal address in commercial email; check the rules that apply to you.
+  - newsletter/samples/ holds a FICTIONAL sample for layout only. Never send it.
+
+APIFY ACTOR (second product, not published)
+  cd apify-actor && npm install && node test-local.mjs      (local test, no publishing)
+  To publish later (your account): npx apify-cli login, then npx apify-cli push, then set pricing
+  as described in apify-actor/PRICING.txt.
+
+USEFUL COMMANDS
+  npm test               unit tests (offline)
+  npm run test:e2e       Playwright + axe + link check + screenshots (needs Chromium; see tests/e2e)
+  npm run build:demo     preview build with FICTIONAL data into .demo-dist/ (noindex; never deploy it)
+  npm run newsletter     draft this week's digest from data/

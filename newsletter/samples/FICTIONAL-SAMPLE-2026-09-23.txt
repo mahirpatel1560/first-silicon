@@ -1,0 +1,110 @@
+Subject: 24 new hardware internships this week (11 Fr/So friendly)
+
+*** SAMPLE ONLY: built from fictional test data (invented companies and roles). Not real postings. ***
+
+FIRST SILICON WEEKLY · September 23, 2026
+
+24 hardware internships and co-ops were first seen in the last 7 days; 11 mention freshman/sophomore eligibility.
+Labels are automatic. Always check the posting on the employer's site.
+
+== EMBEDDED SYSTEMS & FIRMWARE (5) ==
+- Brightwater Avionics: Avionics Firmware Intern
+  Wichita, KS · Fr/So friendly
+  https://jobs.lever.co/BrightwaterAvionics/3f000010-8e2b-4c1d-9a7b-100000079190
+- Halcyon Orbital: Flight Software Intern (Summer 2027)
+  Redmond, WA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7102055
+- Tamarack Robotics: Embedded Firmware Intern
+  Pittsburgh, PA · Class year not stated
+  https://jobs.lever.co/tamarackrobotics/3f000002-8e2b-4c1d-9a7b-100000015838
+- Kestrel Grid: Embedded Software Intern, Inverter Controls
+  Hybrid - Boston, MA · Class year not stated
+  https://job-boards.greenhouse.io/kestrelgrid/jobs/7103562
+- Brightwater Avionics: Werkstudent Embedded Systems (m/w/d)
+  Munich, Germany · Class year not stated
+  https://jobs.lever.co/BrightwaterAvionics/3f000011-8e2b-4c1d-9a7b-100000087109
+
+== FPGA, RTL & ASIC DESIGN AND VERIFICATION (3) ==
+- Vireo Silicon: Design Verification Intern (Summer 2027)
+  San Jose, CA; Austin, TX · Fr/So friendly
+  https://job-boards.greenhouse.io/vireosilicon/jobs/7100137
+- Vireo Silicon: FPGA Prototyping Intern
+  Hybrid - San Jose, CA · Fr/So friendly
+  https://job-boards.greenhouse.io/vireosilicon/jobs/7100685
+- Vireo Silicon: RTL Design Intern (Summer 2027)
+  San Jose, CA · Class year not stated
+  https://job-boards.greenhouse.io/vireosilicon/jobs/7101507
+
+== ANALOG & MIXED-SIGNAL (1) ==
+- Vireo Silicon: Analog IC Design Intern - Summer 2027
+  San Jose, CA · Juniors+
+  https://job-boards.greenhouse.io/vireosilicon/jobs/7100411
+
+== RF, MICROWAVE & WIRELESS (1) ==
+- Halcyon Orbital: RF Engineering Intern (Summer 2027)
+  Redmond, WA · Fr/So friendly · US citizen
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7102192
+
+== POWER ELECTRONICS (1) ==
+- Kestrel Grid: Power Electronics Intern - Summer 2027
+  Boston, MA · Fr/So friendly
+  https://job-boards.greenhouse.io/kestrelgrid/jobs/7103288
+
+== PCB & HARDWARE DESIGN (6) ==
+- Halcyon Orbital: Avionics Hardware Intern (Summer 2027)
+  Hawthorne, CA; Redmond, WA · Fr/So friendly · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7101918
+- Tamarack Robotics: Robotics Hardware Intern
+  Pittsburgh, PA · Fr/So friendly
+  https://jobs.lever.co/tamarackrobotics/3f000001-8e2b-4c1d-9a7b-100000007919
+- Quill Circuits: Hardware Engineering Intern
+  Remote · Fr/So friendly
+  https://jobs.ashbyhq.com/quillcircuits/9c000007-1d2e-4f5a-8b6c-200000733103
+- Halcyon Orbital: Electrical Engineering Intern
+  Hawthorne, CA · Class year not stated
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7103151
+- Brightwater Avionics: Electrical Design Intern
+  Wichita, KS · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/BrightwaterAvionics/3f000008-8e2b-4c1d-9a7b-100000063352
+- Quill Circuits: Signal Integrity Intern
+  Boulder, CO; San Jose, CA · Juniors+
+  https://jobs.ashbyhq.com/quillcircuits/9c000009-1d2e-4f5a-8b6c-200000942561
+
+== TEST, VALIDATION & RELIABILITY (4) ==
+- Halcyon Orbital: Test Engineering Co-op (Winter 2027)
+  Redmond, WA · Fr/So friendly
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7103014
+- Halcyon Orbital: Hardware Validation Intern (Summer 2027)
+  Redmond, WA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/halcyonorbital/jobs/7102603
+- Tamarack Robotics: Hardware Test Intern
+  Pittsburgh, PA; Austin, TX · Class year not stated · No visa sponsorship
+  https://jobs.lever.co/tamarackrobotics/3f000007-8e2b-4c1d-9a7b-100000055433
+- Vireo Silicon: Post-Silicon Validation Co-op (Spring 2027)
+  Austin, TX · Juniors+
+  https://job-boards.greenhouse.io/vireosilicon/jobs/7101370
+
+== CONTROLS, ROBOTICS & GNC (1) ==
+- Tamarack Robotics: Controls Intern, Robot Arms
+  Pittsburgh, PA · Fr/So friendly
+  https://jobs.lever.co/tamarackrobotics/3f000004-8e2b-4c1d-9a7b-100000031676
+
+== SEMICONDUCTOR PROCESS & DEVICES (1) ==
+- Lumen Fab: Process Engineering Intern (Summer 2027)
+  Tucson, AZ · Class year not stated · ITAR / export
+  https://jobs.ashbyhq.com/lumenfab/9c000002-1d2e-4f5a-8b6c-200000209458
+
+== PHOTONICS & OPTICS (1) ==
+- Lumen Fab: Photonics Test Intern
+  Tucson, AZ · Fr/So friendly
+  https://jobs.ashbyhq.com/lumenfab/9c000001-1d2e-4f5a-8b6c-200000104729
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- September 30, 2026 (7 days): Community College Internships (CCI), Spring 2027 term · https://science.osti.gov/wdts/cci
+- September 30, 2026 (7 days): Science Undergraduate Laboratory Internships (SULI), Spring 2027 term · https://science.osti.gov/wdts/suli
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-09-23
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}

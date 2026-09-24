@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "verified_on": "2026-09-23",
+  "about": "Curated early-career programs relevant to first- and second-year EE/CE students. Every entry was checked on its official page on verified_on; facts not shown on that page are not stated here. Programs whose official page could not be loaded or did not state eligibility and timing were left out.",
+  "programs": [
+    {
+      "id": "doe-suli",
+      "name": "Science Undergraduate Laboratory Internships (SULI)",
+      "org": "U.S. Department of Energy, Office of Science (Workforce Development for Teachers and Scientists)",
+      "url": "https://science.osti.gov/wdts/suli",
+      "eligibility": "Undergraduate students and recent graduates majoring in a STEM field or science policy. The official page lists the full eligibility rules.",
+      "class_year_note": "The page does not set a minimum class year.",
+      "deadlines": [
+        { "term": "Spring 2027 term", "date": "2026-09-30", "note": "5:00 p.m. ET" }
+      ],
+      "deadline_text": "Spring 2027 term: September 30, 2026, 5:00 p.m. ET. Fall 2026 applications are closed.",
+      "format": "10-week summer internship (May to August) or a semester (August to December, or January to May).",
+      "pay": "Paid internship.",
+      "flags": [],
+      "source_quote": "SULI Program is now open for applications for the Spring 2027 Term.",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "doe-cci",
+      "name": "Community College Internships (CCI)",
+      "org": "U.S. Department of Energy, Office of Science (Workforce Development for Teachers and Scientists)",
+      "url": "https://science.osti.gov/wdts/cci",
+      "eligibility": "Community college students. The official page links to the detailed eligibility requirements.",
+      "class_year_note": "For students enrolled at community colleges.",
+      "deadlines": [
+        { "term": "Spring 2027 term", "date": "2026-09-30", "note": "5:00 p.m. ET" }
+      ],
+      "deadline_text": "Spring 2027 term: September 30, 2026, 5:00 p.m. ET. Fall 2026 applications are closed.",
+      "format": "Internship managed by the DOE Office of Science.",
+      "pay": "Paid internship.",
+      "flags": [],
+      "source_quote": "Applications are due September 30, 2026 at 5:00pm ET",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "nasa-ostem",
+      "name": "NASA OSTEM Internships",
+      "org": "NASA Office of STEM Engagement",
+      "url": "https://www.nasa.gov/learning-resources/internship-programs/",
+      "apply_url": "https://stemgateway.nasa.gov/public/s/explore-opportunities",
+      "eligibility": "U.S. citizens, at least 16 years old, with at least a 3.0/4.0 GPA, enrolled full or part time in college (undergraduate through graduate). STEM and non-STEM majors.",
+      "class_year_note": "No minimum class year is stated. NASA also lists Pathways Internships (U.S. citizens, 2.9 GPA, at least 15 semester hours completed), applied for through USAJOBS.",
+      "deadlines": [
+        { "term": "Spring 2027", "date": "2026-09-14", "note": "11:59 p.m. ET" },
+        { "term": "Summer 2027", "date": "2027-02-26", "note": "11:59 p.m. ET" },
+        { "term": "Fall 2027", "date": "2027-05-21", "note": "11:59 p.m. ET" }
+      ],
+      "deadline_text": "Summer 2027: February 26, 2027. Fall 2027: May 21, 2027 (11:59 p.m. ET). The Spring 2027 deadline was September 14, 2026.",
+      "format": "Spring, summer and fall sessions. Applications go through the NASA STEM Gateway.",
+      "pay": "Most interns receive a stipend based on academic level and session length.",
+      "flags": ["citizenship"],
+      "source_quote": "Summer 2027: February 26, 2027 (11:59 p.m. ET)",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "nist-surf",
+      "name": "Summer Undergraduate Research Fellowship (SURF)",
+      "org": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/surf",
+      "eligibility": "Full-time undergraduates at accredited two- or four-year U.S. colleges who are U.S. citizens or U.S. permanent residents and at least 18 years old. First-year undergraduates and graduating seniors are eligible.",
+      "class_year_note": "The page states that first-year undergraduates are eligible.",
+      "open_to_first_years": true,
+      "deadlines": [
+        { "term": "Summer 2027", "date": "2027-01-31", "approx": true, "note": "end of January 2027; exact date not yet posted" }
+      ],
+      "deadline_text": "Applications are due at the end of January 2027. NIST expects the USAJOBS vacancy announcement to open in mid-October 2026.",
+      "format": "11-week summer research fellowship.",
+      "pay": "2026 stipend: $7,810 for 11 weeks ($710 per week), with limited housing and travel support for students who relocate.",
+      "flags": ["residency"],
+      "source_quote": "First-year undergraduates and graduating seniors ... are eligible",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "nsf-reu",
+      "name": "Research Experiences for Undergraduates (REU) Sites",
+      "org": "U.S. National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates",
+      "apply_url": "https://www.nsf.gov/crssprgm/reu/reu_search.cfm",
+      "eligibility": "Undergraduates who are U.S. citizens, U.S. nationals or U.S. permanent residents. The NSF page does not restrict by class year; each site runs its own selection.",
+      "class_year_note": "Individual sites may prefer certain years; read each site's page.",
+      "deadlines": [],
+      "deadline_text": "Set by each REU site. Students apply to sites directly, not to NSF; use the NSF search to find electrical and computer engineering sites.",
+      "format": "Summer research at a university or lab site funded by NSF.",
+      "pay": "See each site's page for stipend and housing details.",
+      "flags": ["residency"],
+      "source_quote": "Students follow the instructions provided by each REU Site or REU Supplement to apply.",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "sandia-internships",
+      "name": "Sandia National Laboratories internships and co-ops",
+      "org": "Sandia National Laboratories (operated for the U.S. Department of Energy)",
+      "url": "https://www.sandia.gov/careers/career-possibilities/students-and-postdocs/internships-co-ops/",
+      "eligibility": "At least 16 years old and enrolled full time (typically 12 units for undergraduates) at an accredited college, university or high school. Minimum 3.0/4.0 GPA for R&D, technical and business positions. U.S. citizenship for positions that require a security clearance or where the posting says so.",
+      "class_year_note": "No minimum class year is stated.",
+      "deadlines": [],
+      "deadline_text": "No fixed deadline on the page: apply to current openings. Summer internships run 10 to 12 weeks (typically May to August); co-ops run 3 to 8 months during the academic year.",
+      "format": "Summer internships, co-ops and year-round internships for local students, plus themed intern institutes.",
+      "pay": "Paid; the rate depends on credit hours, classification and degree level.",
+      "flags": ["clearance"],
+      "source_quote": "U.S. citizenship for positions that require security clearance or as stated in the job posting",
+      "verified_on": "2026-09-23"
+    },
+    {
+      "id": "llnl-students",
+      "name": "Lawrence Livermore National Laboratory student internships",
+      "org": "Lawrence Livermore National Laboratory",
+      "url": "https://www.llnl.gov/join-our-team/careers/students",
+      "eligibility": "Community college, undergraduate and graduate students. International students can be eligible; visa sponsorship support varies by position. Selected students complete a federal background check and drug screen.",
+      "class_year_note": "No minimum class year is stated.",
+      "deadlines": [],
+      "deadline_text": "Summer positions are generally posted September through February; phone interviews happen December through April.",
+      "format": "Science and engineering internships through internal and external programs.",
+      "pay": "Not stated on the page we checked.",
+      "flags": [],
+      "source_quote": "Internships for summer positions are generally posted September–February",
+      "verified_on": "2026-09-23"
+    }
+  ]
+}

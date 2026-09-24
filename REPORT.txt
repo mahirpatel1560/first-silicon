@@ -1,0 +1,27 @@
+FIRST SILICON: BUILD REPORT (2026-09-23)
+
+BUILT
+- dist/: filterable hardware-internship list, programs calendar (7 programs verified on official pages today), discipline guides (at 5+ roles), how-it-works, lead forms (pulseLead + honeypot), privacy, terms. JSON-LD: WebSite, WebApplication, ItemList, FAQPage; no JobPosting.
+- Pipeline: Greenhouse/Lever/Ashby fetchers (User-Agent, timeouts, backoff, Retry-After), classifier, dedupe, closed-role removal, README table, weekly newsletter drafts, daily GitHub Action (not pushed).
+- config/companies.json: 160 employers; 87 working boards, 2 live but empty, 62 not found, 9 on unsupported systems.
+- apify-actor/: not published; suggested $1.50 per 1,000 results (PRICING.txt).
+
+RESULTS
+- The container proxy returned 403 for all three API hosts, so boards were probed with WebFetch and the live pipeline never ran here. dist/ shows 0 roles until the Action's first run (DEPLOY.txt step 0).
+- Probe snapshot (titles only; 52/87 responses truncated): at least 5,254 postings, 187 internship titles, 57 hardware internships at 16 employers. The freshman/sophomore share needs descriptions, so it waits for the first live run.
+- Classifier: 133 labeled cases, 98.1% of 260 checks on first pass (100% after fixing 4 gaps). 40 held-out cases: 94.3% on first scoring, 97.7% after two fixes.
+- Tests: 71 unit, 13 Playwright E2E (zero console errors, filters, forms, mobile). Axe: 26 page/theme scans, 0 violations. 709 internal links OK. 23 screenshots.
+- Apify local run: passed. 37 items from 7 fixture boards; a missing board was reported; live mode failed gracefully.
+
+GAPS AND RISKS
+- Board tokens were checked with WebFetch, not code; the Action re-probes weekly.
+- Employers on other systems are not covered (verified: SiFive, Boston Dynamics and Axiom use Workday; Joby uses iCIMS).
+- Labels are heuristics. Reddit rules are UNVERIFIED (blocked).
+- npm audit: 3 moderate advisories in the Apify SDK's dependencies.
+- Hollings, SMART, AFRL and NREIP are omitted (unverifiable today).
+
+DECISIONS FOR YOU
+1. Create the public repo, run the Action, set REPO_RAW_BASE, deploy.
+2. Keep or change the 1,000-subscriber sponsorship threshold.
+3. Pick an email tool; add a postal address and unsubscribe link.
+4. Publish the Actor and confirm its price.

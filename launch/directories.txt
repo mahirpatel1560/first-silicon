@@ -1,0 +1,53 @@
+WHERE TO LIST FIRST SILICON FOR FREE
+(Checked 2026-09-23 where marked VERIFIED; everything else is UNVERIFIED and needs a quick check before you submit.)
+
+1. JobBoardSearch (meta-directory of niche job boards)
+   URL: https://jobboardsearch.com/add-board
+   VERIFIED: the homepage says "Submit Your Job Board Free listing available" and lists boards by industry,
+   role, experience level (including internships) and location.
+   Requirements: not shown on the homepage; see the form. Category: Engineering / Internships / Entry level.
+
+2. awesome-job-boards on GitHub
+   URL: https://github.com/tramcar/awesome-job-boards
+   VERIFIED: "A curated list of awesome niche job boards"; categories include Tech, Remote, Quantum Computing
+   and Various; there is no hardware or student category.
+   Requirements: in CONTRIBUTING.md (UNVERIFIED, not read). Submit a pull request under "Tech" or propose
+   an "Engineering / Hardware" section.
+
+3. Product Hunt
+   URL: https://www.producthunt.com/launch
+   VERIFIED (launch guide): personal accounts only (no company accounts); launches can start at
+   12:01 a.m. Pacific; makers must not ask people to upvote directly (ask them to visit and comment).
+   Tip: launch on a weekday during recruiting season, after at least one week of real data.
+
+4. Hacker News "Show HN"
+   URL: https://news.ycombinator.com/showhn.html (submit at https://news.ycombinator.com/submit)
+   VERIFIED rules: Show HN is "for something you've made that other people can play with";
+   "blog posts, sign-up pages, newsletters, lists, and other reading material" are off-topic;
+   "Don't post landing pages"; the title must begin with "Show HN".
+   Risk: a job list can read as "a list". Only post if you frame it around the open-source daily
+   pipeline and classifier (repo link), and be there to answer questions.
+   Suggested title: Show HN: Open-source pipeline that labels hardware internships by class year and ITAR
+
+5. BetaList
+   URL: https://betalist.com/submit
+   UNVERIFIED: the page redirected to sign-in, so requirements could not be read.
+
+6. Apify Store (for the second product, the Actor)
+   URL: https://apify.com/store
+   The Actor is ready in apify-actor/ but NOT published. Publishing needs your Apify account and
+   `apify push`; set pricing per apify-actor/PRICING.txt. Apify's docs say developers set pay-per-event
+   prices in Console and receive 80% of event revenue minus platform costs (VERIFIED on docs.apify.com).
+
+7. University channels (highest-intent audience)
+   - UIUC ECE / Grainger Engineering career services newsletters: UNVERIFIED how to submit; email the
+     career services office and ask whether they share free student resources.
+   - IEEE and HKN chapters at other universities: find the officer contact on each chapter's site and
+     send the HKN blurb from uiuc-channels.txt (one personal email per chapter, no mass mailing).
+
+8. Other free launch directories (all UNVERIFIED; check terms and whether a paid tier is required)
+   - Indie Hackers products: https://www.indiehackers.com/products
+   - Uneed: https://www.uneed.best
+   - Microlaunch: https://microlaunch.net
+   - Peerlist Launchpad: https://peerlist.io/launchpad
+   Lower priority: their audiences are founders, not EE students.

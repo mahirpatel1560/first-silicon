@@ -1,0 +1,36 @@
+ATS INTERNSHIP & JOB FEED: SUGGESTED PAY-PER-EVENT PRICING
+(Owner notes. Not published. Facts checked 2026-09-23 on docs.apify.com and apify.com/pricing.)
+
+SUGGESTION
+- Custom event "result": $1.50 per 1,000 results ($0.0015 per dataset item).
+  If Console lets you set discount tiers: $1.50 (free/starter), $1.25 (scale), $1.00 (business).
+- Keep the synthetic "apify-actor-start" event at its default ($0.00005 per start, i.e. $0.05 per 1,000 starts).
+- DELETE the synthetic "apify-default-dataset-item" event in Console. The code already charges
+  "result" per item via Actor.pushData(items, 'result'); keeping both would double-charge.
+- Set this up in Console > Actor > Publication > Monetization > Pay per event, event name exactly: result
+
+WHY THIS PRICE
+1. Cost is tiny. The Actor calls public JSON APIs: no browser, no proxies. A run over the 89-board
+   "hardware" preset at 256 MB takes about 2-4 minutes (one request per board, 0.8 s pause):
+   0.25 GB x 0.067 h = about 0.017 compute units, about $0.003 at $0.2/CU (Free/Starter rate).
+   That is an estimate from the Actor's design, not a measured platform run.
+2. Revenue share: Apify pays developers 80% of event revenue, minus platform costs
+   (profit = 0.8 x revenue - platform costs, per Apify's PPE docs). Only paid-plan users generate revenue.
+3. Value is in the labels, not the raw JSON: internship detection, term, discipline tags, class-year
+   signal and citizenship/ITAR flags across three ATS formats in one schema.
+4. Typical use stays cheap for the user: a daily internship-only run over the hardware preset
+   returns a few hundred items, i.e. well under $1 per day at $1.50 per 1,000.
+   A full dump with internshipOnly=false can return several thousand items (a few dollars per run).
+   maxItems and the run's max-charge limit protect users from surprises.
+5. Rule from Apify's docs: charge for results after they are saved and available. pushData(items, 'result')
+   saves then charges, and the Actor stops when eventChargeLimitReached is true.
+
+WHAT TO WATCH AFTER LAUNCH (decide with real data, not guesses)
+- Conversion from Store views to runs, and runs per user per week.
+- If most runs are scheduled daily by the same users, consider $1.00 per 1,000 to keep them.
+- If users mostly pull full dumps, consider a lower per-result price for internshipOnly=false or a
+  separate "posting" event.
+
+NOT VERIFIED
+- Competitor prices on the Apify Store were not checked (WebSearch unavailable), so this suggestion
+  does not claim to be "cheaper than X".

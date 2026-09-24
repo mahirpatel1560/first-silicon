@@ -1,0 +1,3031 @@
+{
+  "schema": 1,
+  "updated_on": "2026-09-23",
+  "about": "Hardware-heavy employers and their public job-board tokens. status: ok = HTTP 200 with jobs; empty = HTTP 200 with zero jobs; not_found = HTTP 404 for every candidate token tried; unsupported_ats = the careers page uses an ATS this project does not fetch. Initial probes on 2026-09-23 used WebFetch because the build container's egress proxy blocked these API hosts; scripts/probe.mjs re-probes live from the GitHub Action.",
+  "summary": {
+    "companies": 160,
+    "ok": 87,
+    "empty": 2,
+    "not_found": 62,
+    "unsupported_ats": 9
+  },
+  "companies": [
+    {
+      "name": "SpaceX",
+      "slug": "spacex",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "spacex",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Zoox",
+      "slug": "zoox",
+      "category": "autonomy",
+      "ats": "lever",
+      "token": "zoox",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "4 (limit=3 probe)",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Etched",
+      "slug": "etched",
+      "category": "semiconductors",
+      "ats": "ashby",
+      "token": "etched",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "10",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Anduril Industries",
+      "slug": "anduril",
+      "category": "defense",
+      "ats": "greenhouse",
+      "token": "andurilindustries",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 10
+      }
+    },
+    {
+      "name": "Waymo",
+      "slug": "waymo",
+      "category": "autonomy",
+      "ats": "greenhouse",
+      "token": "waymo",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 25
+      }
+    },
+    {
+      "name": "Nuro",
+      "slug": "nuro",
+      "category": "autonomy",
+      "ats": "greenhouse",
+      "token": "nuro",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 1
+      }
+    },
+    {
+      "name": "Zipline",
+      "slug": "zipline",
+      "category": "aerospace",
+      "ats": "greenhouse",
+      "token": "flyzipline",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 42
+      }
+    },
+    {
+      "name": "Astranis",
+      "slug": "astranis",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "astranis",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "88",
+        "intern_titles_seen": 16
+      }
+    },
+    {
+      "name": "Neuralink",
+      "slug": "neuralink",
+      "category": "medical",
+      "ats": "greenhouse",
+      "token": "neuralink",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "77",
+        "intern_titles_seen": 18
+      }
+    },
+    {
+      "name": "Relativity Space",
+      "slug": "relativity-space",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "relativity",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Rocket Lab",
+      "slug": "rocket-lab",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "rocketlab",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 27
+      }
+    },
+    {
+      "name": "SambaNova",
+      "slug": "sambanova",
+      "category": "semiconductors",
+      "ats": "greenhouse",
+      "token": "sambanovasystems",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "54",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Lightmatter",
+      "slug": "lightmatter",
+      "category": "photonics",
+      "ats": "greenhouse",
+      "token": "lightmatter",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "68",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "PsiQuantum",
+      "slug": "psiquantum",
+      "category": "quantum",
+      "ats": "greenhouse",
+      "token": "psiquantum",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "74+",
+        "intern_titles_seen": 6
+      }
+    },
+    {
+      "name": "IonQ",
+      "slug": "ionq",
+      "category": "quantum",
+      "ats": "greenhouse",
+      "token": "ionq",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "99",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Figure",
+      "slug": "figure",
+      "category": "robotics",
+      "ats": "greenhouse",
+      "token": "figureai",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "102",
+        "intern_titles_seen": 4
+      }
+    },
+    {
+      "name": "Apptronik",
+      "slug": "apptronik",
+      "category": "robotics",
+      "ats": "greenhouse",
+      "token": "apptronik",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "81",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Redwood Materials",
+      "slug": "redwood-materials",
+      "category": "energy",
+      "ats": "greenhouse",
+      "token": "redwoodmaterials",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "140",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Shield AI",
+      "slug": "shield-ai",
+      "category": "defense",
+      "ats": "lever",
+      "token": "shieldai",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "7",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Planet",
+      "slug": "planet",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "planetlabs",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "111",
+        "intern_titles_seen": 2
+      }
+    },
+    {
+      "name": "HawkEye 360",
+      "slug": "hawkeye-360",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "hawkeye360",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "18",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Everpure",
+      "slug": "everpure",
+      "category": "compute",
+      "ats": "greenhouse",
+      "token": "purestorage",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 0
+      },
+      "note": "Board token \"purestorage\"; the API reports the company name as Everpure."
+    },
+    {
+      "name": "Verkada",
+      "slug": "verkada",
+      "category": "devices",
+      "ats": "greenhouse",
+      "token": "verkada",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 4
+      }
+    },
+    {
+      "name": "Helion",
+      "slug": "helion",
+      "category": "fusion-nuclear",
+      "ats": "ashby",
+      "token": "helion",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "10+ (ashby payload truncated in probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "helionenergy",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Cerebras Systems",
+      "slug": "cerebras",
+      "category": "semiconductors",
+      "ats": "ashby",
+      "token": "cerebras",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "cerebrassystems",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Form Energy",
+      "slug": "form-energy",
+      "category": "energy",
+      "ats": "ashby",
+      "token": "formenergy",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "formenergy",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Samsara",
+      "slug": "samsara",
+      "category": "devices",
+      "ats": "greenhouse",
+      "token": "samsara",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 3
+      }
+    },
+    {
+      "name": "Formlabs",
+      "slug": "formlabs",
+      "category": "manufacturing",
+      "ats": "greenhouse",
+      "token": "formlabs",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "164+",
+        "intern_titles_seen": 5
+      }
+    },
+    {
+      "name": "Oura",
+      "slug": "oura",
+      "category": "consumer",
+      "ats": "greenhouse",
+      "token": "oura",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "90",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Motional",
+      "slug": "motional",
+      "category": "autonomy",
+      "ats": "greenhouse",
+      "token": "motional",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "74",
+        "intern_titles_seen": 2
+      }
+    },
+    {
+      "name": "Agility Robotics",
+      "slug": "agility-robotics",
+      "category": "robotics",
+      "ats": "greenhouse",
+      "token": "agilityrobotics",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "69",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Magic Leap",
+      "slug": "magic-leap",
+      "category": "consumer",
+      "ats": "greenhouse",
+      "token": "magicleap",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "5",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Epirus",
+      "slug": "epirus",
+      "category": "defense",
+      "ats": "greenhouse",
+      "token": "epirus",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "40",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Aeva",
+      "slug": "aeva",
+      "category": "photonics",
+      "ats": "lever",
+      "token": "aeva",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "aeva",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Dexterity",
+      "slug": "dexterity",
+      "category": "robotics",
+      "ats": "lever",
+      "token": "dexterity",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "dexterity",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Skydio",
+      "slug": "skydio",
+      "category": "aerospace",
+      "ats": "ashby",
+      "token": "skydio",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 1
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "skydio",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "skydio",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Boom Supersonic",
+      "slug": "boom-supersonic",
+      "category": "aerospace",
+      "ats": "ashby",
+      "token": "boom",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "boomsupersonic",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "boom",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Gecko Robotics",
+      "slug": "gecko-robotics",
+      "category": "robotics",
+      "ats": "ashby",
+      "token": "gecko-robotics",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "geckorobotics",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "geckorobotics",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Varda Space Industries",
+      "slug": "varda",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "vardaspace",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "91",
+        "intern_titles_seen": 14
+      }
+    },
+    {
+      "name": "Muon Space",
+      "slug": "muon-space",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "muonspace",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "115",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Vast",
+      "slug": "vast",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "vast",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "90+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Archer Aviation",
+      "slug": "archer",
+      "category": "aerospace",
+      "ats": "greenhouse",
+      "token": "archer56",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "154",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Saronic Technologies",
+      "slug": "saronic",
+      "category": "defense",
+      "ats": "ashby",
+      "token": "saronic",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "6+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Hermeus",
+      "slug": "hermeus",
+      "category": "aerospace",
+      "ats": "lever",
+      "token": "hermeus",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "hermeus",
+          "result": "404"
+        },
+        {
+          "ats": "ashby",
+          "token": "hermeus",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Lucid Motors",
+      "slug": "lucid",
+      "category": "ev",
+      "ats": "greenhouse",
+      "token": "lucidmotors",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "150+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Spire Global",
+      "slug": "spire",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "spire",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "46",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "BlackSky",
+      "slug": "blacksky",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "blacksky",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "25",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Kodiak Robotics",
+      "slug": "kodiak",
+      "category": "autonomy",
+      "ats": "greenhouse",
+      "token": "kodiak",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "64",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "May Mobility",
+      "slug": "may-mobility",
+      "category": "autonomy",
+      "ats": "greenhouse",
+      "token": "maymobility",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "47",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Rigetti Computing",
+      "slug": "rigetti",
+      "category": "quantum",
+      "ats": "lever",
+      "token": "rigetti",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "rigetti",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Atom Computing",
+      "slug": "atom-computing",
+      "category": "quantum",
+      "ats": "lever",
+      "token": "atomcomputing",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "atomcomputing",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Sila",
+      "slug": "sila",
+      "category": "energy",
+      "ats": "lever",
+      "token": "sila",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Waabi",
+      "slug": "waabi",
+      "category": "autonomy",
+      "ats": "lever",
+      "token": "waabi",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "1X",
+      "slug": "1x",
+      "category": "robotics",
+      "ats": "ashby",
+      "token": "1x",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Physical Intelligence",
+      "slug": "physical-intelligence",
+      "category": "robotics",
+      "ats": "ashby",
+      "token": "physicalintelligence",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "16+",
+        "intern_titles_seen": 1
+      }
+    },
+    {
+      "name": "MatX",
+      "slug": "matx",
+      "category": "semiconductors",
+      "ats": "ashby",
+      "token": "matx",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Extropic",
+      "slug": "extropic",
+      "category": "semiconductors",
+      "ats": "ashby",
+      "token": "extropic",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "10+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "The Bot Company",
+      "slug": "the-bot-company",
+      "category": "robotics",
+      "ats": "ashby",
+      "token": "thebotcompany",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Quilter",
+      "slug": "quilter",
+      "category": "eda",
+      "ats": "ashby",
+      "token": "quilter",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Tenstorrent",
+      "slug": "tenstorrent",
+      "category": "semiconductors",
+      "ats": "greenhouse",
+      "token": "tenstorrent",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "150+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "lever",
+          "token": "tenstorrent",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Commonwealth Fusion Systems",
+      "slug": "commonwealth-fusion",
+      "category": "fusion-nuclear",
+      "ats": "lever",
+      "token": "cfsenergy",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "cfsenergy",
+          "result": "404"
+        },
+        {
+          "ats": "ashby",
+          "token": "cfs",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "cfs",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "CesiumAstro",
+      "slug": "cesiumastro",
+      "category": "space",
+      "ats": "lever",
+      "token": "CesiumAstro",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "cesiumastro",
+          "result": "404"
+        },
+        {
+          "ats": "ashby",
+          "token": "cesiumastro",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "cesiumastro",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "K2 Space",
+      "slug": "k2-space",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "k2spacecorporation",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 6
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "k2space",
+          "result": "404"
+        },
+        {
+          "ats": "ashby",
+          "token": "k2space",
+          "result": "404"
+        },
+        {
+          "ats": "lever",
+          "token": "k2space",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Peloton",
+      "slug": "peloton",
+      "category": "consumer",
+      "ats": "greenhouse",
+      "token": "peloton",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "48",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Roku",
+      "slug": "roku",
+      "category": "consumer",
+      "ats": "greenhouse",
+      "token": "roku",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "150+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Oklo",
+      "slug": "oklo",
+      "category": "fusion-nuclear",
+      "ats": "greenhouse",
+      "token": "oklo",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "79",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Kairos Power",
+      "slug": "kairos-power",
+      "category": "fusion-nuclear",
+      "ats": "greenhouse",
+      "token": "kairospower",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "22",
+        "intern_titles_seen": 5
+      }
+    },
+    {
+      "name": "SPAN",
+      "slug": "span",
+      "category": "energy",
+      "ats": "ashby",
+      "token": "span",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "span",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Eight Sleep",
+      "slug": "eight-sleep",
+      "category": "consumer",
+      "ats": "ashby",
+      "token": "eightsleep",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "eightsleep",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "WHOOP",
+      "slug": "whoop",
+      "category": "consumer",
+      "ats": "ashby",
+      "token": "whoop",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "whoop",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Standard Bots",
+      "slug": "standard-bots",
+      "category": "robotics",
+      "ats": "ashby",
+      "token": "standardbots",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "BRINC",
+      "slug": "brinc",
+      "category": "aerospace",
+      "ats": "ashby",
+      "token": "brinc",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Lambda",
+      "slug": "lambda",
+      "category": "compute",
+      "ats": "ashby",
+      "token": "lambda",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "9+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Crusoe",
+      "slug": "crusoe",
+      "category": "compute",
+      "ats": "ashby",
+      "token": "crusoe",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "8+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "CoreWeave",
+      "slug": "coreweave",
+      "category": "compute",
+      "ats": "greenhouse",
+      "token": "coreweave",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Tonal",
+      "slug": "tonal",
+      "category": "consumer",
+      "ats": "ashby",
+      "token": "tonal",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "10+",
+        "intern_titles_seen": 0
+      },
+      "tried": [
+        {
+          "ats": "greenhouse",
+          "token": "tonal",
+          "result": "404"
+        }
+      ]
+    },
+    {
+      "name": "Axon",
+      "slug": "axon",
+      "category": "devices",
+      "ats": "greenhouse",
+      "token": "axon",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "200+",
+        "intern_titles_seen": 1
+      }
+    },
+    {
+      "name": "SimpliSafe",
+      "slug": "simplisafe",
+      "category": "devices",
+      "ats": "greenhouse",
+      "token": "simplisafe",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "45",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Motive",
+      "slug": "motive",
+      "category": "devices",
+      "ats": "greenhouse",
+      "token": "gomotive",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "101+",
+        "intern_titles_seen": 1
+      }
+    },
+    {
+      "name": "Ursa Major",
+      "slug": "ursa-major",
+      "category": "aerospace",
+      "ats": "greenhouse",
+      "token": "ursamajor",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "99",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Astera Labs",
+      "slug": "astera-labs",
+      "category": "semiconductors",
+      "ats": "greenhouse",
+      "token": "asteralabs",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 3
+      }
+    },
+    {
+      "name": "Butterfly Network",
+      "slug": "butterfly-network",
+      "category": "medical",
+      "ats": "greenhouse",
+      "token": "butterflynetwork",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "25",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Markforged",
+      "slug": "markforged",
+      "category": "manufacturing",
+      "ats": "greenhouse",
+      "token": "markforged",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "4",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Carbon Robotics",
+      "slug": "carbon-robotics",
+      "category": "robotics",
+      "ats": "greenhouse",
+      "token": "carbonrobotics",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "17",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Path Robotics",
+      "slug": "path-robotics",
+      "category": "robotics",
+      "ats": "greenhouse",
+      "token": "pathrobotics",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "49",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Divergent",
+      "slug": "divergent",
+      "category": "manufacturing",
+      "ats": "greenhouse",
+      "token": "divergent",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "100+",
+        "intern_titles_seen": 2
+      }
+    },
+    {
+      "name": "Loft Orbital",
+      "slug": "loft-orbital",
+      "category": "space",
+      "ats": "lever",
+      "token": "loftorbital",
+      "status": "ok",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "3+ (limit probe)",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Capella Space",
+      "slug": "capella-space",
+      "category": "space",
+      "ats": "greenhouse",
+      "token": "capellaspace",
+      "status": "empty",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Impinj",
+      "slug": "impinj",
+      "category": "semiconductors",
+      "ats": "greenhouse",
+      "token": "impinj",
+      "status": "empty",
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "intern_titles_seen": 0
+      }
+    },
+    {
+      "name": "Aurora Innovation",
+      "slug": "aurora",
+      "category": "autonomy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "aurorainnovation"
+        },
+        {
+          "ats": "ashby",
+          "token": "aurora"
+        },
+        {
+          "ats": "lever",
+          "token": "aurora"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page showed no Greenhouse/Lever/Ashby link."
+    },
+    {
+      "name": "Joby Aviation",
+      "slug": "joby",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "jobyaviation"
+        },
+        {
+          "ats": "ashby",
+          "token": "joby"
+        },
+        {
+          "ats": "lever",
+          "token": "joby"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to iCIMS."
+    },
+    {
+      "name": "Groq",
+      "slug": "groq",
+      "category": "semiconductors",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "groq"
+        },
+        {
+          "ats": "ashby",
+          "token": "groq"
+        },
+        {
+          "ats": "lever",
+          "token": "groq"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page uses Gem."
+    },
+    {
+      "name": "Axiom Space",
+      "slug": "axiom-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "axiomspace"
+        },
+        {
+          "ats": "ashby",
+          "token": "axiomspace"
+        },
+        {
+          "ats": "lever",
+          "token": "axiomspace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to Workday."
+    },
+    {
+      "name": "Stoke Space",
+      "slug": "stoke-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "stokespace"
+        },
+        {
+          "ats": "ashby",
+          "token": "stokespace"
+        },
+        {
+          "ats": "lever",
+          "token": "stokespace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Open roles load from the company site; ATS not identified."
+    },
+    {
+      "name": "Reliable Robotics",
+      "slug": "reliable-robotics",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "reliablerobotics"
+        },
+        {
+          "ats": "ashby",
+          "token": "reliablerobotics"
+        },
+        {
+          "ats": "lever",
+          "token": "reliablerobotics"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Ouster",
+      "slug": "ouster",
+      "category": "photonics",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "ouster"
+        },
+        {
+          "ats": "lever",
+          "token": "ouster"
+        },
+        {
+          "ats": "ashby",
+          "token": "ouster"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to JazzHR (applytojob.com)."
+    },
+    {
+      "name": "Saildrone",
+      "slug": "saildrone",
+      "category": "defense",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "saildrone"
+        },
+        {
+          "ats": "ashby",
+          "token": "saildrone"
+        },
+        {
+          "ats": "lever",
+          "token": "saildrone"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Impulse Space",
+      "slug": "impulse-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "impulsespace"
+        },
+        {
+          "ats": "ashby",
+          "token": "impulsespace"
+        },
+        {
+          "ats": "lever",
+          "token": "impulsespace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to Pinpoint."
+    },
+    {
+      "name": "True Anomaly",
+      "slug": "true-anomaly",
+      "category": "defense",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "trueanomaly"
+        },
+        {
+          "ats": "ashby",
+          "token": "trueanomaly"
+        },
+        {
+          "ats": "lever",
+          "token": "trueanomaly"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Hadrian",
+      "slug": "hadrian",
+      "category": "manufacturing",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "hadrian"
+        },
+        {
+          "ats": "ashby",
+          "token": "hadrian"
+        },
+        {
+          "ats": "lever",
+          "token": "hadrian"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Castelion",
+      "slug": "castelion",
+      "category": "defense",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "castelion"
+        },
+        {
+          "ats": "ashby",
+          "token": "castelion"
+        },
+        {
+          "ats": "lever",
+          "token": "castelion"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers portal hosted on the company site."
+    },
+    {
+      "name": "Apex Space",
+      "slug": "apex-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "apex"
+        },
+        {
+          "ats": "lever",
+          "token": "apexspace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Rivian",
+      "slug": "rivian",
+      "category": "ev",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "rivian"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers pages hosted at careers.rivian.com."
+    },
+    {
+      "name": "Wisk",
+      "slug": "wisk",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "wisk"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Virgin Galactic",
+      "slug": "virgin-galactic",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "virgingalactic"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Astra",
+      "slug": "astra",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "astra"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Sierra Space",
+      "slug": "sierra-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "sierraspace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Intuitive Machines",
+      "slug": "intuitive-machines",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "intuitivemachines"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "SpinLaunch",
+      "slug": "spinlaunch",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "spinlaunch"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "SiFive",
+      "slug": "sifive",
+      "category": "semiconductors",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "sifive"
+        },
+        {
+          "ats": "lever",
+          "token": "sifive"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to Workday."
+    },
+    {
+      "name": "Quantinuum",
+      "slug": "quantinuum",
+      "category": "quantum",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "quantinuum"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Infleqtion",
+      "slug": "infleqtion",
+      "category": "quantum",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "infleqtion"
+        },
+        {
+          "ats": "lever",
+          "token": "infleqtion"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "QuEra Computing",
+      "slug": "quera",
+      "category": "quantum",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "quera"
+        },
+        {
+          "ats": "lever",
+          "token": "quera"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Boston Dynamics",
+      "slug": "boston-dynamics",
+      "category": "robotics",
+      "ats": null,
+      "token": null,
+      "status": "unsupported_ats",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "bostondynamics"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      },
+      "note": "Careers page links to Workday."
+    },
+    {
+      "name": "Gatik",
+      "slug": "gatik",
+      "category": "autonomy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "gatik"
+        },
+        {
+          "ats": "lever",
+          "token": "gatik"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Xanadu",
+      "slug": "xanadu",
+      "category": "quantum",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "lever",
+          "token": "xanadu"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "QuantumScape",
+      "slug": "quantumscape",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "quantumscape"
+        },
+        {
+          "ats": "lever",
+          "token": "quantumscape"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Skild AI",
+      "slug": "skild-ai",
+      "category": "robotics",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "skild"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Base Power",
+      "slug": "base-power",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "basepower"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Pacific Fusion",
+      "slug": "pacific-fusion",
+      "category": "fusion-nuclear",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "pacificfusion"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Sonos",
+      "slug": "sonos",
+      "category": "consumer",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "sonos"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "GoPro",
+      "slug": "gopro",
+      "category": "consumer",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "gopro"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "BETA Technologies",
+      "slug": "beta-technologies",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "betatechnologies"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "ZeroAvia",
+      "slug": "zeroavia",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "zeroavia"
+        },
+        {
+          "ats": "ashby",
+          "token": "zeroavia"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Fervo Energy",
+      "slug": "fervo",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "fervoenergy"
+        },
+        {
+          "ats": "ashby",
+          "token": "fervo"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "X-energy",
+      "slug": "x-energy",
+      "category": "fusion-nuclear",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "xenergy"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Zap Energy",
+      "slug": "zap-energy",
+      "category": "fusion-nuclear",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "zapenergy"
+        },
+        {
+          "ats": "ashby",
+          "token": "zapenergy"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "TAE Technologies",
+      "slug": "tae",
+      "category": "fusion-nuclear",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "taetechnologies"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Electric Hydrogen",
+      "slug": "electric-hydrogen",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "electrichydrogen"
+        },
+        {
+          "ats": "ashby",
+          "token": "electrichydrogen"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Antora Energy",
+      "slug": "antora",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "antoraenergy"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Mainspring Energy",
+      "slug": "mainspring",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "mainspringenergy"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Neros",
+      "slug": "neros",
+      "category": "defense",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "neros"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Albedo",
+      "slug": "albedo",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "albedo"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Mytra",
+      "slug": "mytra",
+      "category": "robotics",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "mytra"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Exowatt",
+      "slug": "exowatt",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "exowatt"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Framework Computer",
+      "slug": "framework",
+      "category": "consumer",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "framework"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Electra.aero",
+      "slug": "electra",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "electra"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Skyryse",
+      "slug": "skyryse",
+      "category": "aerospace",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "skyryse"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Applied Intuition",
+      "slug": "applied-intuition",
+      "category": "autonomy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "appliedintuition"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Flock Safety",
+      "slug": "flock-safety",
+      "category": "devices",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "flocksafety"
+        },
+        {
+          "ats": "ashby",
+          "token": "flocksafety"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Firefly Aerospace",
+      "slug": "firefly",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "fireflyaerospace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Umbra",
+      "slug": "umbra",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "umbra"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Astrobotic",
+      "slug": "astrobotic",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "astrobotic"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Ayar Labs",
+      "slug": "ayar-labs",
+      "category": "photonics",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "ayarlabs"
+        },
+        {
+          "ats": "ashby",
+          "token": "ayarlabs"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Celestial AI",
+      "slug": "celestial-ai",
+      "category": "photonics",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "celestialai"
+        },
+        {
+          "ats": "ashby",
+          "token": "celestialai"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Enfabrica",
+      "slug": "enfabrica",
+      "category": "semiconductors",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "enfabrica"
+        },
+        {
+          "ats": "ashby",
+          "token": "enfabrica"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "SkyWater Technology",
+      "slug": "skywater",
+      "category": "semiconductors",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "skywatertechnology"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Synchron",
+      "slug": "synchron",
+      "category": "medical",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "synchron"
+        },
+        {
+          "ats": "ashby",
+          "token": "synchron"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Tarana Wireless",
+      "slug": "tarana",
+      "category": "networking",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "taranawireless"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Machina Labs",
+      "slug": "machina-labs",
+      "category": "manufacturing",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "machinalabs"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Ghost Robotics",
+      "slug": "ghost-robotics",
+      "category": "robotics",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "ghostrobotics"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "X-Bow Systems",
+      "slug": "x-bow",
+      "category": "defense",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "xbowsystems"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Starfish Space",
+      "slug": "starfish-space",
+      "category": "space",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "starfishspace"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Kymeta",
+      "slug": "kymeta",
+      "category": "networking",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "kymeta"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Pivotal Commware",
+      "slug": "pivotal-commware",
+      "category": "networking",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "greenhouse",
+          "token": "pivotalcommware"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "d-Matrix",
+      "slug": "d-matrix",
+      "category": "semiconductors",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "lever",
+          "token": "d-matrix"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Paradromics",
+      "slug": "paradromics",
+      "category": "medical",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "paradromics"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Hubble Network",
+      "slug": "hubble-network",
+      "category": "networking",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "hubble"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Lunar Energy",
+      "slug": "lunar-energy",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "lunarenergy"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    },
+    {
+      "name": "Rondo Energy",
+      "slug": "rondo",
+      "category": "energy",
+      "ats": null,
+      "token": null,
+      "status": "not_found",
+      "candidates": [
+        {
+          "ats": "ashby",
+          "token": "rondo"
+        }
+      ],
+      "probe": {
+        "probed_on": "2026-09-23",
+        "method": "webfetch",
+        "jobs_seen": "0",
+        "result": "HTTP 404 for every candidate"
+      }
+    }
+  ]
+}

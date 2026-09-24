@@ -1,0 +1,36 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=(), browsing-topics=()
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://pulse.ringlatch.workers.dev; connect-src 'self' https://pulse.ringlatch.workers.dev https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Cache-Control: no-cache
+
+/assets/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/*
+  ! Cache-Control
+  Cache-Control: public, max-age=300, must-revalidate
+  Access-Control-Allow-Origin: *
+
+/og.png
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/favicon.svg
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/favicon-32.png
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/apple-touch-icon.png
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/icon-512.png
+  ! Cache-Control
+  Cache-Control: public, max-age=86400

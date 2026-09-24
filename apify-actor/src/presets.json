@@ -1,0 +1,820 @@
+{
+ "about": "Generated from config/companies.json (2026-09-23). Boards verified to answer on that date.",
+ "boards": [
+  {
+   "name": "1X",
+   "slug": "1x",
+   "category": "robotics",
+   "ats": "ashby",
+   "token": "1x"
+  },
+  {
+   "name": "Aeva",
+   "slug": "aeva",
+   "category": "photonics",
+   "ats": "lever",
+   "token": "aeva"
+  },
+  {
+   "name": "Agility Robotics",
+   "slug": "agility-robotics",
+   "category": "robotics",
+   "ats": "greenhouse",
+   "token": "agilityrobotics"
+  },
+  {
+   "name": "Anduril Industries",
+   "slug": "anduril",
+   "category": "defense",
+   "ats": "greenhouse",
+   "token": "andurilindustries"
+  },
+  {
+   "name": "Apptronik",
+   "slug": "apptronik",
+   "category": "robotics",
+   "ats": "greenhouse",
+   "token": "apptronik"
+  },
+  {
+   "name": "Archer Aviation",
+   "slug": "archer",
+   "category": "aerospace",
+   "ats": "greenhouse",
+   "token": "archer56"
+  },
+  {
+   "name": "Astera Labs",
+   "slug": "astera-labs",
+   "category": "semiconductors",
+   "ats": "greenhouse",
+   "token": "asteralabs"
+  },
+  {
+   "name": "Astranis",
+   "slug": "astranis",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "astranis"
+  },
+  {
+   "name": "Atom Computing",
+   "slug": "atom-computing",
+   "category": "quantum",
+   "ats": "lever",
+   "token": "atomcomputing"
+  },
+  {
+   "name": "Axon",
+   "slug": "axon",
+   "category": "devices",
+   "ats": "greenhouse",
+   "token": "axon"
+  },
+  {
+   "name": "BlackSky",
+   "slug": "blacksky",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "blacksky"
+  },
+  {
+   "name": "Boom Supersonic",
+   "slug": "boom-supersonic",
+   "category": "aerospace",
+   "ats": "ashby",
+   "token": "boom"
+  },
+  {
+   "name": "BRINC",
+   "slug": "brinc",
+   "category": "aerospace",
+   "ats": "ashby",
+   "token": "brinc"
+  },
+  {
+   "name": "Butterfly Network",
+   "slug": "butterfly-network",
+   "category": "medical",
+   "ats": "greenhouse",
+   "token": "butterflynetwork"
+  },
+  {
+   "name": "Capella Space",
+   "slug": "capella-space",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "capellaspace"
+  },
+  {
+   "name": "Carbon Robotics",
+   "slug": "carbon-robotics",
+   "category": "robotics",
+   "ats": "greenhouse",
+   "token": "carbonrobotics"
+  },
+  {
+   "name": "Cerebras Systems",
+   "slug": "cerebras",
+   "category": "semiconductors",
+   "ats": "ashby",
+   "token": "cerebras"
+  },
+  {
+   "name": "CesiumAstro",
+   "slug": "cesiumastro",
+   "category": "space",
+   "ats": "lever",
+   "token": "CesiumAstro"
+  },
+  {
+   "name": "Commonwealth Fusion Systems",
+   "slug": "commonwealth-fusion",
+   "category": "fusion-nuclear",
+   "ats": "lever",
+   "token": "cfsenergy"
+  },
+  {
+   "name": "CoreWeave",
+   "slug": "coreweave",
+   "category": "compute",
+   "ats": "greenhouse",
+   "token": "coreweave"
+  },
+  {
+   "name": "Crusoe",
+   "slug": "crusoe",
+   "category": "compute",
+   "ats": "ashby",
+   "token": "crusoe"
+  },
+  {
+   "name": "Dexterity",
+   "slug": "dexterity",
+   "category": "robotics",
+   "ats": "lever",
+   "token": "dexterity"
+  },
+  {
+   "name": "Divergent",
+   "slug": "divergent",
+   "category": "manufacturing",
+   "ats": "greenhouse",
+   "token": "divergent"
+  },
+  {
+   "name": "Eight Sleep",
+   "slug": "eight-sleep",
+   "category": "consumer",
+   "ats": "ashby",
+   "token": "eightsleep"
+  },
+  {
+   "name": "Epirus",
+   "slug": "epirus",
+   "category": "defense",
+   "ats": "greenhouse",
+   "token": "epirus"
+  },
+  {
+   "name": "Etched",
+   "slug": "etched",
+   "category": "semiconductors",
+   "ats": "ashby",
+   "token": "etched"
+  },
+  {
+   "name": "Everpure",
+   "slug": "everpure",
+   "category": "compute",
+   "ats": "greenhouse",
+   "token": "purestorage"
+  },
+  {
+   "name": "Extropic",
+   "slug": "extropic",
+   "category": "semiconductors",
+   "ats": "ashby",
+   "token": "extropic"
+  },
+  {
+   "name": "Figure",
+   "slug": "figure",
+   "category": "robotics",
+   "ats": "greenhouse",
+   "token": "figureai"
+  },
+  {
+   "name": "Form Energy",
+   "slug": "form-energy",
+   "category": "energy",
+   "ats": "ashby",
+   "token": "formenergy"
+  },
+  {
+   "name": "Formlabs",
+   "slug": "formlabs",
+   "category": "manufacturing",
+   "ats": "greenhouse",
+   "token": "formlabs"
+  },
+  {
+   "name": "Gecko Robotics",
+   "slug": "gecko-robotics",
+   "category": "robotics",
+   "ats": "ashby",
+   "token": "gecko-robotics"
+  },
+  {
+   "name": "HawkEye 360",
+   "slug": "hawkeye-360",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "hawkeye360"
+  },
+  {
+   "name": "Helion",
+   "slug": "helion",
+   "category": "fusion-nuclear",
+   "ats": "ashby",
+   "token": "helion"
+  },
+  {
+   "name": "Hermeus",
+   "slug": "hermeus",
+   "category": "aerospace",
+   "ats": "lever",
+   "token": "hermeus"
+  },
+  {
+   "name": "Impinj",
+   "slug": "impinj",
+   "category": "semiconductors",
+   "ats": "greenhouse",
+   "token": "impinj"
+  },
+  {
+   "name": "IonQ",
+   "slug": "ionq",
+   "category": "quantum",
+   "ats": "greenhouse",
+   "token": "ionq"
+  },
+  {
+   "name": "K2 Space",
+   "slug": "k2-space",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "k2spacecorporation"
+  },
+  {
+   "name": "Kairos Power",
+   "slug": "kairos-power",
+   "category": "fusion-nuclear",
+   "ats": "greenhouse",
+   "token": "kairospower"
+  },
+  {
+   "name": "Kodiak Robotics",
+   "slug": "kodiak",
+   "category": "autonomy",
+   "ats": "greenhouse",
+   "token": "kodiak"
+  },
+  {
+   "name": "Lambda",
+   "slug": "lambda",
+   "category": "compute",
+   "ats": "ashby",
+   "token": "lambda"
+  },
+  {
+   "name": "Lightmatter",
+   "slug": "lightmatter",
+   "category": "photonics",
+   "ats": "greenhouse",
+   "token": "lightmatter"
+  },
+  {
+   "name": "Loft Orbital",
+   "slug": "loft-orbital",
+   "category": "space",
+   "ats": "lever",
+   "token": "loftorbital"
+  },
+  {
+   "name": "Lucid Motors",
+   "slug": "lucid",
+   "category": "ev",
+   "ats": "greenhouse",
+   "token": "lucidmotors"
+  },
+  {
+   "name": "Magic Leap",
+   "slug": "magic-leap",
+   "category": "consumer",
+   "ats": "greenhouse",
+   "token": "magicleap"
+  },
+  {
+   "name": "Markforged",
+   "slug": "markforged",
+   "category": "manufacturing",
+   "ats": "greenhouse",
+   "token": "markforged"
+  },
+  {
+   "name": "MatX",
+   "slug": "matx",
+   "category": "semiconductors",
+   "ats": "ashby",
+   "token": "matx"
+  },
+  {
+   "name": "May Mobility",
+   "slug": "may-mobility",
+   "category": "autonomy",
+   "ats": "greenhouse",
+   "token": "maymobility"
+  },
+  {
+   "name": "Motional",
+   "slug": "motional",
+   "category": "autonomy",
+   "ats": "greenhouse",
+   "token": "motional"
+  },
+  {
+   "name": "Motive",
+   "slug": "motive",
+   "category": "devices",
+   "ats": "greenhouse",
+   "token": "gomotive"
+  },
+  {
+   "name": "Muon Space",
+   "slug": "muon-space",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "muonspace"
+  },
+  {
+   "name": "Neuralink",
+   "slug": "neuralink",
+   "category": "medical",
+   "ats": "greenhouse",
+   "token": "neuralink"
+  },
+  {
+   "name": "Nuro",
+   "slug": "nuro",
+   "category": "autonomy",
+   "ats": "greenhouse",
+   "token": "nuro"
+  },
+  {
+   "name": "Oklo",
+   "slug": "oklo",
+   "category": "fusion-nuclear",
+   "ats": "greenhouse",
+   "token": "oklo"
+  },
+  {
+   "name": "Oura",
+   "slug": "oura",
+   "category": "consumer",
+   "ats": "greenhouse",
+   "token": "oura"
+  },
+  {
+   "name": "Path Robotics",
+   "slug": "path-robotics",
+   "category": "robotics",
+   "ats": "greenhouse",
+   "token": "pathrobotics"
+  },
+  {
+   "name": "Peloton",
+   "slug": "peloton",
+   "category": "consumer",
+   "ats": "greenhouse",
+   "token": "peloton"
+  },
+  {
+   "name": "Physical Intelligence",
+   "slug": "physical-intelligence",
+   "category": "robotics",
+   "ats": "ashby",
+   "token": "physicalintelligence"
+  },
+  {
+   "name": "Planet",
+   "slug": "planet",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "planetlabs"
+  },
+  {
+   "name": "PsiQuantum",
+   "slug": "psiquantum",
+   "category": "quantum",
+   "ats": "greenhouse",
+   "token": "psiquantum"
+  },
+  {
+   "name": "Quilter",
+   "slug": "quilter",
+   "category": "eda",
+   "ats": "ashby",
+   "token": "quilter"
+  },
+  {
+   "name": "Redwood Materials",
+   "slug": "redwood-materials",
+   "category": "energy",
+   "ats": "greenhouse",
+   "token": "redwoodmaterials"
+  },
+  {
+   "name": "Relativity Space",
+   "slug": "relativity-space",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "relativity"
+  },
+  {
+   "name": "Rigetti Computing",
+   "slug": "rigetti",
+   "category": "quantum",
+   "ats": "lever",
+   "token": "rigetti"
+  },
+  {
+   "name": "Rocket Lab",
+   "slug": "rocket-lab",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "rocketlab"
+  },
+  {
+   "name": "Roku",
+   "slug": "roku",
+   "category": "consumer",
+   "ats": "greenhouse",
+   "token": "roku"
+  },
+  {
+   "name": "SambaNova",
+   "slug": "sambanova",
+   "category": "semiconductors",
+   "ats": "greenhouse",
+   "token": "sambanovasystems"
+  },
+  {
+   "name": "Samsara",
+   "slug": "samsara",
+   "category": "devices",
+   "ats": "greenhouse",
+   "token": "samsara"
+  },
+  {
+   "name": "Saronic Technologies",
+   "slug": "saronic",
+   "category": "defense",
+   "ats": "ashby",
+   "token": "saronic"
+  },
+  {
+   "name": "Shield AI",
+   "slug": "shield-ai",
+   "category": "defense",
+   "ats": "lever",
+   "token": "shieldai"
+  },
+  {
+   "name": "Sila",
+   "slug": "sila",
+   "category": "energy",
+   "ats": "lever",
+   "token": "sila"
+  },
+  {
+   "name": "SimpliSafe",
+   "slug": "simplisafe",
+   "category": "devices",
+   "ats": "greenhouse",
+   "token": "simplisafe"
+  },
+  {
+   "name": "Skydio",
+   "slug": "skydio",
+   "category": "aerospace",
+   "ats": "ashby",
+   "token": "skydio"
+  },
+  {
+   "name": "SpaceX",
+   "slug": "spacex",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "spacex"
+  },
+  {
+   "name": "SPAN",
+   "slug": "span",
+   "category": "energy",
+   "ats": "ashby",
+   "token": "span"
+  },
+  {
+   "name": "Spire Global",
+   "slug": "spire",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "spire"
+  },
+  {
+   "name": "Standard Bots",
+   "slug": "standard-bots",
+   "category": "robotics",
+   "ats": "ashby",
+   "token": "standardbots"
+  },
+  {
+   "name": "Tenstorrent",
+   "slug": "tenstorrent",
+   "category": "semiconductors",
+   "ats": "greenhouse",
+   "token": "tenstorrent"
+  },
+  {
+   "name": "The Bot Company",
+   "slug": "the-bot-company",
+   "category": "robotics",
+   "ats": "ashby",
+   "token": "thebotcompany"
+  },
+  {
+   "name": "Tonal",
+   "slug": "tonal",
+   "category": "consumer",
+   "ats": "ashby",
+   "token": "tonal"
+  },
+  {
+   "name": "Ursa Major",
+   "slug": "ursa-major",
+   "category": "aerospace",
+   "ats": "greenhouse",
+   "token": "ursamajor"
+  },
+  {
+   "name": "Varda Space Industries",
+   "slug": "varda",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "vardaspace"
+  },
+  {
+   "name": "Vast",
+   "slug": "vast",
+   "category": "space",
+   "ats": "greenhouse",
+   "token": "vast"
+  },
+  {
+   "name": "Verkada",
+   "slug": "verkada",
+   "category": "devices",
+   "ats": "greenhouse",
+   "token": "verkada"
+  },
+  {
+   "name": "Waabi",
+   "slug": "waabi",
+   "category": "autonomy",
+   "ats": "lever",
+   "token": "waabi"
+  },
+  {
+   "name": "Waymo",
+   "slug": "waymo",
+   "category": "autonomy",
+   "ats": "greenhouse",
+   "token": "waymo"
+  },
+  {
+   "name": "WHOOP",
+   "slug": "whoop",
+   "category": "consumer",
+   "ats": "ashby",
+   "token": "whoop"
+  },
+  {
+   "name": "Zipline",
+   "slug": "zipline",
+   "category": "aerospace",
+   "ats": "greenhouse",
+   "token": "flyzipline"
+  },
+  {
+   "name": "Zoox",
+   "slug": "zoox",
+   "category": "autonomy",
+   "ats": "lever",
+   "token": "zoox"
+  }
+ ],
+ "presets": {
+  "hardware": [
+   "1x",
+   "aeva",
+   "agility-robotics",
+   "anduril",
+   "apptronik",
+   "archer",
+   "astera-labs",
+   "astranis",
+   "atom-computing",
+   "axon",
+   "blacksky",
+   "boom-supersonic",
+   "brinc",
+   "butterfly-network",
+   "capella-space",
+   "carbon-robotics",
+   "cerebras",
+   "cesiumastro",
+   "commonwealth-fusion",
+   "coreweave",
+   "crusoe",
+   "dexterity",
+   "divergent",
+   "eight-sleep",
+   "epirus",
+   "etched",
+   "everpure",
+   "extropic",
+   "figure",
+   "form-energy",
+   "formlabs",
+   "gecko-robotics",
+   "hawkeye-360",
+   "helion",
+   "hermeus",
+   "impinj",
+   "ionq",
+   "k2-space",
+   "kairos-power",
+   "kodiak",
+   "lambda",
+   "lightmatter",
+   "loft-orbital",
+   "lucid",
+   "magic-leap",
+   "markforged",
+   "matx",
+   "may-mobility",
+   "motional",
+   "motive",
+   "muon-space",
+   "neuralink",
+   "nuro",
+   "oklo",
+   "oura",
+   "path-robotics",
+   "peloton",
+   "physical-intelligence",
+   "planet",
+   "psiquantum",
+   "quilter",
+   "redwood-materials",
+   "relativity-space",
+   "rigetti",
+   "rocket-lab",
+   "roku",
+   "sambanova",
+   "samsara",
+   "saronic",
+   "shield-ai",
+   "sila",
+   "simplisafe",
+   "skydio",
+   "spacex",
+   "span",
+   "spire",
+   "standard-bots",
+   "tenstorrent",
+   "the-bot-company",
+   "tonal",
+   "ursa-major",
+   "varda",
+   "vast",
+   "verkada",
+   "waabi",
+   "waymo",
+   "whoop",
+   "zipline",
+   "zoox"
+  ],
+  "semiconductors": [
+   "aeva",
+   "astera-labs",
+   "atom-computing",
+   "cerebras",
+   "etched",
+   "extropic",
+   "impinj",
+   "ionq",
+   "lightmatter",
+   "matx",
+   "psiquantum",
+   "quilter",
+   "rigetti",
+   "sambanova",
+   "tenstorrent"
+  ],
+  "space_aerospace_defense": [
+   "anduril",
+   "archer",
+   "astranis",
+   "blacksky",
+   "boom-supersonic",
+   "brinc",
+   "capella-space",
+   "cesiumastro",
+   "epirus",
+   "hawkeye-360",
+   "hermeus",
+   "k2-space",
+   "loft-orbital",
+   "muon-space",
+   "planet",
+   "relativity-space",
+   "rocket-lab",
+   "saronic",
+   "shield-ai",
+   "skydio",
+   "spacex",
+   "spire",
+   "ursa-major",
+   "varda",
+   "vast",
+   "zipline"
+  ],
+  "robotics_autonomy": [
+   "1x",
+   "agility-robotics",
+   "apptronik",
+   "carbon-robotics",
+   "dexterity",
+   "figure",
+   "gecko-robotics",
+   "kodiak",
+   "may-mobility",
+   "motional",
+   "nuro",
+   "path-robotics",
+   "physical-intelligence",
+   "standard-bots",
+   "the-bot-company",
+   "waabi",
+   "waymo",
+   "zoox"
+  ],
+  "energy_ev": [
+   "commonwealth-fusion",
+   "form-energy",
+   "helion",
+   "kairos-power",
+   "lucid",
+   "oklo",
+   "redwood-materials",
+   "sila",
+   "span"
+  ],
+  "devices_consumer_medical": [
+   "axon",
+   "butterfly-network",
+   "coreweave",
+   "crusoe",
+   "divergent",
+   "eight-sleep",
+   "everpure",
+   "formlabs",
+   "lambda",
+   "magic-leap",
+   "markforged",
+   "motive",
+   "neuralink",
+   "oura",
+   "peloton",
+   "roku",
+   "samsara",
+   "simplisafe",
+   "tonal",
+   "verkada",
+   "whoop"
+  ]
+ }
+}

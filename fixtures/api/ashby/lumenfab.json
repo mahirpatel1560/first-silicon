@@ -1,0 +1,187 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "9c000001-1d2e-4f5a-8b6c-200000104729",
+      "title": "Photonics Test Intern",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Characterize silicon photonics chips: insertion loss, spectra and optical alignment.</p><ul><li>Python automation of lasers and photodetectors</li><li>Fiber alignment</li></ul><p>Rising sophomores are encouraged to apply.</p>",
+      "descriptionPlain": "Characterize silicon photonics chips: insertion loss, spectra and optical alignment.\n• Python automation of lasers and photodetectors\n• Fiber alignment\nRising sophomores are encouraged to apply.",
+      "publishedAt": "2026-09-22T16:05:11.201+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000001-1d2e-4f5a-8b6c-200000104729",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000001-1d2e-4f5a-8b6c-200000104729/application",
+      "shouldDisplayCompensationOnJobPostings": true,
+      "compensation": {
+        "compensationTierSummary": "$30 – $38 per hour",
+        "scrapeableCompensationSalarySummary": "$30 – $38 per hour",
+        "compensationTiers": [
+          {
+            "id": "tier-1",
+            "tierSummary": "$30 – $38 per hour",
+            "title": "Intern",
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "c-1",
+                "summary": "$30 – $38 per hour",
+                "compensationType": "Salary",
+                "interval": "1 HOUR",
+                "currencyCode": "USD",
+                "minValue": 30,
+                "maxValue": 38
+              }
+            ]
+          }
+        ],
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "interval": "1 HOUR",
+            "currencyCode": "USD",
+            "minValue": 30,
+            "maxValue": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c000002-1d2e-4f5a-8b6c-200000209458",
+      "title": "Process Engineering Intern (Summer 2027)",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Support lithography, etch and thin-film deposition in our cleanroom; analyze metrology data with SPC.</p><p>This position requires access to export-controlled information subject to the EAR.</p>",
+      "descriptionPlain": "Support lithography, etch and thin-film deposition in our cleanroom; analyze metrology data with SPC.\nThis position requires access to export-controlled information subject to the EAR.",
+      "publishedAt": "2026-09-11T16:05:11.201+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000002-1d2e-4f5a-8b6c-200000209458",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000002-1d2e-4f5a-8b6c-200000209458/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000003-1d2e-4f5a-8b6c-200000314187",
+      "title": "Laser Systems Co-op",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Assemble and test laser modules and optical packaging.</p><p>Open to third-year students or above in optics, physics or electrical engineering.</p>",
+      "descriptionPlain": "Assemble and test laser modules and optical packaging.\nOpen to third-year students or above in optics, physics or electrical engineering.",
+      "publishedAt": "2026-09-02T16:05:11.201+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000003-1d2e-4f5a-8b6c-200000314187",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000003-1d2e-4f5a-8b6c-200000314187/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000004-1d2e-4f5a-8b6c-200000418916",
+      "title": "Senior Optical Engineer",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Lead lens design in Zemax.</p>",
+      "descriptionPlain": "Lead lens design in Zemax.",
+      "publishedAt": "2026-08-15T16:05:11.201+00:00",
+      "employmentType": "FullTime",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000004-1d2e-4f5a-8b6c-200000418916",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000004-1d2e-4f5a-8b6c-200000418916/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000005-1d2e-4f5a-8b6c-200000523645",
+      "title": "Operations Intern",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Operations",
+      "team": "Operations",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Improve purchasing and logistics workflows.</p>",
+      "descriptionPlain": "Improve purchasing and logistics workflows.",
+      "publishedAt": "2026-09-15T16:05:11.201+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000005-1d2e-4f5a-8b6c-200000523645",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000005-1d2e-4f5a-8b6c-200000523645/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000006-1d2e-4f5a-8b6c-200000628374",
+      "title": "Unlisted Hardware Intern",
+      "location": "Tucson, AZ",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": false,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Internal placeholder.</p>",
+      "descriptionPlain": "Internal placeholder.",
+      "publishedAt": "2026-09-15T16:05:11.201+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Tucson",
+          "addressRegion": "AZ",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenfab/9c000006-1d2e-4f5a-8b6c-200000628374",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenfab/9c000006-1d2e-4f5a-8b6c-200000628374/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    }
+  ]
+}

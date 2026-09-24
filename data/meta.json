@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "last_run": null,
+  "status": "pending_first_run",
+  "note": "No live run yet: the build container's egress proxy blocked the job-board API hosts. The daily GitHub Action (.github/workflows/update.yml) fills this file on its first run."
+}

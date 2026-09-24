@@ -1,0 +1,73 @@
+name: Daily data update
+
+# Runs once a day: re-probes stale job boards, fetches every verified board, classifies roles,
+# rewrites data/*.json + README.md, rebuilds dist/, drafts the weekly newsletter on Mondays,
+# and commits the result. It never deploys or sends anything.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'README.md', 'dist/**', 'newsletter/**', 'config/companies.json']
+  schedule:
+    - cron: '17 11 * * *' # 11:17 UTC, about 6 a.m. US Central
+  workflow_dispatch:
+    inputs:
+      probe_all:
+        description: 'Re-probe every employer, including unsupported/not-found ones'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Unit tests (offline, fixtures only)
+        run: npm test
+
+      - name: Probe job boards whose last check is older than 7 days
+        run: node scripts/probe.mjs --stale-days 7 ${{ inputs.probe_all && '--all' || '' }}
+        continue-on-error: true
+
+      - name: Fetch, classify, write data/ and README.md
+        run: node scripts/fetch.mjs
+
+      - name: Rebuild the static site (dist/)
+        run: node build.mjs
+
+      - name: Draft the weekly newsletter (Mondays, or when run by hand)
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node scripts/newsletter.mjs
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data README.md dist config/companies.json newsletter || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "data: daily update $(date -u +%Y-%m-%d)"
+          git push

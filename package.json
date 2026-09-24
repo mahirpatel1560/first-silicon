@@ -1,0 +1,31 @@
+{
+  "name": "firstsilicon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "First Silicon: hardware, EE, embedded and semiconductor internships freshmen and sophomores can apply to, updated automatically.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "probe": "node scripts/probe.mjs",
+    "build": "node scripts/sync-actor.mjs && node build.mjs",
+    "build:demo": "node scripts/make-demo-data.mjs && node build.mjs --data .demo-data --out .demo-dist --demo",
+    "newsletter": "node scripts/newsletter.mjs",
+    "sync:actor": "node scripts/sync-actor.mjs",
+    "test": "node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "node --test --test-concurrency=1 \"tests/e2e/*.test.mjs\"",
+    "og": "node scripts/og.mjs",
+    "serve": "node scripts/serve.mjs dist 8080",
+    "test:actor": "node scripts/sync-actor.mjs --check && cd apify-actor && node test-local.mjs",
+    "readme": "node scripts/write-readme.mjs",
+    "fixtures": "node fixtures/make-fixtures.mjs"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "axe-core": "^4.13.0",
+    "esbuild": "^0.25.12",
+    "playwright": "^1.56.0"
+  }
+}

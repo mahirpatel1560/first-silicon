@@ -1,0 +1,145 @@
+{
+  "title": "ATS Internship & Job Feed input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "preset": {
+      "title": "Preset employer list",
+      "type": "string",
+      "description": "A curated list of hardware-heavy employers whose public job boards answered when last checked. Combine with your own boards below.",
+      "editor": "select",
+      "enum": [
+        "none",
+        "hardware",
+        "semiconductors",
+        "space_aerospace_defense",
+        "robotics_autonomy",
+        "energy_ev",
+        "devices_consumer_medical"
+      ],
+      "enumTitles": [
+        "None (only the boards listed below)",
+        "Hardware employers (89 boards)",
+        "Semiconductors, EDA, photonics, quantum (15)",
+        "Space, aerospace, defense (26)",
+        "Robotics and autonomy (18)",
+        "Energy, EV, fusion and nuclear (9)",
+        "Devices, consumer, medical, compute (21)"
+      ],
+      "default": "hardware"
+    },
+    "companies": {
+      "title": "Job boards",
+      "type": "array",
+      "description": "Boards to read, one per line: greenhouse:TOKEN, lever:SITE, ashby:BOARD, or a public board URL such as https://boards.greenhouse.io/acme, https://jobs.lever.co/acme or https://jobs.ashbyhq.com/acme. Lever site names are case-sensitive.",
+      "editor": "stringList",
+      "prefill": [
+        "greenhouse:spacex",
+        "lever:zoox",
+        "ashby:etched"
+      ]
+    },
+    "keywords": {
+      "title": "Keywords (optional)",
+      "type": "array",
+      "description": "Keep postings whose title or description contains at least one of these words (case-insensitive).",
+      "editor": "stringList"
+    },
+    "internshipOnly": {
+      "title": "Internships and co-ops only",
+      "type": "boolean",
+      "description": "Keep only postings detected as internships, co-ops or student roles.",
+      "default": true
+    },
+    "hardwareOnly": {
+      "title": "Hardware roles only",
+      "type": "boolean",
+      "description": "Keep only postings scored as hardware/EE work (embedded, FPGA/ASIC, analog, RF, power, PCB, test, controls, semiconductor process, photonics).",
+      "default": false
+    },
+    "disciplines": {
+      "title": "Disciplines (optional)",
+      "type": "array",
+      "description": "Keep postings tagged with any of these hardware disciplines.",
+      "editor": "select",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "embedded",
+          "digital",
+          "analog",
+          "rf",
+          "power",
+          "pcb",
+          "test",
+          "controls",
+          "process",
+          "photonics",
+          "general"
+        ],
+        "enumTitles": [
+          "Embedded/firmware",
+          "FPGA/RTL/ASIC",
+          "Analog/mixed-signal",
+          "RF/wireless",
+          "Power electronics",
+          "PCB/hardware design",
+          "Test/validation",
+          "Controls/robotics",
+          "Semiconductor process/device",
+          "Photonics/optics",
+          "General EE (hardware, no specific tag)"
+        ]
+      }
+    },
+    "classYear": {
+      "title": "Class-year signal",
+      "type": "string",
+      "description": "fs = the posting mentions first-year/sophomore/rising-junior eligibility or a freshman/sophomore graduation year; jplus = junior/senior standing, earlier graduation or a graduate degree; open = anything except jplus.",
+      "editor": "select",
+      "enum": [
+        "any",
+        "fs",
+        "open",
+        "jplus"
+      ],
+      "enumTitles": [
+        "Any",
+        "Freshman/sophomore friendly",
+        "Friendly or not stated",
+        "Juniors and above only"
+      ],
+      "default": "any"
+    },
+    "excludeRestricted": {
+      "title": "Exclude citizenship, export-control and clearance flags",
+      "type": "boolean",
+      "description": "Drop postings whose text mentions US citizenship, US person/permanent residency, ITAR/EAR export control or a security clearance.",
+      "default": false
+    },
+    "maxItems": {
+      "title": "Max items",
+      "type": "integer",
+      "description": "Stop after this many dataset items.",
+      "minimum": 1,
+      "maximum": 100000,
+      "default": 1000
+    },
+    "includeSnippet": {
+      "title": "Include label evidence",
+      "type": "boolean",
+      "description": "Add up to 300 characters from the posting that explain the class-year and flag labels. Full descriptions are never stored.",
+      "default": true
+    },
+    "requestDelayMs": {
+      "title": "Delay between boards",
+      "type": "integer",
+      "description": "Pause between board requests. Keep it polite.",
+      "minimum": 250,
+      "maximum": 10000,
+      "default": 800,
+      "unit": "ms"
+    }
+  }
+}

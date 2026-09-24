@@ -1,0 +1,14 @@
+{
+  "actorSpecification": 1,
+  "name": "ats-internship-job-feed",
+  "title": "ATS Internship & Job Feed — Greenhouse, Lever, Ashby",
+  "description": "Reads public Greenhouse, Lever and Ashby job boards and returns clean JSON: internship/co-op detection, term, hardware discipline tags, a class-year signal (freshman/sophomore friendly vs juniors+) and US-citizenship/ITAR/clearance flags.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "./Dockerfile",
+  "readme": "../README.md"
+}

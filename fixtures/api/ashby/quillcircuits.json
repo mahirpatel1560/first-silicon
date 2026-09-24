@@ -1,0 +1,141 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "9c000007-1d2e-4f5a-8b6c-200000733103",
+      "title": "Hardware Engineering Intern",
+      "location": "Remote",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "descriptionHtml": "<p>Design reference boards that exercise our PCB layout automation: schematics, Altium and KiCad layouts, and bring-up.</p><p>Students of all class years are welcome.</p>",
+      "descriptionPlain": "Design reference boards that exercise our PCB layout automation: schematics, Altium and KiCad layouts, and bring-up.\nStudents of all class years are welcome.",
+      "publishedAt": "2026-09-20T13:00:00.000+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "",
+          "addressRegion": "",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000007-1d2e-4f5a-8b6c-200000733103",
+      "applyUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000007-1d2e-4f5a-8b6c-200000733103/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000008-1d2e-4f5a-8b6c-200000837832",
+      "title": "PCB Layout Intern",
+      "location": "Remote (US)",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "descriptionHtml": "<p>Lay out four- and six-layer boards, run DFM checks and prepare fabrication outputs.</p>",
+      "descriptionPlain": "Lay out four- and six-layer boards, run DFM checks and prepare fabrication outputs.",
+      "publishedAt": "2026-09-06T13:00:00.000+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "",
+          "addressRegion": "",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000008-1d2e-4f5a-8b6c-200000837832",
+      "applyUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000008-1d2e-4f5a-8b6c-200000837832/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000009-1d2e-4f5a-8b6c-200000942561",
+      "title": "Signal Integrity Intern",
+      "location": "Boulder, CO",
+      "secondaryLocations": [
+        {
+          "location": "San Jose, CA",
+          "address": {
+            "postalAddress": {
+              "addressLocality": "San Jose",
+              "addressRegion": "CA",
+              "addressCountry": "United States"
+            }
+          }
+        }
+      ],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "descriptionHtml": "<p>Simulate high-speed interfaces and power integrity for DDR and PCIe boards.</p><p>Currently pursuing an MS or PhD in electrical engineering.</p>",
+      "descriptionPlain": "Simulate high-speed interfaces and power integrity for DDR and PCIe boards.\nCurrently pursuing an MS or PhD in electrical engineering.",
+      "publishedAt": "2026-09-13T13:00:00.000+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Boulder",
+          "addressRegion": "CO",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000009-1d2e-4f5a-8b6c-200000942561",
+      "applyUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000009-1d2e-4f5a-8b6c-200000942561/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000010-1d2e-4f5a-8b6c-200001047290",
+      "title": "FPGA Tools Intern",
+      "location": "Boulder, CO",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Hardware",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "descriptionHtml": "<p>Build FPGA reference designs in Verilog and script Vivado builds that validate our tools.</p><p>Open to undergraduates of any class year.</p>",
+      "descriptionPlain": "Build FPGA reference designs in Verilog and script Vivado builds that validate our tools.\nOpen to undergraduates of any class year.",
+      "publishedAt": "2026-09-03T13:00:00.000+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Boulder",
+          "addressRegion": "CO",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000010-1d2e-4f5a-8b6c-200001047290",
+      "applyUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000010-1d2e-4f5a-8b6c-200001047290/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    },
+    {
+      "id": "9c000011-1d2e-4f5a-8b6c-200001152019",
+      "title": "Growth Marketing Intern",
+      "location": "Remote",
+      "secondaryLocations": [],
+      "department": "Marketing",
+      "team": "Marketing",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "descriptionHtml": "<p>Run campaigns and write content.</p>",
+      "descriptionPlain": "Run campaigns and write content.",
+      "publishedAt": "2026-09-18T13:00:00.000+00:00",
+      "employmentType": "Intern",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "Remote",
+          "addressRegion": "",
+          "addressCountry": "United States"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000011-1d2e-4f5a-8b6c-200001152019",
+      "applyUrl": "https://jobs.ashbyhq.com/quillcircuits/9c000011-1d2e-4f5a-8b6c-200001152019/application",
+      "shouldDisplayCompensationOnJobPostings": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+apify-actor/node_modules/
+apify-actor/storage/
+apify-actor/.tmp-*
+.demo-data/
+.demo-dist/
+tests/e2e/.last-run.json
+*.log
+.DS_Store

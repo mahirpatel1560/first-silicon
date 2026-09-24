@@ -1,0 +1,592 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100137",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100137,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7100137,
+      "updated_at": "2026-09-21T10:15:00-07:00",
+      "requisition_id": "R-137",
+      "title": "Design Verification Intern (Summer 2027)",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-21T10:15:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Join the verification team for our next networking SoC.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write SystemVerilog testbenches and UVM sequences for a DMA block&lt;/li&gt;&lt;li&gt;Run regressions, debug waveforms and track functional coverage&lt;/li&gt;&lt;li&gt;Automate reports in Python&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Open to undergraduates of all class years studying electrical or computer engineering.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100274",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100274,
+      "location": {
+        "name": "Austin, TX"
+      },
+      "metadata": null,
+      "id": 7100274,
+      "updated_at": "2026-09-22T09:00:00-05:00",
+      "requisition_id": "R-274",
+      "title": "Design Verification Intern (Summer 2027)",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-22T09:00:00-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Same team, Austin site.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SystemVerilog and UVM testbenches&lt;/li&gt;&lt;li&gt;Coverage closure&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Open to undergraduates of all class years.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Austin, TX",
+          "location": "Austin, TX",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100411",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100411,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7100411,
+      "updated_at": "2026-09-15T08:00:00-07:00",
+      "requisition_id": "R-411",
+      "title": "Analog IC Design Intern - Summer 2027",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-15T08:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Design and simulate data converter building blocks in Cadence Virtuoso and Spectre.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Transistor-level design of comparators and bandgap references&lt;/li&gt;&lt;li&gt;Monte Carlo and corner simulation&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Candidates must be currently pursuing a Master's or PhD in Electrical Engineering.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100548",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100548,
+      "location": {
+        "name": "Austin, Texas, United States"
+      },
+      "metadata": null,
+      "id": 7100548,
+      "updated_at": "2026-08-28T12:00:00-05:00",
+      "requisition_id": "R-548",
+      "title": "Physical Design Student Worker",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-08-28T12:00:00-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Help the physical design team with place and route, timing closure and static timing analysis.&lt;/p&gt;&lt;p&gt;Applicants should have an expected graduation date between December 2027 and June 2028.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Austin, Texas, United States",
+          "location": "Austin, Texas, United States",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100685",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100685,
+      "location": {
+        "name": "Hybrid - San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7100685,
+      "updated_at": "2026-09-19T11:00:00-07:00",
+      "requisition_id": "R-685",
+      "title": "FPGA Prototyping Intern",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-19T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Bring up our RTL on FPGA prototyping boards and debug it in the lab.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Verilog and Vivado&lt;/li&gt;&lt;li&gt;Lab work with oscilloscopes and logic analyzers&lt;/li&gt;&lt;li&gt;Write embedded C test code for a soft-core MCU&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Rising sophomores and juniors are welcome to apply.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hybrid - San Jose, CA",
+          "location": "Hybrid - San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100822",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100822,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7100822,
+      "updated_at": "2026-09-18T11:00:00-07:00",
+      "requisition_id": "R-822",
+      "title": "Product Marketing Intern",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-18T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Write launch content and competitive analysis.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Marketing",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7100959",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4100959,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": null,
+      "id": 7100959,
+      "updated_at": "2026-09-17T11:00:00-07:00",
+      "requisition_id": "R-959",
+      "title": "Software Engineering Intern, Cloud Tools",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-17T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Build web dashboards with React, TypeScript and SQL on AWS.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Software",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Remote - US",
+          "location": "Remote - US",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101096",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101096,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7101096,
+      "updated_at": "2026-09-10T11:00:00-07:00",
+      "requisition_id": "R-1096",
+      "title": "University Recruiter, Internships",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-10T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Own our campus recruiting calendar for interns.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "People",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101233",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101233,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7101233,
+      "updated_at": "2026-09-02T11:00:00-07:00",
+      "requisition_id": "R-1233",
+      "title": "Senior Analog Design Engineer",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-02T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Lead PLL design. 8+ years of experience.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101370",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101370,
+      "location": {
+        "name": "Austin, TX"
+      },
+      "metadata": null,
+      "id": 7101370,
+      "updated_at": "2026-09-12T09:00:00-05:00",
+      "requisition_id": "R-1370",
+      "title": "Post-Silicon Validation Co-op (Spring 2027)",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-12T09:00:00-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Validate first silicon on the bench: bring-up, characterization and automated test with PyVISA.&lt;/p&gt;&lt;p&gt;Must have completed sophomore year by the start of the co-op.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Austin, TX",
+          "location": "Austin, TX",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101507",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101507,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7101507,
+      "updated_at": "2026-09-17T10:00:00-07:00",
+      "requisition_id": "R-1507",
+      "title": "RTL Design Intern (Summer 2027)",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-17T10:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Write synthesizable SystemVerilog for a packet-processing block and run lint and synthesis.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RTL coding and microarchitecture reviews&lt;/li&gt;&lt;li&gt;Timing closure support&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101644",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101644,
+      "location": {
+        "name": "Austin, TX"
+      },
+      "metadata": null,
+      "id": 7101644,
+      "updated_at": "2026-09-05T10:00:00-05:00",
+      "requisition_id": "R-1644",
+      "title": "ASIC Emulation Intern",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-05T10:00:00-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Map RTL onto FPGA-based emulation systems and debug failing tests with the verification team.&lt;/p&gt;&lt;p&gt;We are looking for juniors and seniors in electrical or computer engineering.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Austin, TX",
+          "location": "Austin, TX",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/vireosilicon/jobs/7101781",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101781,
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "metadata": null,
+      "id": 7101781,
+      "updated_at": "2026-09-05T11:00:00-07:00",
+      "requisition_id": "R-1781",
+      "title": "Internal Tools Engineer",
+      "company_name": "Vireo Silicon",
+      "first_published": "2026-09-05T11:00:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Maintain internal tooling.&lt;/p&gt;&lt;p&gt;Vireo is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, citizenship status, disability or protected veteran status.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "IT",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "San Jose, CA",
+          "location": "San Jose, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 13
+  }
+}

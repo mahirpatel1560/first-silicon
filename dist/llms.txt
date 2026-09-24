@@ -1,0 +1,23 @@
+# First Silicon
+
+> Hardware, EE, embedded and semiconductor internships and co-ops from employer job boards, labeled by discipline, class year and citizenship flags. Updated daily. Focused on roles that first- and second-year students can apply to.
+
+## Key pages
+- [Open roles](https://firstsilicon.pages.dev/): filterable list of hardware internships and co-ops (discipline, class year, citizenship/export flags, term, location)
+- [Programs calendar](https://firstsilicon.pages.dev/programs/): government and national-lab programs open before junior year, verified on official pages
+- [Discipline guides](https://firstsilicon.pages.dev/disciplines/): what each hardware discipline involves and how to prepare
+- [How it works](https://firstsilicon.pages.dev/how-it-works/): sources, update cadence, labeling rules and limits
+- [Current data (JSON)](https://firstsilicon.pages.dev/data/jobs.json) and [run metadata](https://firstsilicon.pages.dev/data/meta.json)
+- [About](https://firstsilicon.pages.dev/about/)
+
+## Facts
+- Sources: the public Greenhouse Job Board API (https://developers.greenhouse.io/job-board.html), Lever Postings API (https://github.com/lever/postings-api) and Ashby public job posting API (https://developers.ashbyhq.com/docs/public-job-posting-api).
+- Employer job boards read: 87 (see https://firstsilicon.pages.dev/how-it-works/).
+- The first automatic data run has not happened yet.
+- Programs calendar: 7 programs, each verified on its official page (dates in https://firstsilicon.pages.dev/data/programs.json).
+- Update cadence: once a day. Closed roles are removed on the next run.
+- Labels are automatic pattern matches and can be wrong; the original employer posting is authoritative.
+- Built by Mahir Patel, an electrical-engineering student at the University of Illinois Urbana-Champaign.
+
+## How to cite
+Cite as "First Silicon (firstsilicon.pages.dev), accessed <date>" with a link to the specific page. For a specific role, link to the employer's original posting, not to First Silicon.

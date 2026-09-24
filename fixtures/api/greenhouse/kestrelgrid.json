@@ -1,0 +1,277 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103288",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103288,
+      "location": {
+        "name": "Boston, MA"
+      },
+      "metadata": null,
+      "id": 7103288,
+      "updated_at": "2026-09-18T09:00:00-04:00",
+      "requisition_id": "R-3288",
+      "title": "Power Electronics Intern - Summer 2027",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-18T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Prototype SiC inverters for grid batteries.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gate driver design&lt;/li&gt;&lt;li&gt;Efficiency testing of DC-DC converters&lt;/li&gt;&lt;li&gt;LTspice and PLECS simulation&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Students with sophomore standing or above are eligible.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Boston, MA",
+          "location": "Boston, MA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103425",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103425,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": null,
+      "id": 7103425,
+      "updated_at": "2026-09-09T09:00:00-04:00",
+      "requisition_id": "R-3425",
+      "title": "Battery Management Systems Intern",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-09T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Write firmware and validation tests for our battery management system (BMS).&lt;/p&gt;&lt;p&gt;This internship is for students graduating in 2028.&lt;/p&gt;&lt;p&gt;We are unable to sponsor visas for this internship.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Remote - US",
+          "location": "Remote - US",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103562",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103562,
+      "location": {
+        "name": "Hybrid - Boston, MA"
+      },
+      "metadata": null,
+      "id": 7103562,
+      "updated_at": "2026-09-16T09:00:00-04:00",
+      "requisition_id": "R-3562",
+      "title": "Embedded Software Intern, Inverter Controls",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-16T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Implement control loops in C on TI C2000 microcontrollers for grid-forming inverters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Interrupt-driven firmware&lt;/li&gt;&lt;li&gt;Hardware-in-the-loop testing&lt;/li&gt;&lt;/ul&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hybrid - Boston, MA",
+          "location": "Hybrid - Boston, MA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103699",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103699,
+      "location": {
+        "name": "Boston, MA"
+      },
+      "metadata": null,
+      "id": 7103699,
+      "updated_at": "2026-09-07T09:00:00-04:00",
+      "requisition_id": "R-3699",
+      "title": "Power Hardware Co-op (Spring 2027)",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-07T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Build and test high-voltage converter prototypes; magnetics, gate drivers and thermal testing.&lt;/p&gt;&lt;p&gt;Open to students who are at least a junior in electrical engineering.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Boston, MA",
+          "location": "Boston, MA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103836",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103836,
+      "location": {
+        "name": "Boston, MA"
+      },
+      "metadata": null,
+      "id": 7103836,
+      "updated_at": "2026-09-09T09:00:00-04:00",
+      "requisition_id": "R-3836",
+      "title": "Grid Software Intern",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-09T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Build Python and SQL services on Kubernetes.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Software",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Boston, MA",
+          "location": "Boston, MA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/kestrelgrid/jobs/7103973",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103973,
+      "location": {
+        "name": "Boston, MA; Denver, CO"
+      },
+      "metadata": null,
+      "id": 7103973,
+      "updated_at": "2026-09-01T09:00:00-04:00",
+      "requisition_id": "R-3973",
+      "title": "Controls Engineering Intern (Spring 2027)",
+      "company_name": "Kestrel Grid",
+      "first_published": "2026-09-01T09:00:00-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Tune control loops for grid-forming inverters and model them in Simulink.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Boston, MA; Denver, CO",
+          "location": "Boston, MA; Denver, CO",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 6
+  }
+}

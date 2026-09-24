@@ -1,0 +1,234 @@
+[
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Intern",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1789999200000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nDesign motor driver and sensor boards for our mobile manipulators and bring them up on real robots.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Design motor driver and sensor boards for our mobile manipulators and bring them up on real robots.</p></div>",
+    "id": "3f000001-8e2b-4c1d-9a7b-100000007919",
+    "lists": [
+      {
+        "text": "What you will do",
+        "content": "<li>Schematics and PCB layout in KiCad</li><li>Integrate encoders, IMUs and actuators</li><li>Debug with oscilloscopes</li>"
+      },
+      {
+        "text": "Who we are looking for",
+        "content": "<li>First-year and second-year students are welcome to apply.</li><li>Hands-on project experience</li>"
+      }
+    ],
+    "text": "Robotics Hardware Intern",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Design motor driver and sensor boards for our mobile manipulators and bring them up on real robots.</p></div>",
+    "descriptionBodyPlain": "Design motor driver and sensor boards for our mobile manipulators and bring them up on real robots.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000001-8e2b-4c1d-9a7b-100000007919",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000001-8e2b-4c1d-9a7b-100000007919/apply",
+    "salaryRange": {
+      "currency": "USD",
+      "interval": "per-hour-wage",
+      "min": 28,
+      "max": 34
+    },
+    "salaryDescription": "<div>Hourly pay for interns.</div>",
+    "salaryDescriptionPlain": "Hourly pay for interns."
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Internship",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1789653600000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nWrite firmware for STM32 motor controllers.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Write firmware for STM32 motor controllers.</p></div>",
+    "id": "3f000002-8e2b-4c1d-9a7b-100000015838",
+    "lists": [
+      {
+        "text": "Requirements",
+        "content": "<li>C programming on microcontrollers</li><li>FreeRTOS experience a plus</li><li>CAN bus and SPI drivers</li>"
+      }
+    ],
+    "text": "Embedded Firmware Intern",
+    "country": "US",
+    "workplaceType": "hybrid",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Write firmware for STM32 motor controllers.</p></div>",
+    "descriptionBodyPlain": "Write firmware for STM32 motor controllers.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000002-8e2b-4c1d-9a7b-100000015838",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000002-8e2b-4c1d-9a7b-100000015838/apply"
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Co-op",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1788530400000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nIntegrate actuators, sensors and control electronics on robot arms.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Integrate actuators, sensors and control electronics on robot arms.</p></div>",
+    "id": "3f000003-8e2b-4c1d-9a7b-100000023757",
+    "lists": [
+      {
+        "text": "Requirements",
+        "content": "<li>Junior or senior standing in electrical, mechanical or mechatronics engineering</li><li>Controls coursework</li>"
+      }
+    ],
+    "text": "Mechatronics Co-op",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Integrate actuators, sensors and control electronics on robot arms.</p></div>",
+    "descriptionBodyPlain": "Integrate actuators, sensors and control electronics on robot arms.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000003-8e2b-4c1d-9a7b-100000023757",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000003-8e2b-4c1d-9a7b-100000023757/apply"
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Intern",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1789480800000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nTune joint controllers and state estimation for 7-DoF arms, from Simulink models to real hardware.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Tune joint controllers and state estimation for 7-DoF arms, from Simulink models to real hardware.</p></div>",
+    "id": "3f000004-8e2b-4c1d-9a7b-100000031676",
+    "lists": [
+      {
+        "text": "Who should apply",
+        "content": "<li>First-year students with robotics club experience are encouraged to apply.</li>"
+      }
+    ],
+    "text": "Controls Intern, Robot Arms",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Tune joint controllers and state estimation for 7-DoF arms, from Simulink models to real hardware.</p></div>",
+    "descriptionBodyPlain": "Tune joint controllers and state estimation for 7-DoF arms, from Simulink models to real hardware.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000004-8e2b-4c1d-9a7b-100000031676",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000004-8e2b-4c1d-9a7b-100000031676/apply"
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Intern",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1789567200000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nTrain computer vision models with PyTorch.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Train computer vision models with PyTorch.</p></div>",
+    "id": "3f000005-8e2b-4c1d-9a7b-100000039595",
+    "lists": [
+      {
+        "text": "Requirements",
+        "content": "<li>Deep learning</li><li>Python</li>"
+      }
+    ],
+    "text": "Perception Software Intern",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Train computer vision models with PyTorch.</p></div>",
+    "descriptionBodyPlain": "Train computer vision models with PyTorch.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000005-8e2b-4c1d-9a7b-100000039595",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000005-8e2b-4c1d-9a7b-100000039595/apply"
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA"
+      ]
+    },
+    "createdAt": 1788271200000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nMaintain robots at customer sites.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Maintain robots at customer sites.</p></div>",
+    "id": "3f000006-8e2b-4c1d-9a7b-100000047514",
+    "lists": [],
+    "text": "Field Operations Technician",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Maintain robots at customer sites.</p></div>",
+    "descriptionBodyPlain": "Maintain robots at customer sites.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000006-8e2b-4c1d-9a7b-100000047514",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000006-8e2b-4c1d-9a7b-100000047514/apply"
+  },
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Intern",
+      "department": "Engineering",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "allLocations": [
+        "Pittsburgh, PA",
+        "Austin, TX"
+      ]
+    },
+    "createdAt": 1789048800000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nBuild hardware-in-the-loop rigs and automate validation of robot electronics.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Build hardware-in-the-loop rigs and automate validation of robot electronics.</p></div>",
+    "id": "3f000007-8e2b-4c1d-9a7b-100000055433",
+    "lists": [
+      {
+        "text": "Good to know",
+        "content": "<li>Visa sponsorship is not available for this position.</li>"
+      }
+    ],
+    "text": "Hardware Test Intern",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Build hardware-in-the-loop rigs and automate validation of robot electronics.</p></div>",
+    "descriptionBodyPlain": "Build hardware-in-the-loop rigs and automate validation of robot electronics.",
+    "hostedUrl": "https://jobs.lever.co/tamarackrobotics/3f000007-8e2b-4c1d-9a7b-100000055433",
+    "applyUrl": "https://jobs.lever.co/tamarackrobotics/3f000007-8e2b-4c1d-9a7b-100000055433/apply"
+  }
+]

@@ -1,0 +1,40 @@
+CHANNEL
+r/ECE  https://www.reddit.com/r/ECE/
+
+RULES
+UNVERIFIED. The rules page https://www.reddit.com/r/ECE/about/rules/ could not be loaded from the build
+environment on 2026-09-23 (Reddit blocked the request). Read it before posting. Check in particular:
+- limits on self-promotion or "I built this" posts, and any required flair;
+- whether internship/career posts must go in a weekly or pinned megathread.
+If self-promotion is restricted, message the moderators first and ask whether a free, no-signup student
+resource is OK. Do not cross-post the same text to several subreddits on the same day.
+
+WHEN TO POST
+- Only after the first daily data run, so the list shows real roles (see DEPLOY.txt, step 0).
+- Suggested (a common heuristic, not measured): Tuesday to Thursday, 8 to 10 a.m. US Central,
+  during the September to November summer-internship application season.
+- Stay around for the first two hours to answer questions and fix reported labels.
+
+FILL IN BEFORE POSTING (from https://firstsilicon.pages.dev/data/meta.json)
+[ROLE_COUNT] = counts.roles   [FS_COUNT] = counts.fs   [EMPLOYER_COUNT] = counts.companies   [DATE] = last_run (date part)
+
+TITLE
+I built a free list of hardware internships that shows which ones say freshmen and sophomores can apply
+
+BODY
+I'm an electrical-engineering student at UIUC. The big internship lists are mostly software, and hardware postings rarely make it obvious whether a first- or second-year student can apply. (On Sept 23 the popular Summer 2027 list on GitHub counted 275 hardware engineering roles next to 681 software engineering ones: https://github.com/SimplifyJobs/Summer2027-Internships)
+
+So I made First Silicon: https://firstsilicon.pages.dev/?ref=r-ece
+
+What it does:
+- Reads hardware companies' public job boards once a day (Greenhouse, Lever and Ashby) and keeps the internships and co-ops that look like hardware work.
+- Tags each role by discipline: embedded/firmware, FPGA/RTL/ASIC, analog, RF, power electronics, PCB, test, controls/robotics, semiconductor process and photonics.
+- Labels class year from the posting text. "Fr/So friendly" means it mentions freshmen, sophomores, rising juniors, all class years or 2029/2030 graduation. "Juniors+" means it asks for junior standing or a grad degree.
+- Flags US citizenship, ITAR/export control and clearance requirements, with a filter to hide them.
+- Has a calendar of programs whose official pages list no junior-standing requirement (DOE SULI, NASA OSTEM, NIST SURF, NSF REU and a couple of national labs).
+
+As of [DATE]: [ROLE_COUNT] open roles at [EMPLOYER_COUNT] employers, and [FS_COUNT] of them mention freshman/sophomore eligibility.
+
+Caveats: the labels come from pattern matching, so they can be wrong. Every role links to the employer's posting and has a "Why these labels?" excerpt so you can check. It only covers companies on those three job-board systems, so many big semiconductor and defense companies aren't in it yet.
+
+It's free and there's no sign-up. If a label is wrong or your target company is missing, tell me in the comments. What filter would make this more useful to you?

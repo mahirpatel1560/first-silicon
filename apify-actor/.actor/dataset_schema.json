@@ -1,0 +1,130 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "company",
+          "title",
+          "url",
+          "locations",
+          "workplace",
+          "type",
+          "terms",
+          "disciplines",
+          "classYear",
+          "flags",
+          "postedAt"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "company": {
+            "label": "Company",
+            "format": "text"
+          },
+          "title": {
+            "label": "Role",
+            "format": "text"
+          },
+          "url": {
+            "label": "Posting",
+            "format": "link"
+          },
+          "locations": {
+            "label": "Locations",
+            "format": "array"
+          },
+          "workplace": {
+            "label": "Workplace",
+            "format": "text"
+          },
+          "type": {
+            "label": "Type",
+            "format": "text"
+          },
+          "terms": {
+            "label": "Terms",
+            "format": "array"
+          },
+          "disciplines": {
+            "label": "Disciplines",
+            "format": "array"
+          },
+          "classYear": {
+            "label": "Class year",
+            "format": "text"
+          },
+          "flags": {
+            "label": "Flags",
+            "format": "array"
+          },
+          "postedAt": {
+            "label": "Posted",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "labels": {
+      "title": "Labels and evidence",
+      "transformation": {
+        "fields": [
+          "company",
+          "title",
+          "isInternship",
+          "isHardware",
+          "hardwareScore",
+          "classYear",
+          "flags",
+          "snippet",
+          "url"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "company": {
+            "label": "Company",
+            "format": "text"
+          },
+          "title": {
+            "label": "Role",
+            "format": "text"
+          },
+          "isInternship": {
+            "label": "Internship",
+            "format": "boolean"
+          },
+          "isHardware": {
+            "label": "Hardware",
+            "format": "boolean"
+          },
+          "hardwareScore": {
+            "label": "HW score",
+            "format": "number"
+          },
+          "classYear": {
+            "label": "Class year",
+            "format": "text"
+          },
+          "flags": {
+            "label": "Flags",
+            "format": "array"
+          },
+          "snippet": {
+            "label": "Evidence",
+            "format": "text"
+          },
+          "url": {
+            "label": "Posting",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

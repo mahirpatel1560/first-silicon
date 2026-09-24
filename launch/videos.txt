@@ -1,0 +1,97 @@
+FIVE SHORT-FORM VIDEO SCRIPTS (each 45 seconds or less; faceless: screen recordings + captions + voiceover)
+
+HOW TO MAKE THEM
+- Record the live site (after the first data run) on a phone-sized browser window, 1080x1920.
+- A friend reads the voiceover; burn in captions. No music needed; if used, keep it quiet.
+- Post to YouTube Shorts, Instagram Reels and TikTok. Suggested (heuristic, not measured): weekday
+  evenings, 6 to 9 p.m. Central, when students scroll after classes.
+- Numbers in brackets come from https://firstsilicon.pages.dev/data/meta.json on the day you record.
+- End card for all: firstsilicon.pages.dev (put the link in the bio or description with ?ref=shorts).
+- Never show fictional/demo data; record the real site only.
+
+------------------------------------------------------------------
+1) "FRESHMAN? THESE HARDWARE INTERNSHIPS SAY YOU CAN APPLY"   (~40 s)
+------------------------------------------------------------------
+HOOK (0-4 s)
+  VO: "Everyone says you need to be a junior to get a hardware internship. Some postings say otherwise."
+  Screen: the landing page headline.
+BEAT 1 (4-15 s)
+  VO: "First Silicon pulls hardware internships from company job boards every day."
+  Screen: scroll the list; on-screen text: "[ROLE_COUNT] open hardware roles".
+BEAT 2 (15-27 s)
+  VO: "Set class year to Fr/So friendly. You only see postings that mention freshmen, sophomores or rising juniors."
+  Screen: select "Fr/So friendly"; the count drops to [FS_COUNT].
+BEAT 3 (27-37 s)
+  VO: "Tap 'Why these labels?' to read the exact sentence from the posting."
+  Screen: open the excerpt on one role.
+CTA (37-42 s)
+  VO: "It's free. Link in bio: First Silicon."
+  On-screen: firstsilicon.pages.dev
+
+------------------------------------------------------------------
+2) "SEE ITAR AND CITIZENSHIP REQUIREMENTS BEFORE YOU APPLY"   (~40 s)
+------------------------------------------------------------------
+HOOK (0-4 s)
+  VO: "Found the perfect hardware internship, then page three says U.S. citizens only?"
+BEAT 1 (4-14 s)
+  VO: "Some aerospace and defense internships require U.S. citizenship, U.S. person status under ITAR, or a clearance."
+  Screen: a role with "ITAR / export" and "US citizen" tags.
+BEAT 2 (14-26 s)
+  VO: "First Silicon flags those from the posting text. One checkbox hides them."
+  Screen: tick "No citizenship or export flags"; the count changes.
+BEAT 3 (26-36 s)
+  VO: "No flag doesn't guarantee there's no restriction, so always read the full posting."
+  Screen: open a posting link.
+CTA (36-42 s)
+  VO: "Free at First Silicon. This isn't legal or immigration advice."
+  On-screen: firstsilicon.pages.dev · "Not legal or immigration advice"
+
+------------------------------------------------------------------
+3) "EMBEDDED, FPGA OR RF: WHICH HARDWARE INTERNSHIP FITS YOU?"   (~45 s)
+------------------------------------------------------------------
+HOOK (0-4 s)
+  VO: "Hardware isn't one job. Here are three of them in thirty seconds."
+BEAT 1 (4-15 s)
+  VO: "Embedded: you write the code that runs on microcontrollers, like drivers, real-time tasks and bootloaders."
+  Screen: /disciplines/embedded/ intro.
+BEAT 2 (15-27 s)
+  VO: "FPGA and ASIC: you describe digital logic in Verilog and try to break it with testbenches."
+  Screen: FPGA/RTL/ASIC guide (or the list filtered by that discipline).
+BEAT 3 (27-39 s)
+  VO: "RF: antennas, radios and radar, where every trace behaves like a transmission line."
+  Screen: RF guide or filtered list.
+CTA (39-45 s)
+  VO: "Ten disciplines, each with starter projects. First Silicon, link in bio."
+
+------------------------------------------------------------------
+4) "BUILD THIS BEFORE YOU APPLY FOR AN EMBEDDED INTERNSHIP"   (~40 s)
+------------------------------------------------------------------
+HOOK (0-4 s)
+  VO: "No internship yet? Three embedded projects you can finish this semester."
+BEAT 1 (4-15 s)
+  VO: "One: write an I2C driver for a sensor straight from the datasheet. No vendor library."
+BEAT 2 (15-26 s)
+  VO: "Two: a three-task FreeRTOS app. Write down what happens when a task overruns."
+BEAT 3 (26-36 s)
+  VO: "Three: a battery sensor node that sleeps between readings. Measure the current and show the drop."
+  Screen for all beats: the "Starter projects" card on /disciplines/embedded/.
+CTA (36-41 s)
+  VO: "Then find embedded internships on First Silicon."
+
+------------------------------------------------------------------
+5) "TWO GOVERNMENT PROGRAM DEADLINES ON SEPTEMBER 30"   (~40 s; post before Sept 30, 2026)
+------------------------------------------------------------------
+HOOK (0-4 s)
+  VO: "Two Department of Energy internship deadlines hit September 30."
+BEAT 1 (4-16 s)
+  VO: "SULI puts undergrads in paid lab internships. Spring 2027 applications close September 30 at 5 p.m. Eastern."
+  Screen: /programs/ SULI card.
+BEAT 2 (16-26 s)
+  VO: "Community College Internships has the same Spring 2027 deadline."
+  Screen: CCI card.
+BEAT 3 (26-35 s)
+  VO: "Next up: NIST SURF, which accepts first-year students, is due at the end of January."
+  Screen: SURF card showing "First-year undergraduates ... are eligible".
+CTA (35-40 s)
+  VO: "The full calendar is on First Silicon. Always confirm on the official page."
+  (After Sept 30, 2026: replace beats 1-2 with NASA OSTEM Summer 2027, due Feb 26, 2027.)

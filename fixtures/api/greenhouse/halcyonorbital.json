@@ -1,0 +1,456 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7101918",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4101918,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7101918,
+      "updated_at": "2026-09-22T08:30:00-07:00",
+      "requisition_id": "R-1918",
+      "title": "Avionics Hardware Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-22T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Design and test flight avionics boards for our satellite bus.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Schematic capture and PCB layout in Altium&lt;/li&gt;&lt;li&gt;Board bring-up and debug with an oscilloscope&lt;/li&gt;&lt;li&gt;Write test procedures&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Freshmen and sophomores are encouraged to apply.&lt;/p&gt;&lt;p&gt;This position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102055",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102055,
+      "location": {
+        "name": "Redmond, WA"
+      },
+      "metadata": null,
+      "id": 7102055,
+      "updated_at": "2026-09-20T08:30:00-07:00",
+      "requisition_id": "R-2055",
+      "title": "Flight Software Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-20T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Write embedded C++ for spacecraft flight computers running an RTOS.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Device drivers for I2C and SPI sensors&lt;/li&gt;&lt;li&gt;Hardware-in-the-loop testing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Redmond, WA",
+          "location": "Redmond, WA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102192",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102192,
+      "location": {
+        "name": "Redmond, WA"
+      },
+      "metadata": null,
+      "id": 7102192,
+      "updated_at": "2026-09-16T08:30:00-07:00",
+      "requisition_id": "R-2192",
+      "title": "RF Engineering Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-16T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Characterize phased-array antenna tiles with a vector network analyzer.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;S-parameter measurements and impedance matching&lt;/li&gt;&lt;li&gt;Link budget analysis&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We are recruiting students in the class of 2029 or 2030.&lt;/p&gt;&lt;p&gt;U.S. citizenship is required for this role.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Redmond, WA",
+          "location": "Redmond, WA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102329",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102329,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7102329,
+      "updated_at": "2026-08-20T08:30:00-07:00",
+      "requisition_id": "R-2329",
+      "title": "Power Systems Intern (Fall 2026)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-08-20T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Test DC-DC converters and battery packs for the spacecraft electrical power system.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Efficiency and thermal measurements&lt;/li&gt;&lt;li&gt;Battery management system validation&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Applicants must hold an active Secret clearance or be able to obtain one.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102466",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102466,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7102466,
+      "updated_at": "2026-09-08T08:30:00-07:00",
+      "requisition_id": "R-2466",
+      "title": "GNC Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-08T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Develop guidance, navigation and control algorithms; Kalman filters and attitude control in Simulink.&lt;/p&gt;&lt;p&gt;Students entering their senior year preferred.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102603",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102603,
+      "location": {
+        "name": "Redmond, WA"
+      },
+      "metadata": null,
+      "id": 7102603,
+      "updated_at": "2026-09-18T08:30:00-07:00",
+      "requisition_id": "R-2603",
+      "title": "Hardware Validation Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-18T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Run thermal-vacuum and vibration qualification tests on flight electronics and analyze the results.&lt;/p&gt;&lt;p&gt;This position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Redmond, WA",
+          "location": "Redmond, WA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102740",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102740,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7102740,
+      "updated_at": "2026-09-08T08:30:00-07:00",
+      "requisition_id": "R-2740",
+      "title": "Propulsion Engineering Intern (Summer 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-08T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Hot-fire testing of thrusters, fluid systems and valves.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7102877",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4102877,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7102877,
+      "updated_at": "2026-09-03T08:30:00-07:00",
+      "requisition_id": "R-2877",
+      "title": "International Trade Compliance Analyst",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-03T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Manage export licensing.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Legal",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7103014",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103014,
+      "location": {
+        "name": "Redmond, WA"
+      },
+      "metadata": null,
+      "id": 7103014,
+      "updated_at": "2026-09-14T08:30:00-07:00",
+      "requisition_id": "R-3014",
+      "title": "Test Engineering Co-op (Winter 2027)",
+      "company_name": "Halcyon Orbital",
+      "first_published": "2026-09-14T08:30:00-07:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Build automated test stations for flight hardware using Python, LabVIEW and SCPI instruments.&lt;/p&gt;&lt;p&gt;Open to students who have completed at least one year of an engineering program.&lt;/p&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Redmond, WA",
+          "location": "Redmond, WA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/halcyonorbital/jobs/7103151",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 4103151,
+      "location": {
+        "name": "Hawthorne, CA"
+      },
+      "metadata": null,
+      "id": 7103151,
+      "updated_at": "2026-09-11T10:00:00-07:00",
+      "requisition_id": "R-3151",
+      "title": "Electrical Engineering Intern",
+      "company_name": "Halcyon Orbital",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;The internship runs Summer 2027 on the electrical team.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wire harness design&lt;/li&gt;&lt;li&gt;Schematic review&lt;/li&gt;&lt;li&gt;Soldering and rework&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Halcyon Orbital is an equal opportunity employer and does not discriminate on the basis of citizenship status or any other protected characteristic.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 40011,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 50021,
+          "name": "Hawthorne, CA",
+          "location": "Hawthorne, CA",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 10
+  }
+}

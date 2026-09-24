@@ -1,0 +1,29 @@
+[
+  {
+    "additionalPlain": "We are an equal opportunity employer.",
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "categories": {
+      "commitment": "Intern",
+      "department": "Engineering",
+      "location": "Redmond, WA",
+      "team": "Engineering",
+      "allLocations": [
+        "Redmond, WA"
+      ]
+    },
+    "createdAt": 1790150400000,
+    "descriptionPlain": "We build robots and aircraft systems that work outside the lab.\nDesign and test flight avionics boards; PCB layout and bring-up.\nThis position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.",
+    "description": "<div><p>We build robots and aircraft systems that work outside the lab.</p><p>Design and test flight avionics boards; PCB layout and bring-up.</p><p>This position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.</p></div>",
+    "id": "3f000012-8e2b-4c1d-9a7b-100000095028",
+    "lists": [],
+    "text": "Avionics Hardware Intern (Summer 2027)",
+    "country": "US",
+    "workplaceType": "on-site",
+    "opening": "<div><p>We build robots and aircraft systems that work outside the lab.</p></div>",
+    "openingPlain": "We build robots and aircraft systems that work outside the lab.",
+    "descriptionBody": "<div><p>Design and test flight avionics boards; PCB layout and bring-up.</p><p>This position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.</p></div>",
+    "descriptionBodyPlain": "Design and test flight avionics boards; PCB layout and bring-up.\nThis position requires access to technical data controlled under the International Traffic in Arms Regulations (ITAR); applicants must be a U.S. person as defined by ITAR.",
+    "hostedUrl": "https://jobs.lever.co/halcyonorbital/3f000012-8e2b-4c1d-9a7b-100000095028",
+    "applyUrl": "https://jobs.lever.co/halcyonorbital/3f000012-8e2b-4c1d-9a7b-100000095028/apply"
+  }
+]
