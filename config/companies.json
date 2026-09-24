@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_on": "2026-09-23",
+  "updated_on": "2026-09-24",
   "about": "Hardware-heavy employers and their public job-board tokens. status: ok = HTTP 200 with jobs; empty = HTTP 200 with zero jobs; not_found = HTTP 404 for every candidate token tried; unsupported_ats = the careers page uses an ATS this project does not fetch. Initial probes on 2026-09-23 used WebFetch because the build container's egress proxy blocked these API hosts; scripts/probe.mjs re-probes live from the GitHub Action.",
   "summary": {
     "companies": 160,
