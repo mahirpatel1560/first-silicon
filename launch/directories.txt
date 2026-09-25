@@ -41,7 +41,7 @@ LISTING COPY (paste into the submission forms)
    "Don't post landing pages"; the title must begin with "Show HN".
    Risk: a job list can read as "a list". Only post if you frame it around the open-source daily
    pipeline and classifier (repo link), and be there to answer questions.
-   Suggested title: Show HN: Open-source pipeline that labels hardware internships by class year and ITAR
+   Suggested title: Show HN: A daily pipeline that labels hardware internships by class year and ITAR
 
 5. BetaList
    URL: https://betalist.com/submit

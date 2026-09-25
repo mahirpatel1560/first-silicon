@@ -41,4 +41,3 @@ Each discipline has a short guide with starter projects you can build this semes
 ------------------------------------------------------------------
 For anyone interested in chip design and verification: First Silicon has a filter for FPGA/RTL/ASIC internships (design verification, physical design, RTL, emulation) from semiconductor and hardware companies' job boards, updated every morning. 17 were open on Sept 24: https://firstsilicon.pages.dev/?d=digital&ref=uiuc-sigaida
 The guide has starter projects (UART + FIFO testbench, a small RISC-V core, an async FIFO): https://firstsilicon.pages.dev/disciplines/digital/
-(The guide page only exists while 5 or more FPGA/RTL/ASIC roles are open; if the link 404s, use the filter link above.)
