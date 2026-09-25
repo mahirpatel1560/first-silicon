@@ -1,8 +1,45 @@
 {
  "schema": 1,
- "generated_at": "2026-09-25T15:49:38.877Z",
- "count": 196,
+ "generated_at": "2026-09-25T20:52:27.633Z",
+ "count": 198,
  "jobs": [
+  {
+   "id": "r1kful0r0da4sa7",
+   "company": "Waymo",
+   "company_slug": "waymo",
+   "title": "2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8231711",
+   "ats": "greenhouse",
+   "locations": [
+    "Mountain View, CA, USA"
+   ],
+   "regions": [
+    "us"
+   ],
+   "workplace": "onsite",
+   "type": "internship",
+   "terms": [
+    "Summer 2027"
+   ],
+   "year_hint": null,
+   "disciplines": [
+    "test",
+    "controls"
+   ],
+   "class_year": "jplus",
+   "flags": [],
+   "hw_score": 73,
+   "posted": "2026-09-25",
+   "updated": "2026-09-25",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "snippet": "2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics",
+   "pay": "",
+   "also": 0,
+   "source_ids": [
+    "greenhouse:waymo:8231711"
+   ]
+  },
   {
    "id": "r1fx9nyx0z6douz",
    "company": "Zipline",
@@ -301,7 +338,7 @@
    "flags": [],
    "hw_score": 95,
    "posted": "2026-09-24",
-   "updated": "2026-09-24",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-25",
    "last_seen": "2026-09-25",
    "snippet": "",
@@ -2500,11 +2537,11 @@
    "company": "CesiumAstro",
    "company_slug": "cesiumastro",
    "title": "Summer 2027 - Systems Engineering Internship",
-   "url": "https://jobs.lever.co/CesiumAstro/556369b7-a017-4d0d-8e3b-97ec210be0d5",
+   "url": "https://jobs.lever.co/CesiumAstro/a3b0f097-9d62-4a67-9800-de5dfe416da2",
    "ats": "lever",
    "locations": [
-    "Austin, TX",
-    "Westminster, CO"
+    "Westminster, CO",
+    "El Segundo, CA"
    ],
    "regions": [
     "us"
@@ -2532,8 +2569,8 @@
    "pay": "",
    "also": 1,
    "source_ids": [
-    "lever:CesiumAstro:556369b7-a017-4d0d-8e3b-97ec210be0d5",
-    "lever:CesiumAstro:a3b0f097-9d62-4a67-9800-de5dfe416da2"
+    "lever:CesiumAstro:a3b0f097-9d62-4a67-9800-de5dfe416da2",
+    "lever:CesiumAstro:ecb287e0-376b-49fd-baef-fe08c0c0234c"
    ]
   },
   {
@@ -2905,8 +2942,7 @@
    "url": "https://jobs.lever.co/CesiumAstro/e6d87528-5da1-4970-9e42-7b224cfa63a9",
    "ats": "lever",
    "locations": [
-    "Westminster, CO",
-    "Austin, TX"
+    "Westminster, CO"
    ],
    "regions": [
     "us"
@@ -2932,9 +2968,8 @@
    "last_seen": "2026-09-25",
    "snippet": "Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful permanent resident of the U.S., conditional resident, asylee or refugee (protected individuals as defined by 8 U.S.C. 1324b(a)(3)), or eligible to obtain the…",
    "pay": "",
-   "also": 1,
+   "also": 0,
    "source_ids": [
-    "lever:CesiumAstro:7778b1db-4953-4320-83ec-35805f5a0516",
     "lever:CesiumAstro:e6d87528-5da1-4970-9e42-7b224cfa63a9"
    ]
   },
@@ -3323,6 +3358,43 @@
    ]
   },
   {
+   "id": "r1s6fpz8195et78",
+   "company": "Lightmatter",
+   "company_slug": "lightmatter",
+   "title": "Silicon Packaging Engineer - Intern & New Grad",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5422712008?gh_jid=5422712008",
+   "ats": "greenhouse",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "regions": [
+    "us"
+   ],
+   "workplace": "onsite",
+   "type": "internship",
+   "terms": [],
+   "year_hint": null,
+   "disciplines": [
+    "pcb",
+    "process"
+   ],
+   "class_year": "unspecified",
+   "flags": [
+    "export"
+   ],
+   "hw_score": 100,
+   "posted": "2026-09-11",
+   "updated": "2026-09-25",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "snippet": "Export Control",
+   "pay": "",
+   "also": 0,
+   "source_ids": [
+    "greenhouse:lightmatter:5422712008"
+   ]
+  },
+  {
    "id": "r15zakrv0gwww07",
    "company": "Lightmatter",
    "company_slug": "lightmatter",
@@ -3427,7 +3499,7 @@
    ],
    "hw_score": 96,
    "posted": "2026-09-10",
-   "updated": "2026-09-24",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25",
    "snippet": "U.S. EXPORT CONTROL COMPLIANCE STATUS",
@@ -3564,8 +3636,8 @@
    "ats": "greenhouse",
    "locations": [
     "Toronto, CAN",
-    "Long Beach, CA",
-    "Pasadena, CA"
+    "Pasadena, CA",
+    "Long Beach, CA"
    ],
    "regions": [
     "ca",
@@ -3578,10 +3650,10 @@
    ],
    "year_hint": null,
    "disciplines": [
-    "digital",
-    "pcb",
     "embedded",
-    "test"
+    "test",
+    "digital",
+    "pcb"
    ],
    "class_year": "unspecified",
    "flags": [
@@ -4248,42 +4320,6 @@
    ]
   },
   {
-   "id": "r12hmuwc1nf5ldy",
-   "company": "Eight Sleep",
-   "company_slug": "eight-sleep",
-   "title": "Prototype & Test Engineering Intern, New Product Development",
-   "url": "https://jobs.ashbyhq.com/eightsleep/393ffe76-749e-4ec1-9975-a96b7fefe31f",
-   "ats": "ashby",
-   "locations": [
-    "San Francisco"
-   ],
-   "regions": [
-    "us"
-   ],
-   "workplace": "onsite",
-   "type": "internship",
-   "terms": [
-    "Fall 2026"
-   ],
-   "year_hint": null,
-   "disciplines": [
-    "test"
-   ],
-   "class_year": "unspecified",
-   "flags": [],
-   "hw_score": 65,
-   "posted": "2026-09-02",
-   "updated": null,
-   "first_seen": "2026-09-24",
-   "last_seen": "2026-09-25",
-   "snippet": "",
-   "pay": "$30 – $35 per hour",
-   "also": 0,
-   "source_ids": [
-    "ashby:eightsleep:393ffe76-749e-4ec1-9975-a96b7fefe31f"
-   ]
-  },
-  {
    "id": "r1xqgyr81pig402",
    "company": "Hermeus",
    "company_slug": "hermeus",
@@ -4744,7 +4780,7 @@
    "flags": [],
    "hw_score": 100,
    "posted": "2026-08-31",
-   "updated": "2026-09-24",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25",
    "snippet": "Your target graduation timeline is May-June 2026.",
@@ -4788,6 +4824,47 @@
    "also": 0,
    "source_ids": [
     "greenhouse:flyzipline:7980874003"
+   ]
+  },
+  {
+   "id": "r0i95ue70m616sp",
+   "company": "CesiumAstro",
+   "company_slug": "cesiumastro",
+   "title": "Summer 2027 – Test Engineering Internship",
+   "url": "https://jobs.lever.co/CesiumAstro/ab7dd1c4-7196-4cae-8fbd-cddec993b9b8",
+   "ats": "lever",
+   "locations": [
+    "Westminster, CO"
+   ],
+   "regions": [
+    "us"
+   ],
+   "workplace": "onsite",
+   "type": "co-op",
+   "terms": [
+    "Summer 2027"
+   ],
+   "year_hint": null,
+   "disciplines": [
+    "analog",
+    "rf",
+    "test"
+   ],
+   "class_year": "unspecified",
+   "flags": [
+    "residency",
+    "export"
+   ],
+   "hw_score": 84,
+   "posted": "2026-08-27",
+   "updated": null,
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "snippet": "Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful permanent resident of the U.S., conditional resident, asylee or refugee (protected individuals as defined by 8 U.S.C. 1324b(a)(3)), or eligible to obtain the…",
+   "pay": "",
+   "also": 0,
+   "source_ids": [
+    "lever:CesiumAstro:ab7dd1c4-7196-4cae-8fbd-cddec993b9b8"
    ]
   },
   {
@@ -6589,7 +6666,7 @@
    ],
    "hw_score": 100,
    "posted": "2026-06-02",
-   "updated": "2026-09-15",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25",
    "snippet": "Variable based on permanent residency location",

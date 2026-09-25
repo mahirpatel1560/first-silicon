@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run": "2026-09-25T15:49:38.877Z",
+  "last_run": "2026-09-25T20:52:27.633Z",
   "source": "live",
   "status": "partial",
   "boards": {
@@ -13,42 +13,42 @@
       "greenhouse:magicleap (not_found)"
     ]
   },
-  "postings_seen": 16117,
+  "postings_seen": 16139,
   "internships_seen": 628,
-  "hardware_internship_postings": 204,
+  "hardware_internship_postings": 205,
   "counts": {
-    "roles": 196,
-    "internships": 176,
-    "coops": 20,
+    "roles": 198,
+    "internships": 177,
+    "coops": 21,
     "fs": 4,
-    "jplus": 15,
-    "unspecified": 177,
+    "jplus": 16,
+    "unspecified": 178,
     "citizenship_free": 80,
-    "new_this_week": 86,
+    "new_this_week": 88,
     "remote": 4,
     "companies": 34,
     "by_discipline": {
-      "test": 83,
-      "pcb": 55,
-      "controls": 36,
+      "test": 84,
+      "pcb": 56,
+      "controls": 37,
       "embedded": 34,
-      "rf": 21,
-      "analog": 18,
+      "rf": 22,
+      "analog": 19,
       "digital": 17,
       "general": 10,
       "photonics": 7,
       "power": 6,
-      "process": 2
+      "process": 3
     },
     "by_term": {
-      "Summer 2027": 89,
+      "Summer 2027": 91,
       "Spring 2027": 41,
       "Winter 2027": 35,
-      "Fall 2026": 20,
+      "Fall 2026": 19,
       "Summer 2026": 2
     }
   },
-  "new_since_last_run": 1,
-  "closed_since_last_run": 0,
+  "new_since_last_run": 3,
+  "closed_since_last_run": 1,
   "carried_over_from_failed_boards": 0
 }

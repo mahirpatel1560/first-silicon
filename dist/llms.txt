@@ -22,7 +22,7 @@
 ## Facts
 - Sources: the public Greenhouse Job Board API (https://developers.greenhouse.io/job-board.html), Lever Postings API (https://github.com/lever/postings-api) and Ashby public job posting API (https://developers.ashbyhq.com/docs/public-job-posting-api).
 - Employer job boards read: 87 (see https://firstsilicon.pages.dev/how-it-works/).
-- As of 2026-09-25: 196 open hardware internships and co-ops at 34 companies. Class year: 4 say freshmen or sophomores can apply, 15 require junior standing or later, 177 do not state one. 80 have no citizenship or export flags (source: https://firstsilicon.pages.dev/data/meta.json).
+- As of 2026-09-25: 198 open hardware internships and co-ops at 34 companies. Class year: 4 say freshmen or sophomores can apply, 16 require junior standing or later, 178 do not state one. 80 have no citizenship or export flags (source: https://firstsilicon.pages.dev/data/meta.json).
 - Programs calendar: 7 programs, each verified on its official page (dates in https://firstsilicon.pages.dev/data/programs.json).
 - Update cadence: once a day. Closed roles are removed on the next run.
 - Labels are automatic pattern matches and can be wrong; the original employer posting is authoritative.
