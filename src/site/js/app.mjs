@@ -1,10 +1,11 @@
 // Browser entry: role finder (filters, URL state, data refresh) + lead forms + analytics hooks.
 // Works without the Pulse script: every analytics call is guarded.
 
-import { parseState, serializeState, applyFilters, facets, classYearOptionCounts, isActive, DEFAULT_STATE } from './filters.mjs';
+import { parseState, serializeState, applyFilters, facets, classYearOptionCounts, isActive, isNewJob, isCitizenshipFree, DEFAULT_STATE } from './filters.mjs';
 import { rolesHtml } from './render.mjs';
 import { initForms } from './forms.mjs';
-import { classYearGuidance } from '../../lib/copy.mjs';
+import { classYearGuidance, heroSubhead } from '../../lib/copy.mjs';
+import { longDate } from '../../lib/text.mjs';
 
 const PAGE = 50;
 
@@ -125,6 +126,34 @@ function updateFacetLabels(form, jobs) {
   }
 }
 
+/**
+ * The hero line and stat tiles are written at build time, but the list itself loads the newer copy from the public
+ * data repo between deploys. Recount from that list so the hero never contradicts the finder below it.
+ */
+function refreshHero(jobs, generatedAt, today, newDays) {
+  const hero = document.querySelector('.hero');
+  if (!hero || !hero.querySelector('[data-stat="roles"]')) return;
+  const companies = new Set(jobs.map((j) => j.company_slug || j.company)).size;
+  const values = {
+    roles: jobs.length,
+    companies,
+    new_this_week: jobs.filter((j) => isNewJob(j, today, newDays)).length,
+    citizenship_free: jobs.filter((j) => isCitizenshipFree(j)).length,
+  };
+  for (const [key, value] of Object.entries(values)) {
+    const el = hero.querySelector(`[data-stat="${key}"]`);
+    if (el) el.textContent = Number(value).toLocaleString('en-US');
+  }
+  const lede = hero.querySelector('[data-hero-lede]');
+  if (lede) lede.textContent = heroSubhead({ roles: values.roles, companies });
+  const day = String(generatedAt || '').slice(0, 10);
+  const time = hero.querySelector('[data-stat="updated"]');
+  if (time && /^\d{4}-\d{2}-\d{2}$/.test(day)) {
+    time.setAttribute('datetime', day);
+    time.textContent = longDate(day);
+  }
+}
+
 function initFinder() {
   const root = document.getElementById('finder');
   if (!root) return;
@@ -241,6 +270,7 @@ function initFinder() {
     (data) => {
       jobs = data.jobs;
       updateFacetLabels(form, jobs);
+      if (data.source === 'repo') safe(() => refreshHero(jobs, data.generatedAt, today, newDays));
       writeForm(form, state);
       if (notice && data.source === 'repo') {
         notice.textContent = `Loaded the latest list from the public data repo (updated ${String(data.generatedAt || '').slice(0, 10)}).`;

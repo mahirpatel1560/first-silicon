@@ -122,16 +122,16 @@ export function homePage(ctx) {
     '<section class="hero" aria-labelledby="hero-h">' +
     '<p class="eyebrow">Hardware · EE · Embedded · Semiconductors</p>' +
     `<h1 id="hero-h">${h(site.TAGLINE)}</h1>` +
-    `<p class="lede">${h(lede)}</p>` +
+    `<p class="lede" data-hero-lede>${h(lede)}</p>` +
     (pending ? '' : '<ul class="stats">') +
-    (pending ? '' : `<li><span class="num">${n(counts.roles)}</span><span class="lab">open roles</span></li>`) +
+    (pending ? '' : `<li><span class="num" data-stat="roles">${n(counts.roles)}</span><span class="lab">open roles</span></li>`) +
     (pending
       ? ''
-      : `<li><span class="num">${n(counts.companies)}</span><span class="lab">companies with open roles</span></li>` +
-        `<li><span class="num">${n(counts.new_this_week)}</span><span class="lab">new this week</span></li>` +
-        `<li><span class="num">${n(counts.citizenship_free)}</span><span class="lab">no citizenship or export flags</span></li>` +
+      : `<li><span class="num" data-stat="companies">${n(counts.companies)}</span><span class="lab">companies with open roles</span></li>` +
+        `<li><span class="num" data-stat="new_this_week">${n(counts.new_this_week)}</span><span class="lab">new this week</span></li>` +
+        `<li><span class="num" data-stat="citizenship_free">${n(counts.citizenship_free)}</span><span class="lab">no citizenship or export flags</span></li>` +
         '</ul>') +
-    `<p class="updated small">${pending ? 'Waiting for the first daily update.' : `Last update: <time datetime="${h(meta.last_run.slice(0, 10))}">${longDate(meta.last_run.slice(0, 10))}</time>.`}</p>` +
+    `<p class="updated small">${pending ? 'Waiting for the first daily update.' : `Last update: <time data-stat="updated" datetime="${h(meta.last_run.slice(0, 10))}">${longDate(meta.last_run.slice(0, 10))}</time>.`}</p>` +
     '</section>' +
     `<section id="finder" class="finder" aria-labelledby="finder-h" data-raw-base="${h(site.REPO_RAW_BASE)}" data-last-run="${h(meta && meta.last_run ? meta.last_run : '')}" data-new-days="${site.NEW_DAYS}">` +
     '<h2 id="finder-h" class="visually-hidden">Find roles</h2>' +

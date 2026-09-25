@@ -171,7 +171,7 @@ test('hero, class-year guidance and filter counts are computed from the data (kn
   const html = await fs.readFile(path.join(smallOut, 'index.html'), 'utf8');
   assert.equal(pick(html, /<h1 id="hero-h">([^<]*)<\/h1>/), 'Every hardware internship, labeled.');
   assert.equal(
-    pick(html, /<p class="lede">([^<]*)<\/p>/),
+    pick(html, /<p class="lede"[^>]*>([^<]*)<\/p>/),
     "5 internships and co-ops at 2 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards.",
   );
   assert.equal(
@@ -180,7 +180,7 @@ test('hero, class-year guidance and filter counts are computed from the data (kn
   );
   // The guidance sits right after the class-year select, which points to it, and the default view is every role.
   assert.match(html, /<select id="f-cy" name="cy" aria-describedby="cy-guide"><option value="">All class years<\/option><option value="fs" data-label="Fr\/So friendly">Fr\/So friendly \(1\)<\/option><option value="open" data-label="Fr\/So friendly or not stated">Fr\/So friendly or not stated \(4\)<\/option><option value="jplus" data-label="Juniors\+ only">Juniors\+ only \(1\)<\/option><\/select><\/div><p id="cy-guide"/);
-  assert.match(html, /<li><span class="num">5<\/span><span class="lab">open roles<\/span><\/li><li><span class="num">2<\/span><span class="lab">companies with open roles<\/span><\/li>/);
+  assert.match(html, /<li><span class="num" data-stat="roles">5<\/span><span class="lab">open roles<\/span><\/li><li><span class="num" data-stat="companies">2<\/span><span class="lab">companies with open roles<\/span><\/li>/);
   assert.equal(pick(html, /<meta name="description" content="([^"]*)">/), '5 hardware internships and co-ops at 2 companies, labeled by discipline, class year and citizenship. Updated every morning.');
   assert.match(html, /Showing the 5 newest of 5 roles/);
   const faq = JSON.parse(html.match(/<script type="application\/ld\+json">(\{[^<]*"FAQPage"[^<]*)<\/script>/)[1]);
@@ -200,7 +200,7 @@ test('live data/ build: hero and guidance match counts computed from data/jobs.j
   const c = computeCounts(jobs, meta.last_run.slice(0, 10), site.NEW_DAYS);
   const html = await fs.readFile(path.join(prodOut, 'index.html'), 'utf8');
   assert.equal(pick(html, /<h1 id="hero-h">([^<]*)<\/h1>/), site.TAGLINE);
-  const lede = pick(html, /<p class="lede">([^<]*)<\/p>/);
+  const lede = pick(html, /<p class="lede"[^>]*>([^<]*)<\/p>/);
   assert.equal(lede, heroSubhead(c));
   assert.ok(lede.startsWith(`${c.roles.toLocaleString('en-US')} internships and co-ops at ${c.companies.toLocaleString('en-US')} companies`), lede);
   const guide = pick(html, /<p id="cy-guide" class="cy-guide">([^<]*)<\/p>/);

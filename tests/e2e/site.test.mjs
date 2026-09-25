@@ -14,7 +14,8 @@ const { startServer } = await import('../../scripts/serve.mjs');
 const { build } = await import('../../build.mjs');
 const { makeDemoData } = await import('../../scripts/make-demo-data.mjs');
 const { applyFilters, facets, DEFAULT_STATE } = await import('../../src/site/js/filters.mjs');
-const { classYearGuidance } = await import('../../src/lib/copy.mjs');
+const { classYearGuidance, heroSubhead } = await import('../../src/lib/copy.mjs');
+const { isCitizenshipFree } = await import('../../src/site/js/filters.mjs');
 const site = await import('../../config/site.mjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -185,6 +186,43 @@ test('class-year guidance and option counts follow a newer list loaded from the 
   await t.page.selectOption('#f-cy', 'fs');
   await t.page.waitForTimeout(60);
   assert.equal((await renderedIds(t.page)).length, Math.min(50, fsCount));
+  assert.deepEqual(t.pageErrors, []);
+  await t.close();
+});
+
+test('hero line and stat tiles follow a newer list loaded from the public data repo', async () => {
+  if (!site.REPO_RAW_BASE || prodJobs.length < 10) return;
+  // The repo copy is newer and three roles shorter (fictional edit of the real list, served only to this test).
+  const newer = prodJobs.slice(3);
+  const companies = new Set(newer.map((j) => j.company_slug || j.company)).size;
+  const t = await openPage();
+  await t.context.route(`${site.REPO_RAW_BASE}/data/jobs.json`, (route) =>
+    route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ schema: 1, generated_at: '2099-01-01T06:00:00.000Z', count: newer.length, jobs: newer }) }),
+  );
+  const html = await fs.readFile(path.join(ROOT, 'dist/index.html'), 'utf8');
+  assert.match(html, new RegExp(`data-stat="roles">${prodJobs.length.toLocaleString('en-US')}<`), 'build-time tile');
+  await t.page.goto(`${prod.url}/`, { waitUntil: 'networkidle' });
+  await t.page.waitForFunction(() => document.querySelector('#finder').classList.contains('is-live'));
+  assert.equal(await t.page.locator('[data-stat="roles"]').textContent(), newer.length.toLocaleString('en-US'));
+  assert.equal(await t.page.locator('[data-stat="companies"]').textContent(), companies.toLocaleString('en-US'));
+  assert.equal(await t.page.locator('[data-stat="citizenship_free"]').textContent(), newer.filter((j) => isCitizenshipFree(j)).length.toLocaleString('en-US'));
+  assert.equal(await t.page.locator('[data-hero-lede]').textContent(), heroSubhead({ roles: newer.length, companies }));
+  assert.equal(await t.page.locator('[data-stat="updated"]').textContent(), 'January 1, 2099');
+  assert.equal(await t.page.locator('[data-stat="updated"]').getAttribute('datetime'), '2099-01-01');
+  assert.equal(await countText(t.page), `Showing 50 of ${newer.length} roles, newest first`);
+  assert.deepEqual(t.pageErrors, []);
+  await t.close();
+});
+
+test('hero keeps the build-time numbers when the repo copy is not newer', async () => {
+  if (!site.REPO_RAW_BASE || prodJobs.length < 10) return;
+  const t = await openPage();
+  await t.context.route(`${site.REPO_RAW_BASE}/data/jobs.json`, (route) =>
+    route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ schema: 1, generated_at: '2000-01-01T00:00:00.000Z', count: 1, jobs: prodJobs.slice(0, 1) }) }),
+  );
+  await t.page.goto(`${prod.url}/`, { waitUntil: 'networkidle' });
+  await t.page.waitForFunction(() => document.querySelector('#finder').classList.contains('is-live'));
+  assert.equal(await t.page.locator('[data-stat="roles"]').textContent(), prodJobs.length.toLocaleString('en-US'));
   assert.deepEqual(t.pageErrors, []);
   await t.close();
 });
