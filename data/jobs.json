@@ -1,8 +1,46 @@
 {
  "schema": 1,
- "generated_at": "2026-09-25T01:52:26.297Z",
- "count": 195,
+ "generated_at": "2026-09-25T15:49:38.877Z",
+ "count": 196,
  "jobs": [
+  {
+   "id": "r1fx9nyx0z6douz",
+   "company": "Zipline",
+   "company_slug": "zipline",
+   "title": "Field Systems Engineer Intern (Spring 2027)",
+   "url": "https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003",
+   "ats": "greenhouse",
+   "locations": [
+    "South San Francisco, California, USA"
+   ],
+   "regions": [
+    "us"
+   ],
+   "workplace": "onsite",
+   "type": "internship",
+   "terms": [
+    "Spring 2027"
+   ],
+   "year_hint": null,
+   "disciplines": [
+    "general"
+   ],
+   "class_year": "unspecified",
+   "flags": [
+    "no_sponsorship"
+   ],
+   "hw_score": 59,
+   "posted": "2026-09-25",
+   "updated": "2026-09-25",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "snippet": "Zipline is unable to sponsor work visas for applicants to this position.",
+   "pay": "",
+   "also": 0,
+   "source_ids": [
+    "greenhouse:flyzipline:8004729003"
+   ]
+  },
   {
    "id": "r1vpd6ek1ux5als",
    "company": "Astranis",
@@ -4928,7 +4966,7 @@
    "flags": [],
    "hw_score": 88,
    "posted": "2026-08-25",
-   "updated": "2026-09-10",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25",
    "snippet": "Actively pursuing a Bachelor's or Master's degree in Computer Science or similar technical field of study and graduating by June 2027",
@@ -7465,7 +7503,7 @@
    "flags": [],
    "hw_score": 91,
    "posted": "2024-03-20",
-   "updated": "2026-09-10",
+   "updated": "2026-09-25",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25",
    "snippet": "Pursuing a degree in Electrical Engineering or related fields with a graduation year of 2027 or 2028.",

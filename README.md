@@ -1,10 +1,10 @@
 # First Silicon: every hardware internship, labeled
 
-195 internships and co-ops at 34 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
+196 internships and co-ops at 34 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated September 25, 2026** · 195 open roles · 85 new this week · 79 without citizenship or export flags
+**Updated September 25, 2026** · 196 open roles · 86 new this week · 80 without citizenship or export flags
 
-**Class year:** Only 4 postings say freshmen or sophomores can apply. 176 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+**Class year:** Only 4 postings say freshmen or sophomores can apply. 177 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
 > Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer's site before applying. Closed roles are removed on the next daily run.
 
@@ -14,10 +14,11 @@
 - **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.
 - **Posted**: the employer's publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).
 
-## Open roles (195, newest first)
+## Open roles (196, newest first)
 
 | Company | Role | Location | Discipline | Class year | Flags | Posted |
 | --- | --- | --- | --- | --- | --- | --- |
+| Zipline | [Field Systems Engineer Intern (Spring 2027)](https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003) | South San Francisco, CA | General EE |  | No visa sponsorship | Sep 25 · new |
 | Astranis | [Electrical Integration Associate - RF (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4715793006) | San Francisco, CA | RF/wireless |  | US person / PR, ITAR / export | Sep 24 · new |
 | Astranis | [Electrical Integration Intern - RF (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4715788006) | San Francisco | RF/wireless |  | US person / PR, ITAR / export | Sep 24 · new |
 | Astranis | [Harness Design Engineer Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704779006) | San Francisco | PCB/hardware |  | US person / PR, ITAR / export | Sep 24 · new |
