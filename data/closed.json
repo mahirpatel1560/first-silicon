@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r06gu9fd0lblqhv",
+   "company": "Astranis",
+   "title": "Harness Manufacturing Associate (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-26"
+  },
+  {
+   "id": "r0i2tobp10a8tm9",
+   "company": "Astranis",
+   "title": "Radiation Effects Associate Engineer (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-26"
+  },
+  {
+   "id": "r15kljtr00m1okf",
+   "company": "Astranis",
+   "title": "Radiation Effects Engineer Intern (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-26"
+  },
+  {
+   "id": "r0y77dd91jgtq2h",
+   "company": "Astranis",
+   "title": "Electrical Reliability Associate (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-26"
+  },
+  {
    "id": "r12hmuwc1nf5ldy",
    "company": "Eight Sleep",
    "title": "Prototype & Test Engineering Intern, New Product Development",
