@@ -1,0 +1,269 @@
+Subject: 91 new hardware internships this week at 20 companies
+
+FIRST SILICON WEEKLY · September 28, 2026
+
+91 hardware internships and co-ops at 20 companies were first seen in the last 7 days, grouped by discipline below. Only 1 posting says freshmen or sophomores can apply. 83 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+Labels are automatic. Always check the posting on the employer's site.
+
+== EMBEDDED SYSTEMS & FIRMWARE (13) ==
+- Samsara: Firmware Engineer Co-Op
+  San Francisco - SF9 · Class year not stated
+  https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602
+- Astranis: Flight Software Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704598006
+- Astranis: Flight Software Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704595006
+- HawkEye 360: Space Team Intern
+  Herndon, VA · Class year not stated
+  https://job-boards.greenhouse.io/hawkeye360/jobs/4413158009
+- Waymo: 2027 Summer Intern, BS/MS, Embedded, Software Engineer
+  Mountain View, CA · Class year not stated
+  https://careers.withwaymo.com/jobs?gh_jid=8221198
+- Skydio: Electrical Engineer Intern - Winter 2027
+  San Mateo, CA · Class year not stated
+  https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee
+- Skydio: Hardware Product Management Intern - Fall 2026/Winter 2027
+  San Mateo, CA · Class year not stated
+  https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf
+- CesiumAstro: Summer 2027 - Embedded Software Engineering Internship
+  Westminster, CO; Austin, TX · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/96e97f22-a5b2-4e95-af84-b4f765343663
+- Anduril Industries: 2027 Flight Software Engineer Intern
+  Costa Mesa, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007
+- Anduril Industries: Winter 2027 Electrical Engineer Co-op
+  Costa Mesa, CA; Quincy, MA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007
+- Astranis: Flight Software Associate (Summer 2027)
+  San Francisco · Juniors+ · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704716006
+- Astranis: Flight Software Associate (Winter 2027)
+  San Francisco · Juniors+ · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704714006
+  + 1 more: https://firstsilicon.pages.dev/?d=embedded&new=1&utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-09-28
+
+== FPGA, RTL & ASIC DESIGN AND VERIFICATION (8) ==
+- Astranis: FPGA Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704813006
+- Astranis: FPGA Associate (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704811006
+- Astranis: FPGA Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704805006
+- Astranis: FPGA Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704803006
+- Waymo: 2027 Summer Intern, BS/MS, Global Supply Management (GSM)
+  Mountain View, CA · Class year not stated
+  https://careers.withwaymo.com/jobs?gh_jid=8201252
+- Etched: RTL Intern
+  San Jose · Class year not stated
+  https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e
+- Lightmatter: Silicon, Hardware, & Photonics Engineering - Internship
+  Boston, MA; Mountain View, CA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008
+- CesiumAstro: Summer 2027 - Electrical Engineering Internship, FPGA
+  Westminster, CO · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/e6d87528-5da1-4970-9e42-7b224cfa63a9
+
+== ANALOG & MIXED-SIGNAL (7) ==
+- Helion: Electrical Engineering Summer Intern
+  Everett, WA · Class year not stated
+  https://jobs.ashbyhq.com/helion/045d97eb-5efd-4e35-90f5-65eebe3363f4
+- Astranis: Software Defined Radio Hardware Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4715983006
+- Astranis: Software Defined Radio Hardware Associate (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4715985006
+- Astranis: Software Defined Radio Hardware Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716088006
+- Astranis: Software Defined Radio Hardware Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716087006
+- CesiumAstro: Summer 2027 - Electrical Engineering Internship, Hardware
+  Austin, TX; Westminster, CO · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/6a953cbc-af69-452c-b357-1a0a3db80bbf
+- CesiumAstro: Summer 2027 – Power Electronics Internship
+  Austin, TX; Westminster, CO · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/18d2c72e-30cd-4145-8b12-7db3a492d541
+
+== RF, MICROWAVE & WIRELESS (12) ==
+- Astranis: RF Validation Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716826006
+- Astranis: RF Validation Associate (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716835006
+- Astranis: Electrical Integration Associate - RF (Summer 2027)
+  San Francisco, CA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4715793006
+- Astranis: Electrical Integration Intern - RF (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4715788006
+- Astranis: RF Validation Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716499006
+- Astranis: RF Validation Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4716184006
+- Astranis: Antenna Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704301006
+- Astranis: Antenna Associate (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704298006
+- Astranis: Antenna Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704274006
+- Astranis: Antenna Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704284006
+- Rocket Lab: RF Engineering Intern Summer 2027
+  Long Beach, CA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/rocketlab/jobs/7991657003
+- CesiumAstro: Summer 2027 - Electrical Engineering Internship, RF
+  Westminster, CO; Austin, TX · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/8eb71502-4374-45aa-82fa-2b62a42cd8e9
+
+== POWER ELECTRONICS (2) ==
+- Astranis: Power Electronics Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4706425006
+- Astranis: Power Electronics Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4706427006
+
+== PCB & HARDWARE DESIGN (13) ==
+- Astranis: Electrical Integration Associate - Avionics (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704795006
+- Astranis: Electrical Integration Intern - Avionics (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704826006
+- Astranis: Harness Design Engineer Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704779006
+- Astranis: Harness Design Engineer Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704778006
+- Astranis: Avionics Associate Engineer (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4680324006
+- Astranis: Avionics Associate Engineer (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4680321006
+- Astranis: Avionics Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4706024006
+- Astranis: Avionics Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4706025006
+- Astranis: Harness Manufacturing Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4705260006
+- Astranis: Harness Manufacturing Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4705255006
+- Physical Intelligence: Mechatronics Intern
+  San Francisco · Class year not stated
+  https://jobs.ashbyhq.com/physicalintelligence/0bcf909e-b38b-4276-91a1-e55c4c56a33a
+- Anduril Industries: Winter 2027 EWIS Harness Engineer Co-op
+  Costa Mesa, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007
+  + 1 more: https://firstsilicon.pages.dev/?d=pcb&new=1&utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-09-28
+
+== TEST, VALIDATION & RELIABILITY (25) ==
+- Astranis: Electrical Reliability Associate (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704793006
+- Astranis: Electrical Reliability Associate (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704788006
+- Astranis: Electrical Reliability Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704784006
+- Astranis: Electrical Reliability Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704782006
+- Astranis: Reliability Test Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4705629006
+- Astranis: Reliability Test Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4705626006
+- Oklo: General Internship Application 2027
+  Santa Clara, CA; Any Office Location · Class year not stated · US citizen
+  https://job-boards.greenhouse.io/oklo/jobs/6204291004
+- Astranis: Hardware Test Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4707012006
+- Astranis: Assembly, Integration, and Test Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704761006
+- Astranis: Assembly, Integration, and Test Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704759006
+- Shield AI: Summer 2027 - Mechanical Engineering Intern
+  Seattle, WA; Dallas, TX · Class year not stated
+  https://jobs.lever.co/shieldai/da54c482-fe62-4f60-98b1-55ac0b82b3bc
+- Zipline: Flight Test Engineer Intern (Spring 2027)
+  South San Francisco, CA · Class year not stated
+  https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003
+  + 13 more: https://firstsilicon.pages.dev/?d=test&new=1&utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-09-28
+
+== CONTROLS, ROBOTICS & GNC (5) ==
+- Astranis: Guidance, Navigation, and Control Intern (Summer 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4705172006
+- CesiumAstro: Summer 2027 - GNC Internship
+  Westminster, CO · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/e18ce6a5-32ed-468e-a39e-28de9eb16872
+- 1X: Internship - Manufacturing Engineering
+  San Carlos, CA · Class year not stated
+  https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050
+- Anduril Industries: 2027 Manufacturing Optimization Engineer Intern
+  Ashville, OH · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5236893007?gh_jid=5236893007
+- Astranis: Guidance, Navigation, and Control Associate (Summer 2027)
+  San Francisco · Juniors+ · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704765006
+
+== SEMICONDUCTOR PROCESS & DEVICES (1) ==
+- Rigetti Computing: Research Intern: Scalable Fabrication of Superconducting Quantum Devices
+  Berkeley, CA · Class year not stated · ITAR / export
+  https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3
+
+== PHOTONICS & OPTICS (1) ==
+- Rocket Lab: Optical Engineering Intern Summer 2027
+  Tucson, AZ · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/rocketlab/jobs/7992102003
+
+== GENERAL EE / HARDWARE (4) ==
+- CesiumAstro: Summer 2027 - Systems Engineering Internship
+  Westminster, CO; El Segundo, CA · Fr/So friendly · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/a3b0f097-9d62-4a67-9800-de5dfe416da2
+- Zipline: Field Systems Engineer Intern (Spring 2027)
+  South San Francisco, CA · Class year not stated · No visa sponsorship
+  https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003
+- Zipline: Electrical Project Engineer Intern (Summer 2027)
+  South San Francisco, CA · Class year not stated
+  https://www.zipline.com/open-roles/7980932003?gh_jid=7980932003
+- Anduril Industries: Winter 2027 Test & Evaluation Engineer Co-op
+  Costa Mesa, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5236583007?gh_jid=5236583007
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- September 30, 2026 (2 days): Community College Internships (CCI), Spring 2027 term · https://science.osti.gov/wdts/cci
+- September 30, 2026 (2 days): Science Undergraduate Laboratory Internships (SULI), Spring 2027 term · https://science.osti.gov/wdts/suli
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-09-28
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}
