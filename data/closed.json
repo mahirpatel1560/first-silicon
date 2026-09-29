@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1qhc3fq01i09hs",
+   "company": "Formlabs",
+   "title": "Hardware R&D Engineering Intern (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-29"
+  },
+  {
+   "id": "r0nkd3dx12j02l5",
+   "company": "Astera Labs",
+   "title": "Field Application Engineering Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-29"
+  },
+  {
    "id": "r1fp5bzb0dyum8n",
    "company": "Astranis",
    "title": "Electrical Reliability Intern (Fall 2026)",
