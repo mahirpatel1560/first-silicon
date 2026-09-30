@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "updated_on": "2026-09-29",
+  "updated_on": "2026-09-30",
   "about": "Hardware-heavy employers and their public job-board tokens. status: ok = HTTP 200 with jobs; empty = HTTP 200 with zero jobs; not_found = HTTP 404 for every candidate token tried; unsupported_ats = the careers page uses an ATS this project does not fetch. Initial probes on 2026-09-23 used WebFetch because the build container's egress proxy blocked these API hosts; scripts/probe.mjs re-probes live from the GitHub Action.",
   "summary": {
     "companies": 160,
     "ok": 87,
-    "empty": 2,
     "not_found": 62,
+    "empty": 2,
     "unsupported_ats": 9
   },
   "companies": [
@@ -18,9 +18,9 @@
       "token": "spacex",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "2593",
         "intern_titles_seen": 0
       }
     },
@@ -32,9 +32,9 @@
       "token": "zoox",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "4 (limit=3 probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "241",
         "intern_titles_seen": 0
       }
     },
@@ -46,9 +46,9 @@
       "token": "etched",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "10",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "109",
         "intern_titles_seen": 0
       }
     },
@@ -60,9 +60,9 @@
       "token": "andurilindustries",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "2396",
         "intern_titles_seen": 10
       }
     },
@@ -74,9 +74,9 @@
       "token": "waymo",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "356",
         "intern_titles_seen": 25
       }
     },
@@ -88,9 +88,9 @@
       "token": "nuro",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "109",
         "intern_titles_seen": 1
       }
     },
@@ -102,9 +102,9 @@
       "token": "flyzipline",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "351",
         "intern_titles_seen": 42
       }
     },
@@ -116,9 +116,9 @@
       "token": "astranis",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "88",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "164",
         "intern_titles_seen": 16
       }
     },
@@ -130,9 +130,9 @@
       "token": "neuralink",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "77",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "82",
         "intern_titles_seen": 18
       }
     },
@@ -144,9 +144,9 @@
       "token": "relativity",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "334",
         "intern_titles_seen": 0
       }
     },
@@ -158,9 +158,9 @@
       "token": "rocketlab",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "543",
         "intern_titles_seen": 27
       }
     },
@@ -172,9 +172,9 @@
       "token": "sambanovasystems",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "54",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "62",
         "intern_titles_seen": 0
       }
     },
@@ -186,9 +186,9 @@
       "token": "lightmatter",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "68",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "65",
         "intern_titles_seen": 0
       }
     },
@@ -200,9 +200,9 @@
       "token": "psiquantum",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "74+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "73",
         "intern_titles_seen": 6
       }
     },
@@ -214,9 +214,9 @@
       "token": "ionq",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "99",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "118",
         "intern_titles_seen": 0
       }
     },
@@ -228,9 +228,9 @@
       "token": "figureai",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "102",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "99",
         "intern_titles_seen": 4
       }
     },
@@ -242,9 +242,9 @@
       "token": "apptronik",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "81",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "78",
         "intern_titles_seen": 0
       }
     },
@@ -256,9 +256,9 @@
       "token": "redwoodmaterials",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "140",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "138",
         "intern_titles_seen": 0
       }
     },
@@ -270,9 +270,9 @@
       "token": "shieldai",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "7",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "587",
         "intern_titles_seen": 0
       }
     },
@@ -284,9 +284,9 @@
       "token": "planetlabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "111",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "125",
         "intern_titles_seen": 2
       }
     },
@@ -298,9 +298,9 @@
       "token": "hawkeye360",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "18",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "19",
         "intern_titles_seen": 0
       }
     },
@@ -312,9 +312,9 @@
       "token": "purestorage",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "366",
         "intern_titles_seen": 0
       },
       "note": "Board token \"purestorage\"; the API reports the company name as Everpure."
@@ -327,9 +327,9 @@
       "token": "verkada",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "303",
         "intern_titles_seen": 4
       }
     },
@@ -341,9 +341,9 @@
       "token": "helion",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "10+ (ashby payload truncated in probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "66",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -362,9 +362,9 @@
       "token": "cerebras",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "115",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -383,9 +383,9 @@
       "token": "formenergy",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "196",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -404,9 +404,9 @@
       "token": "samsara",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "240",
         "intern_titles_seen": 3
       }
     },
@@ -418,9 +418,9 @@
       "token": "formlabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "164+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "220",
         "intern_titles_seen": 5
       }
     },
@@ -432,9 +432,9 @@
       "token": "oura",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "90",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "87",
         "intern_titles_seen": 0
       }
     },
@@ -446,9 +446,9 @@
       "token": "motional",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "74",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "75",
         "intern_titles_seen": 2
       }
     },
@@ -460,9 +460,9 @@
       "token": "agilityrobotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "69",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "71",
         "intern_titles_seen": 0
       }
     },
@@ -472,11 +472,11 @@
       "category": "consumer",
       "ats": "greenhouse",
       "token": "magicleap",
-      "status": "ok",
+      "status": "not_found",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "5",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "0",
         "intern_titles_seen": 0
       }
     },
@@ -488,8 +488,8 @@
       "token": "epirus",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "40",
         "intern_titles_seen": 0
       }
@@ -502,9 +502,9 @@
       "token": "aeva",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "43",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -523,9 +523,9 @@
       "token": "dexterity",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "21",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -544,9 +544,9 @@
       "token": "skydio",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "138",
         "intern_titles_seen": 1
       },
       "tried": [
@@ -570,9 +570,9 @@
       "token": "boom",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "11",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -596,9 +596,9 @@
       "token": "gecko-robotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "23",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -622,9 +622,9 @@
       "token": "vardaspace",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "91",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "88",
         "intern_titles_seen": 14
       }
     },
@@ -636,9 +636,9 @@
       "token": "muonspace",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "115",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "129",
         "intern_titles_seen": 0
       }
     },
@@ -650,9 +650,9 @@
       "token": "vast",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "90+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "202",
         "intern_titles_seen": 0
       }
     },
@@ -664,9 +664,9 @@
       "token": "archer56",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "154",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "156",
         "intern_titles_seen": 0
       }
     },
@@ -678,9 +678,9 @@
       "token": "saronic",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "6+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "204",
         "intern_titles_seen": 0
       }
     },
@@ -692,9 +692,9 @@
       "token": "hermeus",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "87",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -718,9 +718,9 @@
       "token": "lucidmotors",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "150+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "448",
         "intern_titles_seen": 0
       }
     },
@@ -732,9 +732,9 @@
       "token": "spire",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "46",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "40",
         "intern_titles_seen": 0
       }
     },
@@ -746,9 +746,9 @@
       "token": "blacksky",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "25",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "24",
         "intern_titles_seen": 0
       }
     },
@@ -760,9 +760,9 @@
       "token": "kodiak",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "64",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "70",
         "intern_titles_seen": 0
       }
     },
@@ -774,9 +774,9 @@
       "token": "maymobility",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "47",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "43",
         "intern_titles_seen": 0
       }
     },
@@ -788,9 +788,9 @@
       "token": "rigetti",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "14",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -809,9 +809,9 @@
       "token": "atomcomputing",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "29",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -830,9 +830,9 @@
       "token": "sila",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "219",
         "intern_titles_seen": 0
       }
     },
@@ -844,9 +844,9 @@
       "token": "waabi",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "88",
         "intern_titles_seen": 0
       }
     },
@@ -858,9 +858,9 @@
       "token": "1x",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "92",
         "intern_titles_seen": 0
       }
     },
@@ -872,9 +872,9 @@
       "token": "physicalintelligence",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "16+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "35",
         "intern_titles_seen": 1
       }
     },
@@ -886,9 +886,9 @@
       "token": "matx",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "43",
         "intern_titles_seen": 0
       }
     },
@@ -900,9 +900,9 @@
       "token": "extropic",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "10+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "10",
         "intern_titles_seen": 0
       }
     },
@@ -914,9 +914,9 @@
       "token": "thebotcompany",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "7",
         "intern_titles_seen": 0
       }
     },
@@ -928,9 +928,9 @@
       "token": "quilter",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "0",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "5",
         "intern_titles_seen": 0
       }
     },
@@ -942,9 +942,9 @@
       "token": "tenstorrent",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "150+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "127",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -963,9 +963,9 @@
       "token": "cfsenergy",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "106",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -994,9 +994,9 @@
       "token": "CesiumAstro",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "311",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1025,9 +1025,9 @@
       "token": "k2spacecorporation",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "245",
         "intern_titles_seen": 6
       },
       "tried": [
@@ -1056,9 +1056,9 @@
       "token": "peloton",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "48",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "55",
         "intern_titles_seen": 0
       }
     },
@@ -1070,9 +1070,9 @@
       "token": "roku",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "150+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "236",
         "intern_titles_seen": 0
       }
     },
@@ -1084,9 +1084,9 @@
       "token": "oklo",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "79",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "78",
         "intern_titles_seen": 0
       }
     },
@@ -1098,9 +1098,9 @@
       "token": "kairospower",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "22",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "30",
         "intern_titles_seen": 5
       }
     },
@@ -1112,9 +1112,9 @@
       "token": "span",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "36",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1133,9 +1133,9 @@
       "token": "eightsleep",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "40",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1154,9 +1154,9 @@
       "token": "whoop",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "152",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1175,9 +1175,9 @@
       "token": "standardbots",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "38",
         "intern_titles_seen": 0
       }
     },
@@ -1189,9 +1189,9 @@
       "token": "brinc",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "33",
         "intern_titles_seen": 0
       }
     },
@@ -1203,9 +1203,9 @@
       "token": "lambda",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "9+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "89",
         "intern_titles_seen": 0
       }
     },
@@ -1217,9 +1217,9 @@
       "token": "crusoe",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "8+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "354",
         "intern_titles_seen": 0
       }
     },
@@ -1231,9 +1231,9 @@
       "token": "coreweave",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "312",
         "intern_titles_seen": 0
       }
     },
@@ -1245,9 +1245,9 @@
       "token": "tonal",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "10+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "22",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1266,9 +1266,9 @@
       "token": "axon",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "200+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "504",
         "intern_titles_seen": 1
       }
     },
@@ -1280,9 +1280,9 @@
       "token": "simplisafe",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "45",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "40",
         "intern_titles_seen": 0
       }
     },
@@ -1294,9 +1294,9 @@
       "token": "gomotive",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "101+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "159",
         "intern_titles_seen": 1
       }
     },
@@ -1308,9 +1308,9 @@
       "token": "ursamajor",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "99",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "108",
         "intern_titles_seen": 0
       }
     },
@@ -1322,9 +1322,9 @@
       "token": "asteralabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "178",
         "intern_titles_seen": 3
       }
     },
@@ -1336,9 +1336,9 @@
       "token": "butterflynetwork",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "25",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "23",
         "intern_titles_seen": 0
       }
     },
@@ -1350,9 +1350,9 @@
       "token": "markforged",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "4",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "3",
         "intern_titles_seen": 0
       }
     },
@@ -1364,9 +1364,9 @@
       "token": "carbonrobotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "17",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "18",
         "intern_titles_seen": 0
       }
     },
@@ -1378,9 +1378,9 @@
       "token": "pathrobotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "49",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "44",
         "intern_titles_seen": 0
       }
     },
@@ -1392,9 +1392,9 @@
       "token": "divergent",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "100+",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "113",
         "intern_titles_seen": 2
       }
     },
@@ -1406,9 +1406,9 @@
       "token": "loftorbital",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "3+ (limit probe)",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "60",
         "intern_titles_seen": 0
       }
     },
@@ -1420,8 +1420,8 @@
       "token": "capellaspace",
       "status": "empty",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
       }
@@ -1434,8 +1434,8 @@
       "token": "impinj",
       "status": "empty",
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
       }
@@ -1462,8 +1462,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       },
@@ -1578,8 +1578,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       },
@@ -1607,8 +1607,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1664,8 +1664,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1721,8 +1721,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1749,8 +1749,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1802,8 +1802,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1843,8 +1843,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1863,8 +1863,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1883,8 +1883,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1903,8 +1903,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1923,8 +1923,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1943,8 +1943,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -1988,8 +1988,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2012,8 +2012,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2036,8 +2036,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2081,8 +2081,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2101,8 +2101,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2125,8 +2125,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2145,8 +2145,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2165,8 +2165,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2185,8 +2185,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2205,8 +2205,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2225,8 +2225,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2245,8 +2245,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2269,8 +2269,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2279,9 +2279,9 @@
       "name": "Fervo Energy",
       "slug": "fervo",
       "category": "energy",
-      "ats": null,
-      "token": null,
-      "status": "not_found",
+      "ats": "greenhouse",
+      "token": "fervoenergy",
+      "status": "ok",
       "candidates": [
         {
           "ats": "greenhouse",
@@ -2293,9 +2293,9 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
-        "jobs_seen": "0",
+        "probed_on": "2026-09-30",
+        "method": "live",
+        "jobs_seen": "4",
         "result": "HTTP 404 for every candidate"
       }
     },
@@ -2313,8 +2313,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2337,8 +2337,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2357,8 +2357,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2381,8 +2381,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2401,8 +2401,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2421,8 +2421,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2441,8 +2441,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2461,8 +2461,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2481,8 +2481,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2501,8 +2501,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2521,8 +2521,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2541,8 +2541,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2561,8 +2561,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2581,8 +2581,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2605,8 +2605,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2625,8 +2625,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2645,8 +2645,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2665,8 +2665,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2689,8 +2689,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2713,8 +2713,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2737,8 +2737,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2757,8 +2757,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2781,8 +2781,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2801,8 +2801,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2821,8 +2821,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2841,8 +2841,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2861,8 +2861,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2881,8 +2881,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2901,8 +2901,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2921,8 +2921,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2941,8 +2941,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2961,8 +2961,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -2981,8 +2981,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -3001,8 +3001,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }
@@ -3021,8 +3021,8 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-09-23",
-        "method": "webfetch",
+        "probed_on": "2026-09-30",
+        "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
       }

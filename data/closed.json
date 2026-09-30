@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0ark85204dqv80",
+   "company": "Lightmatter",
+   "title": "Silicon, Hardware, & Photonics Engineering - Internship",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-30"
+  },
+  {
+   "id": "r0g9b4f70qyi4td",
+   "company": "Zipline",
+   "title": "Embedded Engineering Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-09-30"
+  },
+  {
    "id": "r1qhc3fq01i09hs",
    "company": "Formlabs",
    "title": "Hardware R&D Engineering Intern (Fall 2026)",
