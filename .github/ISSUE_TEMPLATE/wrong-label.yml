@@ -1,0 +1,30 @@
+name: Wrong label
+description: A role's class year, discipline, citizenship flag, term or location is wrong.
+title: "Wrong label: "
+body:
+  - type: input
+    id: role
+    attributes:
+      label: Role link
+      description: The posting's link from First Silicon or the employer's page.
+    validations:
+      required: true
+  - type: dropdown
+    id: which
+    attributes:
+      label: Which label is wrong?
+      options:
+        - Class year (Fr/So, Jr+ or not stated)
+        - Discipline
+        - Citizenship / ITAR / clearance flag
+        - Term or location
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: What the posting says
+      description: Paste the sentence from the posting that shows the right label.
+    validations:
+      required: true

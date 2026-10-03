@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { validateProgram, upcomingDeadlines, sortPrograms, nextDeadline } from '../../src/lib/programs.mjs';
-import { needsProbe, candidatesFor, summarize } from '../../scripts/probe.mjs';
+import { needsProbe, candidatesFor, summarize, applyProbeResult } from '../../scripts/probe.mjs';
 import { parseHeadersFile, headersFor } from '../../scripts/serve.mjs';
 import { headersFile } from '../../build.mjs';
 import * as site from '../../config/site.mjs';
@@ -26,7 +26,8 @@ test('companies.json: >= 120 employers, >= 80 working boards, consistent fields'
       assert.ok(['greenhouse', 'lever', 'ashby'].includes(c.ats), c.slug);
       assert.match(c.token, /^[A-Za-z0-9._-]+$/, c.slug);
     } else {
-      assert.ok(Array.isArray(c.candidates), `${c.slug} keeps candidates for re-probing`);
+      // Re-probe-able: an explicit candidates list, or the board it was last known by (candidatesFor uses both).
+      assert.ok(Array.isArray(c.candidates) || candidatesFor(c).length > 0 || c.status === 'unsupported_ats', `${c.slug} keeps candidates for re-probing`);
     }
   }
   assert.deepEqual(summarize(list), companies.summary);
@@ -73,4 +74,18 @@ test('_headers: CSP allows Pulse, cache rules detach correctly (emulated like Cl
   assert.equal(headersFor(rules, '/assets/app.123.js')['cache-control'], 'public, max-age=31536000, immutable');
   assert.equal(headersFor(rules, '/data/jobs.json')['cache-control'], 'public, max-age=300, must-revalidate');
   assert.ok(headersFor(rules, '/programs/')['content-security-policy']);
+});
+
+test('probe: a working board that disappears keeps its token as a candidate', () => {
+  const c = { slug: 'x', status: 'ok', ats: 'greenhouse', token: 'gone', probe: { probed_on: '2026-09-23' } };
+  applyProbeResult(c, null, '2026-09-30');
+  assert.equal(c.status, 'not_found');
+  assert.deepEqual(c.candidates, [{ ats: 'greenhouse', token: 'gone' }]);
+  assert.equal(c.probe.probed_on, '2026-09-30');
+  const back = applyProbeResult({ ...c }, { ats: 'lever', token: 'new', jobs: 3 }, '2026-10-07');
+  assert.equal(back.status, 'ok');
+  assert.equal(back.ats, 'lever');
+  assert.equal(back.token, 'new');
+  const unsupported = applyProbeResult({ slug: 'y', status: 'unsupported_ats', candidates: [] }, null, '2026-10-07');
+  assert.equal(unsupported.status, 'unsupported_ats');
 });

@@ -1,0 +1,26 @@
+name: Suggest an employer
+description: A hardware company whose internships and co-ops First Silicon should read every morning.
+title: "Add employer: "
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: e.g. Anduril Industries
+    validations:
+      required: true
+  - type: input
+    id: careers
+    attributes:
+      label: Careers page link
+      description: The company's own job board. Greenhouse, Lever and Ashby boards are the quickest to add.
+      placeholder: https://boards.greenhouse.io/...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Example hardware roles, locations, or why it belongs on the list.
+    validations:
+      required: false

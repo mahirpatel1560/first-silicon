@@ -66,20 +66,28 @@ async function main() {
       }
     }
     const hit = found || emptyHit;
-    c.probe = { ...(c.probe || {}), probed_on: today, method: 'live', jobs_seen: hit ? String(hit.jobs) : '0' };
-    if (hit) {
-      c.ats = hit.ats;
-      c.token = hit.token;
-      c.status = hit.jobs > 0 ? 'ok' : 'empty';
-    } else if (c.status !== 'unsupported_ats') {
-      c.status = 'not_found';
-    }
+    applyProbeResult(c, hit, today);
     console.log(`${c.status.padEnd(15)} ${c.slug.padEnd(28)} ${hit ? `${hit.ats}:${hit.token} (${hit.jobs})` : ''}`);
   }
   file.updated_on = today;
   file.summary = summarize(file.companies);
   if (!args.dryRun) await fs.writeFile(FILE, JSON.stringify(file, null, 2) + '\n');
   console.log(`\nProbed ${probed} candidate URLs.`, file.summary);
+}
+
+// Records one probe result on a company entry. A board that stops answering keeps every token it was
+// known by in `candidates`, so the next run re-probes it (and config checks stay valid).
+export function applyProbeResult(c, hit, today) {
+  c.probe = { ...(c.probe || {}), probed_on: today, method: 'live', jobs_seen: hit ? String(hit.jobs) : '0' };
+  if (hit) {
+    c.ats = hit.ats;
+    c.token = hit.token;
+    c.status = hit.jobs > 0 ? 'ok' : 'empty';
+  } else if (c.status !== 'unsupported_ats') {
+    c.candidates = candidatesFor(c);
+    c.status = 'not_found';
+  }
+  return c;
 }
 
 export function summarize(companies) {
