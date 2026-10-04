@@ -2,7 +2,7 @@
 
 217 internships and co-ops at 36 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated October 3, 2026** · 217 open roles · 23 new this week · 79 without citizenship or export flags
+**Updated October 4, 2026** · 217 open roles · 23 new this week · 79 without citizenship or export flags
 
 **Class year:** Only 5 postings say freshmen or sophomores can apply. 195 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
