@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0yfzqb710pyuif",
+   "company": "Anduril Industries",
+   "title": "2027 Manufacturing Optimization Engineer Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-08"
+  },
+  {
+   "id": "r1p8314q0to7z2q",
+   "company": "Shield AI",
+   "title": "Systems Test Engineer (R5243)",
+   "first_seen": "2026-10-06",
+   "closed_on": "2026-10-08"
+  },
+  {
    "id": "r15zakrv0gwww07",
    "company": "Lightmatter",
    "title": "Photonics Characterization Intern & New Grad",
