@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0l2n0ic0oixh06",
+   "company": "Zipline",
+   "title": "Embedded Software Engineer Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-10"
+  },
+  {
+   "id": "r1chpcmh05es7pz",
+   "company": "Astera Labs",
+   "title": "Analog Mixed-Signal Layout Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-10"
+  },
+  {
    "id": "r1b3lkpk02z2mgo",
    "company": "Rocket Lab",
    "title": "RF Test Engineer Intern",
