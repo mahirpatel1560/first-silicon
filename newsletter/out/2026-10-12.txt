@@ -1,0 +1,67 @@
+Subject: 14 new hardware internships this week at 6 companies
+
+FIRST SILICON WEEKLY · October 12, 2026
+
+14 hardware internships and co-ops at 6 companies were first seen in the last 7 days, grouped by discipline below. No postings say freshmen or sophomores can apply right now. 11 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+Labels are automatic. Always check the posting on the employer's site.
+
+== EMBEDDED SYSTEMS & FIRMWARE (4) ==
+- Anduril Industries: 2026 Electrical Engineer Intern
+  Sydney, New South Wales, Australia · Class year not stated · Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5261873007?gh_jid=5261873007
+- Shield AI: Staff Autonomy Integration Engineer
+  Bangalore · Class year not stated
+  https://jobs.lever.co/shieldai/9c716bbd-d013-4efe-82ae-93654787f9b8
+- Zipline: Firmware Engineer Intern (Spring 2027)
+  South San Francisco, CA · Juniors+
+  https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003
+- Zipline: Firmware Engineer Intern (Summer 2027)
+  South San Francisco, CA · Juniors+
+  https://www.zipline.com/open-roles/8020865003?gh_jid=8020865003
+
+== POWER ELECTRONICS (1) ==
+- Zoox: Contract Student Worker - Charging Infrastructure Partnerships
+  Foster City, CA · Class year not stated
+  https://jobs.lever.co/zoox/4645fddd-019c-470c-96c8-552496b30450
+
+== TEST, VALIDATION & RELIABILITY (6) ==
+- Shield AI: Systems Test Engineer
+  Bangalore · Class year not stated
+  https://jobs.lever.co/shieldai/cbba120f-2089-4531-9e41-1dad856473a7
+- Anduril Industries: 2027 Reliability Engineer Intern
+  Costa Mesa, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5257682007?gh_jid=5257682007
+- Anduril Industries: Winter 2027 Reliability Engineer Co-op
+  Costa Mesa, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5257693007?gh_jid=5257693007
+- Anduril Industries: 2027 Quality & Test Engineer Intern
+  Ashville, OH; Costa Mesa, CA +3 more · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5257674007?gh_jid=5257674007
+- Anduril Industries: Winter 2027 Quality & Test Engineer Co-op
+  Ashville, OH; Santa Ana, CA · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5257571007?gh_jid=5257571007
+- Zoox: Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)
+  Foster City, CA · Class year not stated
+  https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973
+
+== CONTROLS, ROBOTICS & GNC (2) ==
+- Shield AI: Staff Engineer, Autonomy Behaviors
+  Bangalore · Class year not stated
+  https://jobs.lever.co/shieldai/d13bae60-fb7d-49ea-9d9d-b777efd95d2c
+- Waymo: 2027 Summer Intern, MS/PhD, Perception, Robotics
+  Mountain View, CA · Juniors+
+  https://careers.withwaymo.com/jobs?gh_jid=8227633
+
+== GENERAL EE / HARDWARE (1) ==
+- Commonwealth Fusion Systems: Intern - NRad & Nuclear/Systems Engineer - Summer 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/a05832ae-41df-4e2d-ab86-dd3e2c4877d4
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- None with a fixed date in the next 60 days. Calendar: https://firstsilicon.pages.dev/programs/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-10-12
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-10-12
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}

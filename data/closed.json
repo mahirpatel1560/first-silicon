@@ -2,6 +2,13 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r048ezow0altxqo",
+   "company": "Etched",
+   "title": "RTL Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-12"
+  },
+  {
    "id": "r0l2n0ic0oixh06",
    "company": "Zipline",
    "title": "Embedded Software Engineer Intern (Spring 2027)",
