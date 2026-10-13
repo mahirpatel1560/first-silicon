@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r168cyer0mz0j33",
+   "company": "Zipline",
+   "title": "Long Range Platform Embedded Firmware Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-13"
+  },
+  {
+   "id": "r05ozb2r12y16k5",
+   "company": "Shield AI",
+   "title": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-13"
+  },
+  {
    "id": "r048ezow0altxqo",
    "company": "Etched",
    "title": "RTL Intern",
