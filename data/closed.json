@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1mm9xre0v858zs",
+   "company": "Muon Space",
+   "title": "Test Engineering Intern (Summer 2027)",
+   "first_seen": "2026-10-13",
+   "closed_on": "2026-10-14"
+  },
+  {
+   "id": "r0p59lca0k30fps",
+   "company": "Astranis",
+   "title": "Reliability Test Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-14"
+  },
+  {
+   "id": "r1xfu5v20xailh2",
+   "company": "Astranis",
+   "title": "Reliability Test Intern (Winter 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-14"
+  },
+  {
+   "id": "r1yuttq90uk4izh",
+   "company": "Shield AI",
+   "title": "Electrical Engineering Intern - X-BAT Avionics (R4475)",
+   "first_seen": "2026-10-13",
+   "closed_on": "2026-10-14"
+  },
+  {
    "id": "r168cyer0mz0j33",
    "company": "Zipline",
    "title": "Long Range Platform Embedded Firmware Intern (Summer 2027)",
