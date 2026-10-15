@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r11yih6r1s5nsfn",
+   "company": "Commonwealth Fusion Systems",
+   "title": "Intern - NRad & Nuclear/Systems Engineer - Summer 2027",
+   "first_seen": "2026-10-10",
+   "closed_on": "2026-10-15"
+  },
+  {
+   "id": "r1v56bxt01ho1q5",
+   "company": "Rocket Lab",
+   "title": "Radio Frequency Test Engineer Intern",
+   "first_seen": "2026-10-09",
+   "closed_on": "2026-10-15"
+  },
+  {
    "id": "r1mm9xre0v858zs",
    "company": "Muon Space",
    "title": "Test Engineering Intern (Summer 2027)",
