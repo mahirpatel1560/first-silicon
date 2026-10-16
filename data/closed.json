@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0mcyc8b0xsxe7h",
+   "company": "Commonwealth Fusion Systems",
+   "title": "Intern - Nuclear/Systems Engineer - Summer 2027",
+   "first_seen": "2026-10-15",
+   "closed_on": "2026-10-16"
+  },
+  {
+   "id": "r1og6srl0zyy809",
+   "company": "Skydio",
+   "title": "Electrical Engineer Intern - Winter 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-16"
+  },
+  {
    "id": "r11yih6r1s5nsfn",
    "company": "Commonwealth Fusion Systems",
    "title": "Intern - NRad & Nuclear/Systems Engineer - Summer 2027",
