@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r062ctnu0ugpimk",
+   "company": "Figure",
+   "title": "Embedded Software Engineering Intern, Platform",
+   "first_seen": "2026-10-15",
+   "closed_on": "2026-10-17"
+  },
+  {
+   "id": "r1n5is5p1nkgq59",
+   "company": "CesiumAstro",
+   "title": "Summer 2027 - Electrical Engineering Internship, FPGA",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-17"
+  },
+  {
+   "id": "r038jv28166llp6",
+   "company": "Kodiak Robotics",
+   "title": "Winter 2027 Intern, Controls",
+   "first_seen": "2026-10-13",
+   "closed_on": "2026-10-17"
+  },
+  {
+   "id": "r08r56a310vk3zz",
+   "company": "Astranis",
+   "title": "Power Electronics Intern (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-17"
+  },
+  {
    "id": "r0mcyc8b0xsxe7h",
    "company": "Commonwealth Fusion Systems",
    "title": "Intern - Nuclear/Systems Engineer - Summer 2027",
