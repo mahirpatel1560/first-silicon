@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0aotg1w0kft9h0",
+   "company": "Shield AI",
+   "title": "Staff Engineer, Autonomy (R5681)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-19"
+  },
+  {
+   "id": "r173j3s515i8xyf",
+   "company": "Zipline",
+   "title": "Quality & Manufacturing Intern (Fall 2026)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-19"
+  },
+  {
    "id": "r062ctnu0ugpimk",
    "company": "Figure",
    "title": "Embedded Software Engineering Intern, Platform",
