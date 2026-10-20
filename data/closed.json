@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0survin05hgiud",
+   "company": "Anduril Industries",
+   "title": "2026 Electrical Engineer Intern",
+   "first_seen": "2026-10-09",
+   "closed_on": "2026-10-20"
+  },
+  {
+   "id": "r1s6fpz8195et78",
+   "company": "Lightmatter",
+   "title": "Silicon Packaging Engineer - Intern & New Grad",
+   "first_seen": "2026-09-25",
+   "closed_on": "2026-10-20"
+  },
+  {
+   "id": "r0l25kdm1br6rfq",
+   "company": "Rocket Lab",
+   "title": "Integration & Test Intern Spring 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-20"
+  },
+  {
    "id": "r0aotg1w0kft9h0",
    "company": "Shield AI",
    "title": "Staff Engineer, Autonomy (R5681)",
