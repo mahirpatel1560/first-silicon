@@ -2,6 +2,41 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r14k38gv1h55nt7",
+   "company": "Zoox",
+   "title": "Contract Student Worker - Charging Infrastructure Partnerships",
+   "first_seen": "2026-10-06",
+   "closed_on": "2026-10-21"
+  },
+  {
+   "id": "r1yy58qi0ubmru8",
+   "company": "Gecko Robotics",
+   "title": "Embedded Software Engineering Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-21"
+  },
+  {
+   "id": "r0o8bsvv0toaasr",
+   "company": "1X",
+   "title": "Internship - Manufacturing Engineering",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-21"
+  },
+  {
+   "id": "r12pberv0m97k5j",
+   "company": "Rigetti Computing",
+   "title": "Research Intern: Scalable Fabrication of Superconducting Quantum Devices",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-21"
+  },
+  {
+   "id": "r1xp88si13agj68",
+   "company": "Skydio",
+   "title": "Hardware Test & Reliability Intern - Fall 2026/Winter 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-21"
+  },
+  {
    "id": "r0survin05hgiud",
    "company": "Anduril Industries",
    "title": "2026 Electrical Engineer Intern",

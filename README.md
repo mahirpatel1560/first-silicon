@@ -1,10 +1,10 @@
 # First Silicon: every hardware internship, labeled
 
-232 internships and co-ops at 38 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
+230 internships and co-ops at 36 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated October 20, 2026** · 232 open roles · 14 new this week · 85 without citizenship or export flags
+**Updated October 21, 2026** · 230 open roles · 12 new this week · 84 without citizenship or export flags
 
-**Class year:** Only 5 postings say freshmen or sophomores can apply. 207 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+**Class year:** Only 5 postings say freshmen or sophomores can apply. 205 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
 > Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer's site before applying. Closed roles are removed on the next daily run.
 
@@ -14,10 +14,12 @@
 - **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.
 - **Posted**: the employer's publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).
 
-## Open roles (232, newest first)
+## Open roles (230, newest first)
 
 | Company | Role | Location | Discipline | Class year | Flags | Posted |
 | --- | --- | --- | --- | --- | --- | --- |
+| Skydio | [Embedded Software Engineer Intern - Winer 2027](https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34) | San Mateo, CA · Remote | Embedded/firmware |  |  | Oct 20 · new |
+| Skydio | [Wireless Hardware Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) | San Mateo, CA · Remote | RF/wireless, PCB/hardware | Jr+ |  | Oct 20 · new |
 | Anduril Industries | [2027 Field Test Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268689007?gh_jid=5268689007) | Costa Mesa, CA; Quincy, MA | Test/validation |  | US person / PR, ITAR / export, Clearance | Oct 19 · new |
 | Anduril Industries | [2027 Guidance, Navigation, & Control Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268736007?gh_jid=5268736007) | Costa Mesa, CA | Controls/robotics |  | US person / PR, ITAR / export, Clearance | Oct 19 · new |
 | Anduril Industries | [2027 Low Observables Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268752007?gh_jid=5268752007) | Costa Mesa, CA | RF/wireless |  | US person / PR, ITAR / export, Clearance | Oct 19 · new |
@@ -28,10 +30,10 @@
 | Commonwealth Fusion Systems | [Intern - Mechanical Engineer - Summer 2027](https://jobs.lever.co/cfsenergy/9690a768-362f-4df8-86a1-554b896cbc76) | Milpitas, CA | Controls/robotics |  | ITAR / export | Oct 15 · new |
 | Figure | [Embedded Software Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4722086006) | San Jose, CA | Embedded/firmware | Jr+ |  | Oct 14 · new |
 | Anduril Industries | [2027 Flight Test Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5257709007?gh_jid=5257709007) | Costa Mesa, CA | Test/validation |  | US person / PR, ITAR / export, Clearance | Oct 14 · new |
-| Formlabs | [Hardware Systems Integration Intern (Summer 2027)](https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683) | Somerville, MA | Test/validation |  |  | Oct 14 · new |
-| Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007) | Costa Mesa, CA | Embedded/firmware |  | US person / PR, ITAR / export, Clearance | Oct 13 · new |
-| Muon Space | [Spacecraft Test Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5256288007) | San Jose, CA | Test/validation |  | US person / PR, ITAR / export | Oct 13 · new |
-| Zoox | [Contract Student Worker – AI Validation and Benchmarking Engineer (40hrs / week Full-Time)](https://jobs.lever.co/zoox/cc43bf88-ed84-408f-a557-3d1c7263ddff) | Foster City, CA · Hybrid | Test/validation |  |  | Oct 13 · new |
+| Formlabs | [Hardware Systems Integration Intern (Summer 2027)](https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683) | Somerville, MA | Test/validation |  |  | Oct 14 |
+| Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007) | Costa Mesa, CA | Embedded/firmware |  | US person / PR, ITAR / export, Clearance | Oct 13 |
+| Muon Space | [Spacecraft Test Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5256288007) | San Jose, CA | Test/validation |  | US person / PR, ITAR / export | Oct 13 |
+| Zoox | [Contract Student Worker – AI Validation and Benchmarking Engineer (40hrs / week Full-Time)](https://jobs.lever.co/zoox/cc43bf88-ed84-408f-a557-3d1c7263ddff) | Foster City, CA · Hybrid | Test/validation |  |  | Oct 13 |
 | Rocket Lab | [Ground Systems Engineering Intern Spring 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8007204003) | Stennis Space Center, MS | Controls/robotics |  | US person / PR, ITAR / export | Oct 13 |
 | Skydio | [Embedded Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/8994767e-fd53-4ca2-b0ef-fe0923c1e260) | San Mateo, CA · Remote | Embedded/firmware |  |  | Oct 13 |
 | Zipline | [Firmware Engineer Intern (Spring 2027)](https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003) | South San Francisco, CA | Embedded/firmware | Jr+ |  | Oct 9 |
@@ -44,7 +46,6 @@
 | Anduril Industries | [Winter 2027 Reliability Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5257693007?gh_jid=5257693007) | Costa Mesa, CA | Test/validation |  | US person / PR, ITAR / export, Clearance | Oct 6 |
 | Anduril Industries | [2027 Quality & Test Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5257674007?gh_jid=5257674007) | Ashville, OH; Costa Mesa, CA +3 more | Test/validation |  | US person / PR, ITAR / export, Clearance | Oct 5 |
 | Anduril Industries | [Winter 2027 Quality & Test Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5257571007?gh_jid=5257571007) | Ashville, OH; Santa Ana, CA | Test/validation |  | US person / PR, ITAR / export, Clearance | Oct 5 |
-| Zoox | [Contract Student Worker - Charging Infrastructure Partnerships](https://jobs.lever.co/zoox/4645fddd-019c-470c-96c8-552496b30450) | Foster City, CA | Power electronics |  |  | Oct 5 |
 | Zoox | [Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)](https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973) | Foster City, CA | Test/validation |  |  | Oct 5 |
 | Rocket Lab | [RF Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8013277003) | Long Beach, CA | RF/wireless |  | US person / PR, ITAR / export | Oct 5 |
 | Muon Space | [Environmental Test Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5256286007) | San Jose, CA | Test/validation |  | US person / PR, ITAR / export | Oct 3 |
@@ -147,10 +148,7 @@
 | CesiumAstro | [Summer 2027 - Electrical Engineering Internship, Hardware](https://jobs.lever.co/CesiumAstro/6a953cbc-af69-452c-b357-1a0a3db80bbf) (co-op) | Austin, TX; Westminster, CO | Analog/mixed-signal, RF/wireless, PCB/hardware |  | US person / PR, ITAR / export | Sep 15 |
 | CesiumAstro | [Summer 2027 - Electrical Engineering Internship, RF](https://jobs.lever.co/CesiumAstro/8eb71502-4374-45aa-82fa-2b62a42cd8e9) (co-op) | Westminster, CO; Austin, TX | RF/wireless |  | US person / PR, ITAR / export | Sep 15 |
 | CesiumAstro | [Summer 2027 - GNC Internship](https://jobs.lever.co/CesiumAstro/e18ce6a5-32ed-468e-a39e-28de9eb16872) (co-op) | Westminster, CO | Controls/robotics |  | US person / PR, ITAR / export | Sep 15 |
-| Gecko Robotics | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/gecko-robotics/24561868-f075-4edf-a991-59ff0174e92a) | Pittsburgh | Embedded/firmware, Controls/robotics | Jr+ |  | Sep 15 |
 | Gecko Robotics | [Test & Reliability Engineering Intern](https://jobs.ashbyhq.com/gecko-robotics/07b4bc1b-500f-493c-ab28-383b543a3e85) | Pittsburgh | Test/validation | Jr+ |  | Sep 15 |
-| 1X | [Internship - Manufacturing Engineering](https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050) | San Carlos, CA | Controls/robotics |  |  | Sep 14 |
-| Rigetti Computing | [Research Intern: Scalable Fabrication of Superconducting Quantum Devices](https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3) | Berkeley, CA | Semi process/device |  | ITAR / export | Sep 14 |
 | Skydio | [Camera & Imaging Intern](https://jobs.ashbyhq.com/skydio/aabcda71-f098-4c42-a094-46dc9d832c94) | Tampere, Finland · Remote | Test/validation, Photonics/optics |  |  | Sep 14 |
 | Lightmatter | [Photonics Characterization Intern- Winter 2026](https://boards.greenhouse.io/lightmatter/jobs/5374627008?gh_jid=5374627008) | Boston, MA | RF/wireless, Test/validation, Photonics/optics |  | ITAR / export | Sep 11 |
 | Rocket Lab | [Test Engineering Intern - Avionics Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987159003) | Long Beach, CA | PCB/hardware, Test/validation |  | US person / PR, ITAR / export | Sep 10 |
@@ -158,14 +156,15 @@
 | Hermeus | [Avionics Electrical Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) | Atlanta, GA | PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Avionics Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989733003) | Long Beach, CA | PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Electrical Engineering Intern Spring 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990045003) | Toronto, CAN | General EE |  | US person / PR, ITAR / export | Sep 9 |
-| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Long Beach, CA +1 more | FPGA/RTL/ASIC, PCB/hardware, Embedded/firmware, Test/validation |  | US person / PR, ITAR / export | Sep 9 |
+| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Long Beach, CA +1 more | Embedded/firmware, Test/validation, FPGA/RTL/ASIC, PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Flight Software Intern Spring 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989724003) | Littleton, CO | Embedded/firmware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Flight Software Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989722003) | Littleton, CO | Embedded/firmware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | Long Beach, CA | Test/validation |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Integration & Test Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987250003) | Long Beach, CA | Test/validation |  | US person / PR, ITAR / export | Sep 9 |
 | Saronic Technologies | [Electrical Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/saronic/c7779462-3c4c-44d9-8314-1be93a0e478a) | Austin, TX | Analog/mixed-signal, PCB/hardware, Controls/robotics |  | US person / PR, ITAR / export | Sep 9 |
 | Saronic Technologies | [Forward Deployed Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/saronic/cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce) | Austin, TX | Test/validation, Controls/robotics |  | US person / PR, ITAR / export | Sep 9 |
-| Shield AI | [Engineer II, Autonomy (R5713)](https://jobs.lever.co/shieldai/d5006f31-a431-456b-b2f3-72b527a1b125) | Melbourne · Hybrid | Controls/robotics |  |  | Sep 9 |
+| Shield AI | [Engineer II, Autonomy (R5713)](https://jobs.lever.co/shieldai/d5006f31-a431-456b-b2f3-72b527a1b125) | Taipei · Hybrid | Controls/robotics |  |  | Sep 9 |
+| Shield AI | [Senior Engineer, Autonomy (R5685)](https://jobs.lever.co/shieldai/47fdba45-27ab-4534-9fe3-3d498eb12ad7) | Taipei | Controls/robotics |  |  | Sep 8 |
 | Shield AI | [Senior Engineer, Test (R5833)](https://jobs.lever.co/shieldai/1b5f8795-9e77-4999-b1be-09eb7f08f7b9) | Melbourne · Hybrid | Test/validation, Controls/robotics |  | Clearance | Sep 8 |
 | Shield AI | [Senior Software Engineer, Embedded Linux Platform (R5718)](https://jobs.lever.co/shieldai/a2627727-1714-46fd-8724-3557bc17c696) | Melbourne | Embedded/firmware, Test/validation |  |  | Sep 8 |
 | Shield AI | [Senior Staff Engineer, Autonomy (R5837)](https://jobs.lever.co/shieldai/042bdefc-dd82-4f5c-a966-06345a1a78d1) | Melbourne | Controls/robotics |  | Clearance | Sep 8 |
@@ -212,7 +211,6 @@
 | Varda Space Industries | [Manufacturing Engineering Internship - Spring 2027](https://job-boards.greenhouse.io/vardaspace/jobs/7824767003) | El Segundo, CA | Photonics/optics |  | US person / PR, ITAR / export | Aug 7 |
 | Varda Space Industries | [Vehicle Integration & Test Internship - Spring 2027](https://job-boards.greenhouse.io/vardaspace/jobs/7824772003) | El Segundo, CA | Test/validation |  | US person / PR, ITAR / export | Aug 7 |
 | Shield AI | [Senior Staff Engineer, Autonomy and Motion Planning (R5538)](https://jobs.lever.co/shieldai/2dd71f90-62a3-4855-a528-cb3c740efc9a) | London · Hybrid | Controls/robotics |  | Clearance | Aug 6 |
-| Skydio | [Hardware Test & Reliability Intern - Fall 2026/Winter 2027](https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924) | San Mateo, CA · Remote | Test/validation |  |  | Aug 5 |
 | Rocket Lab | [Ground Systems Engineering Intern](https://job-boards.greenhouse.io/rocketlab/jobs/7821140003) | Auckland, NZ | PCB/hardware |  | US person / PR, ITAR / export | Aug 3 |
 | SpaceX | [Spring 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002) | Flexible - Any SpaceX Site | FPGA/RTL/ASIC | Fr/So | US person / PR, ITAR / export | Aug 3 |
 | SpaceX | [Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) | Flexible - Any SpaceX Site | FPGA/RTL/ASIC | Fr/So | US person / PR, ITAR / export | Aug 3 |
