@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0z1i1gl1job21f",
+   "company": "Anduril Industries",
+   "title": "2026 Guidance, Navigation & Control Engineer Intern",
+   "first_seen": "2026-09-30",
+   "closed_on": "2026-10-22"
+  },
+  {
+   "id": "r06291591wredjx",
+   "company": "Waymo",
+   "title": "2027 Summer Intern, BS/MS, Embedded, Software Engineer",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-22"
+  },
+  {
+   "id": "r00gxvyn1stoe5h",
+   "company": "Skydio",
+   "title": "Hardware Product Management Intern - Fall 2026/Winter 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-22"
+  },
+  {
+   "id": "r0thvish1bxzwy9",
+   "company": "Hermeus",
+   "title": "GNC & Flight Software Intern - Spring/Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-22"
+  },
+  {
    "id": "r14k38gv1h55nt7",
    "company": "Zoox",
    "title": "Contract Student Worker - Charging Infrastructure Partnerships",
