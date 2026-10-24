@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1tio7fg1rjp380",
+   "company": "Skydio",
+   "title": "Embedded Software Engineer Intern - Summer 2027",
+   "first_seen": "2026-10-13",
+   "closed_on": "2026-10-24"
+  },
+  {
+   "id": "r1fhuep31tax62d",
+   "company": "Kodiak Robotics",
+   "title": "Winter 2027 Intern, Electrical Engineering",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-24"
+  },
+  {
+   "id": "r1r9qmhz0va3udj",
+   "company": "Zipline",
+   "title": "Long Range Platform Hardware Engineering Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-24"
+  },
+  {
+   "id": "r117lyho0m4n5pi",
+   "company": "Varda Space Industries",
+   "title": "Avionics Engineering Internship - Spring 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-24"
+  },
+  {
    "id": "r159vnvs1t1zehy",
    "company": "Skydio",
    "title": "Embedded Software Engineer Intern - Winer 2027",
