@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-28",
   "about": "Hardware-heavy employers and their public job-board tokens. status: ok = HTTP 200 with jobs; empty = HTTP 200 with zero jobs; not_found = HTTP 404 for every candidate token tried; unsupported_ats = the careers page uses an ATS this project does not fetch. Initial probes on 2026-09-23 used WebFetch because the build container's egress proxy blocked these API hosts; scripts/probe.mjs re-probes live from the GitHub Action.",
   "summary": {
     "companies": 160,
     "ok": 86,
-    "not_found": 63,
-    "empty": 2,
+    "not_found": 62,
+    "empty": 3,
     "unsupported_ats": 9
   },
   "companies": [
@@ -18,9 +18,9 @@
       "token": "spacex",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "2777",
+        "jobs_seen": "2837",
         "intern_titles_seen": 0
       }
     },
@@ -32,9 +32,9 @@
       "token": "zoox",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "235",
+        "jobs_seen": "228",
         "intern_titles_seen": 0
       }
     },
@@ -46,9 +46,9 @@
       "token": "etched",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "118",
+        "jobs_seen": "117",
         "intern_titles_seen": 0
       }
     },
@@ -60,9 +60,9 @@
       "token": "andurilindustries",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "2523",
+        "jobs_seen": "2536",
         "intern_titles_seen": 10
       }
     },
@@ -74,9 +74,9 @@
       "token": "waymo",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "365",
+        "jobs_seen": "370",
         "intern_titles_seen": 25
       }
     },
@@ -88,9 +88,9 @@
       "token": "nuro",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "107",
+        "jobs_seen": "97",
         "intern_titles_seen": 1
       }
     },
@@ -102,9 +102,9 @@
       "token": "flyzipline",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "348",
+        "jobs_seen": "345",
         "intern_titles_seen": 42
       }
     },
@@ -116,9 +116,9 @@
       "token": "astranis",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "182",
+        "jobs_seen": "186",
         "intern_titles_seen": 16
       }
     },
@@ -130,9 +130,9 @@
       "token": "neuralink",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "79",
+        "jobs_seen": "78",
         "intern_titles_seen": 18
       }
     },
@@ -144,9 +144,9 @@
       "token": "relativity",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "382",
+        "jobs_seen": "405",
         "intern_titles_seen": 0
       }
     },
@@ -158,9 +158,9 @@
       "token": "rocketlab",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "582",
+        "jobs_seen": "556",
         "intern_titles_seen": 27
       }
     },
@@ -172,9 +172,9 @@
       "token": "sambanovasystems",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "59",
+        "jobs_seen": "69",
         "intern_titles_seen": 0
       }
     },
@@ -186,9 +186,9 @@
       "token": "lightmatter",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "63",
+        "jobs_seen": "59",
         "intern_titles_seen": 0
       }
     },
@@ -200,9 +200,9 @@
       "token": "psiquantum",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "77",
+        "jobs_seen": "79",
         "intern_titles_seen": 6
       }
     },
@@ -214,9 +214,9 @@
       "token": "ionq",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "136",
+        "jobs_seen": "127",
         "intern_titles_seen": 0
       }
     },
@@ -228,9 +228,9 @@
       "token": "figureai",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "100",
+        "jobs_seen": "99",
         "intern_titles_seen": 4
       }
     },
@@ -242,9 +242,9 @@
       "token": "apptronik",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "80",
+        "jobs_seen": "87",
         "intern_titles_seen": 0
       }
     },
@@ -256,9 +256,9 @@
       "token": "redwoodmaterials",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "139",
+        "jobs_seen": "135",
         "intern_titles_seen": 0
       }
     },
@@ -270,9 +270,9 @@
       "token": "shieldai",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "655",
+        "jobs_seen": "659",
         "intern_titles_seen": 0
       }
     },
@@ -284,9 +284,9 @@
       "token": "planetlabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "122",
+        "jobs_seen": "132",
         "intern_titles_seen": 2
       }
     },
@@ -298,9 +298,9 @@
       "token": "hawkeye360",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "16",
+        "jobs_seen": "21",
         "intern_titles_seen": 0
       }
     },
@@ -312,9 +312,9 @@
       "token": "purestorage",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "372",
+        "jobs_seen": "364",
         "intern_titles_seen": 0
       },
       "note": "Board token \"purestorage\"; the API reports the company name as Everpure."
@@ -327,9 +327,9 @@
       "token": "verkada",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "326",
+        "jobs_seen": "331",
         "intern_titles_seen": 4
       }
     },
@@ -341,9 +341,9 @@
       "token": "helion",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "64",
+        "jobs_seen": "61",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -362,9 +362,9 @@
       "token": "cerebras",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "122",
+        "jobs_seen": "119",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -383,9 +383,9 @@
       "token": "formenergy",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "202",
+        "jobs_seen": "204",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -404,9 +404,9 @@
       "token": "samsara",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "275",
+        "jobs_seen": "324",
         "intern_titles_seen": 3
       }
     },
@@ -418,9 +418,9 @@
       "token": "formlabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "242",
+        "jobs_seen": "241",
         "intern_titles_seen": 5
       }
     },
@@ -432,9 +432,9 @@
       "token": "oura",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "81",
+        "jobs_seen": "94",
         "intern_titles_seen": 0
       }
     },
@@ -446,7 +446,7 @@
       "token": "motional",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "82",
         "intern_titles_seen": 2
@@ -460,9 +460,9 @@
       "token": "agilityrobotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "75",
+        "jobs_seen": "68",
         "intern_titles_seen": 0
       }
     },
@@ -474,7 +474,7 @@
       "token": "magicleap",
       "status": "not_found",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
@@ -494,7 +494,7 @@
       "token": "epirus",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "38",
         "intern_titles_seen": 0
@@ -508,9 +508,9 @@
       "token": "aeva",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "41",
+        "jobs_seen": "45",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -529,9 +529,9 @@
       "token": "dexterity",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "22",
+        "jobs_seen": "11",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -550,9 +550,9 @@
       "token": "skydio",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "159",
+        "jobs_seen": "174",
         "intern_titles_seen": 1
       },
       "tried": [
@@ -576,7 +576,7 @@
       "token": "boom",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "12",
         "intern_titles_seen": 0
@@ -602,7 +602,7 @@
       "token": "gecko-robotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "21",
         "intern_titles_seen": 0
@@ -628,9 +628,9 @@
       "token": "vardaspace",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "110",
+        "jobs_seen": "119",
         "intern_titles_seen": 14
       }
     },
@@ -642,9 +642,9 @@
       "token": "muonspace",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "143",
+        "jobs_seen": "144",
         "intern_titles_seen": 0
       }
     },
@@ -656,9 +656,9 @@
       "token": "vast",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "190",
+        "jobs_seen": "183",
         "intern_titles_seen": 0
       }
     },
@@ -670,9 +670,9 @@
       "token": "archer56",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "109",
+        "jobs_seen": "98",
         "intern_titles_seen": 0
       }
     },
@@ -684,9 +684,9 @@
       "token": "saronic",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "235",
+        "jobs_seen": "246",
         "intern_titles_seen": 0
       }
     },
@@ -698,9 +698,9 @@
       "token": "hermeus",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "80",
+        "jobs_seen": "78",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -724,9 +724,9 @@
       "token": "lucidmotors",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "447",
+        "jobs_seen": "438",
         "intern_titles_seen": 0
       }
     },
@@ -738,9 +738,9 @@
       "token": "spire",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "38",
+        "jobs_seen": "39",
         "intern_titles_seen": 0
       }
     },
@@ -752,9 +752,9 @@
       "token": "blacksky",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "35",
+        "jobs_seen": "36",
         "intern_titles_seen": 0
       }
     },
@@ -766,7 +766,7 @@
       "token": "kodiak",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "67",
         "intern_titles_seen": 0
@@ -780,9 +780,9 @@
       "token": "maymobility",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "41",
+        "jobs_seen": "40",
         "intern_titles_seen": 0
       }
     },
@@ -794,7 +794,7 @@
       "token": "rigetti",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "15",
         "intern_titles_seen": 0
@@ -815,7 +815,7 @@
       "token": "atomcomputing",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "41",
         "intern_titles_seen": 0
@@ -836,9 +836,9 @@
       "token": "sila",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "211",
+        "jobs_seen": "219",
         "intern_titles_seen": 0
       }
     },
@@ -850,9 +850,9 @@
       "token": "waabi",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "92",
+        "jobs_seen": "94",
         "intern_titles_seen": 0
       }
     },
@@ -864,9 +864,9 @@
       "token": "1x",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "97",
+        "jobs_seen": "103",
         "intern_titles_seen": 0
       }
     },
@@ -878,7 +878,7 @@
       "token": "physicalintelligence",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "44",
         "intern_titles_seen": 1
@@ -892,7 +892,7 @@
       "token": "matx",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "41",
         "intern_titles_seen": 0
@@ -906,7 +906,7 @@
       "token": "extropic",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "10",
         "intern_titles_seen": 0
@@ -920,7 +920,7 @@
       "token": "thebotcompany",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "7",
         "intern_titles_seen": 0
@@ -934,7 +934,7 @@
       "token": "quilter",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "5",
         "intern_titles_seen": 0
@@ -948,9 +948,9 @@
       "token": "tenstorrent",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "124",
+        "jobs_seen": "123",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -969,9 +969,9 @@
       "token": "cfsenergy",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "124",
+        "jobs_seen": "134",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1000,9 +1000,9 @@
       "token": "CesiumAstro",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "339",
+        "jobs_seen": "334",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1031,9 +1031,9 @@
       "token": "k2spacecorporation",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "252",
+        "jobs_seen": "248",
         "intern_titles_seen": 6
       },
       "tried": [
@@ -1062,9 +1062,9 @@
       "token": "peloton",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "58",
+        "jobs_seen": "55",
         "intern_titles_seen": 0
       }
     },
@@ -1076,9 +1076,9 @@
       "token": "roku",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "88",
+        "jobs_seen": "87",
         "intern_titles_seen": 0
       }
     },
@@ -1090,9 +1090,9 @@
       "token": "oklo",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "71",
+        "jobs_seen": "78",
         "intern_titles_seen": 0
       }
     },
@@ -1104,9 +1104,9 @@
       "token": "kairospower",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "46",
+        "jobs_seen": "56",
         "intern_titles_seen": 5
       }
     },
@@ -1118,7 +1118,7 @@
       "token": "span",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "30",
         "intern_titles_seen": 0
@@ -1139,7 +1139,7 @@
       "token": "eightsleep",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "40",
         "intern_titles_seen": 0
@@ -1160,9 +1160,9 @@
       "token": "whoop",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "168",
+        "jobs_seen": "135",
         "intern_titles_seen": 0
       },
       "tried": [
@@ -1181,9 +1181,9 @@
       "token": "standardbots",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "36",
+        "jobs_seen": "32",
         "intern_titles_seen": 0
       }
     },
@@ -1195,9 +1195,9 @@
       "token": "brinc",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "30",
+        "jobs_seen": "27",
         "intern_titles_seen": 0
       }
     },
@@ -1209,9 +1209,9 @@
       "token": "lambda",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "97",
+        "jobs_seen": "96",
         "intern_titles_seen": 0
       }
     },
@@ -1223,9 +1223,9 @@
       "token": "crusoe",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "345",
+        "jobs_seen": "354",
         "intern_titles_seen": 0
       }
     },
@@ -1237,9 +1237,9 @@
       "token": "coreweave",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "322",
+        "jobs_seen": "311",
         "intern_titles_seen": 0
       }
     },
@@ -1251,7 +1251,7 @@
       "token": "tonal",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "21",
         "intern_titles_seen": 0
@@ -1272,9 +1272,9 @@
       "token": "axon",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "486",
+        "jobs_seen": "465",
         "intern_titles_seen": 1
       }
     },
@@ -1286,9 +1286,9 @@
       "token": "simplisafe",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "33",
+        "jobs_seen": "31",
         "intern_titles_seen": 0
       }
     },
@@ -1300,9 +1300,9 @@
       "token": "gomotive",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "143",
+        "jobs_seen": "166",
         "intern_titles_seen": 1
       }
     },
@@ -1314,9 +1314,9 @@
       "token": "ursamajor",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "120",
+        "jobs_seen": "129",
         "intern_titles_seen": 0
       }
     },
@@ -1328,9 +1328,9 @@
       "token": "asteralabs",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "183",
+        "jobs_seen": "179",
         "intern_titles_seen": 3
       }
     },
@@ -1342,9 +1342,9 @@
       "token": "butterflynetwork",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "21",
+        "jobs_seen": "20",
         "intern_titles_seen": 0
       }
     },
@@ -1356,7 +1356,7 @@
       "token": "markforged",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "4",
         "intern_titles_seen": 0
@@ -1370,7 +1370,7 @@
       "token": "carbonrobotics",
       "status": "not_found",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
@@ -1390,9 +1390,9 @@
       "token": "pathrobotics",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "50",
+        "jobs_seen": "54",
         "intern_titles_seen": 0
       }
     },
@@ -1404,9 +1404,9 @@
       "token": "divergent",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "127",
+        "jobs_seen": "137",
         "intern_titles_seen": 2
       }
     },
@@ -1418,9 +1418,9 @@
       "token": "loftorbital",
       "status": "ok",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "66",
+        "jobs_seen": "68",
         "intern_titles_seen": 0
       }
     },
@@ -1432,7 +1432,7 @@
       "token": "capellaspace",
       "status": "empty",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
@@ -1446,7 +1446,7 @@
       "token": "impinj",
       "status": "empty",
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "intern_titles_seen": 0
@@ -1474,7 +1474,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1590,7 +1590,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1619,7 +1619,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1676,7 +1676,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1733,7 +1733,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1761,7 +1761,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1814,7 +1814,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1855,7 +1855,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1875,7 +1875,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1895,7 +1895,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1915,7 +1915,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1935,7 +1935,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -1955,7 +1955,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2000,7 +2000,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2024,7 +2024,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2048,7 +2048,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2093,7 +2093,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2113,7 +2113,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2137,7 +2137,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2157,7 +2157,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2177,7 +2177,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2197,7 +2197,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2217,7 +2217,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2237,7 +2237,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2257,7 +2257,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2281,7 +2281,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2305,9 +2305,9 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
-        "jobs_seen": "62",
+        "jobs_seen": "66",
         "result": "HTTP 404 for every candidate"
       }
     },
@@ -2325,7 +2325,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2349,7 +2349,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2369,7 +2369,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2393,7 +2393,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2413,7 +2413,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2433,7 +2433,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2453,7 +2453,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2473,7 +2473,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2493,7 +2493,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2513,7 +2513,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2523,9 +2523,9 @@
       "name": "Framework Computer",
       "slug": "framework",
       "category": "consumer",
-      "ats": null,
-      "token": null,
-      "status": "not_found",
+      "ats": "ashby",
+      "token": "framework",
+      "status": "empty",
       "candidates": [
         {
           "ats": "ashby",
@@ -2533,7 +2533,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2553,7 +2553,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2573,7 +2573,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2593,7 +2593,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2617,7 +2617,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2637,7 +2637,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2657,7 +2657,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2677,7 +2677,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2701,7 +2701,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2725,7 +2725,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2749,7 +2749,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2769,7 +2769,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2793,7 +2793,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2813,7 +2813,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2833,7 +2833,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2853,7 +2853,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2873,7 +2873,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2893,7 +2893,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2913,7 +2913,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2933,7 +2933,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2953,7 +2953,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2973,7 +2973,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -2993,7 +2993,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -3013,7 +3013,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
@@ -3033,7 +3033,7 @@
         }
       ],
       "probe": {
-        "probed_on": "2026-10-21",
+        "probed_on": "2026-10-28",
         "method": "live",
         "jobs_seen": "0",
         "result": "HTTP 404 for every candidate"
