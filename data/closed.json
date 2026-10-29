@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1dqb5ur1mt65if",
+   "company": "Shield AI",
+   "title": "Summer 2027 - Mechanical Engineering Intern, Air Vehicle Systems and Test #6465+",
+   "first_seen": "2026-10-28",
+   "closed_on": "2026-10-29"
+  },
+  {
+   "id": "r1l99cbk0pqepwy",
+   "company": "Zipline",
+   "title": "Embedded Software Engineering Intern (Summer 2027)",
+   "first_seen": "2026-09-30",
+   "closed_on": "2026-10-29"
+  },
+  {
    "id": "r1amn91y1nqb40a",
    "company": "Commonwealth Fusion Systems",
    "title": "Intern - Micorwave Engineer - Summer 2027",
