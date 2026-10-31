@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0ao9kic0rpy11k",
+   "company": "Rocket Lab",
+   "title": "RF Engineering Intern Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-10-31"
+  },
+  {
+   "id": "r1fx9nyx0z6douz",
+   "company": "Zipline",
+   "title": "Field Systems Engineer Intern (Spring 2027)",
+   "first_seen": "2026-09-25",
+   "closed_on": "2026-10-31"
+  },
+  {
    "id": "r0th9dzz09th78j",
    "company": "Muon Space",
    "title": "Quality Engineering Intern (Summer 2027)",
