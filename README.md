@@ -2,7 +2,7 @@
 
 231 internships and co-ops at 35 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated October 31, 2026** · 231 open roles · 12 new this week · 84 without citizenship or export flags
+**Updated November 1, 2026** · 231 open roles · 12 new this week · 84 without citizenship or export flags
 
 **Class year:** Only 5 postings say freshmen or sophomores can apply. 206 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
@@ -262,7 +262,7 @@ Government and national-lab programs whose official pages list no junior-standin
 
 ## How this list is made
 
-A scheduled GitHub Action calls the public job-board APIs of 89 employer boards once a day, keeps internship and co-op postings that look like hardware work, and removes roles that disappear. Only titles, locations, dates, a link to the original posting and a short (at most 300-character) excerpt used to explain the labels are stored. Details: https://firstsilicon.pages.dev/how-it-works/
+A scheduled GitHub Action calls the public job-board APIs of 88 employer boards once a day, keeps internship and co-op postings that look like hardware work, and removes roles that disappear. Only titles, locations, dates, a link to the original posting and a short (at most 300-character) excerpt used to explain the labels are stored. Details: https://firstsilicon.pages.dev/how-it-works/
 
 Suggest an employer or report a wrong label by opening an issue, or use the contact form on the site.
 
