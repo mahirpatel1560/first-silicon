@@ -1,0 +1,52 @@
+Subject: 9 new hardware internships this week at 5 companies
+
+FIRST SILICON WEEKLY · November 2, 2026
+
+9 hardware internships and co-ops at 5 companies were first seen in the last 7 days, grouped by discipline below. Only 1 posting says freshmen or sophomores can apply. 7 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+Labels are automatic. Always check the posting on the employer's site.
+
+== RF, MICROWAVE & WIRELESS (2) ==
+- Commonwealth Fusion Systems: Intern - Electrical/Electromechanical Engineer - Spring 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/5ed9b326-1824-4efb-bc9a-dc4a813ebcb7
+- Commonwealth Fusion Systems: Intern - Microwave Engineer - Summer 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/79cd53ba-b864-4bcb-8421-60cf58f7df54
+
+== PCB & HARDWARE DESIGN (1) ==
+- Anduril Industries: Fall 2027 Manufacturing Engineer Co-op
+  Ashville, OH; Quincy, MA +1 more · Class year not stated · US person / PR, ITAR / export, Clearance
+  https://boards.greenhouse.io/andurilindustries/jobs/5280611007?gh_jid=5280611007
+
+== TEST, VALIDATION & RELIABILITY (3) ==
+- Loft Orbital: Summer 2027 Internship – Test Engineering
+  Golden, CO · Fr/So friendly
+  https://jobs.lever.co/loftorbital/be396d08-738d-4f3d-bea4-cbbdc88c3db9
+- Commonwealth Fusion Systems: Intern - R&D Test Engineer - Spring or Summer 2027
+  Devens, MA & Somerville, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/41725c72-2242-4ae4-815a-21064d7d7d05
+- Rocket Lab: Quality Engineering Intern Spring 2027
+  Long Beach, CA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/rocketlab/jobs/8042031003
+
+== PHOTONICS & OPTICS (1) ==
+- Waymo: 2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern
+  Mountain View, CA · Juniors+
+  https://careers.withwaymo.com/jobs?gh_jid=8319171
+
+== GENERAL EE / HARDWARE (2) ==
+- Commonwealth Fusion Systems: Intern - Systems Engineer - Summer 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/32e62a79-eff5-4a58-83fd-51a60eb57707
+- Commonwealth Fusion Systems: Intern - Cryogenics Engineer - Spring 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/12638cfd-8bad-40b5-88b4-1fe3b21aec8f
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- None with a fixed date in the next 60 days. Calendar: https://firstsilicon.pages.dev/programs/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-02
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-02
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}

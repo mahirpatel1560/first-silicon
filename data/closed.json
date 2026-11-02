@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0dd22ws123lvak",
+   "company": "Zipline",
+   "title": "Electrical Project Engineer Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-02"
+  },
+  {
+   "id": "r1ruoxi81e2fzpk",
+   "company": "Etched",
+   "title": "Chip Simulation Software Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-02"
+  },
+  {
+   "id": "r003c1461yboo6q",
+   "company": "Etched",
+   "title": "PD Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-02"
+  },
+  {
    "id": "r0ao9kic0rpy11k",
    "company": "Rocket Lab",
    "title": "RF Engineering Intern Summer 2027",

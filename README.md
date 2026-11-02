@@ -1,10 +1,10 @@
 # First Silicon: every hardware internship, labeled
 
-231 internships and co-ops at 35 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
+228 internships and co-ops at 35 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated November 1, 2026** · 231 open roles · 12 new this week · 84 without citizenship or export flags
+**Updated November 2, 2026** · 228 open roles · 9 new this week · 81 without citizenship or export flags
 
-**Class year:** Only 5 postings say freshmen or sophomores can apply. 206 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+**Class year:** Only 5 postings say freshmen or sophomores can apply. 203 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
 > Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer's site before applying. Closed roles are removed on the next daily run.
 
@@ -14,7 +14,7 @@
 - **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.
 - **Posted**: the employer's publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).
 
-## Open roles (231, newest first)
+## Open roles (228, newest first)
 
 | Company | Role | Location | Discipline | Class year | Flags | Posted |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -27,9 +27,9 @@
 | Waymo | [2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern](https://careers.withwaymo.com/jobs?gh_jid=8319171) | Mountain View, CA | Photonics/optics | Jr+ |  | Oct 27 · new |
 | Commonwealth Fusion Systems | [Intern - Microwave Engineer - Summer 2027](https://jobs.lever.co/cfsenergy/79cd53ba-b864-4bcb-8421-60cf58f7df54) | Devens, MA | RF/wireless, Photonics/optics |  | ITAR / export | Oct 26 · new |
 | Commonwealth Fusion Systems | [Intern - Cryogenics Engineer - Spring 2027](https://jobs.lever.co/cfsenergy/12638cfd-8bad-40b5-88b4-1fe3b21aec8f) | Devens, MA | General EE |  | ITAR / export | Oct 26 · new |
-| Shield AI | [Engineer II, Autonomy (R5714)](https://jobs.lever.co/shieldai/d8efe97a-3bac-437b-94cd-c2ebb741b52c) | Taipei · Hybrid | Controls/robotics |  |  | Oct 26 · new |
-| Skydio | [Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)](https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17) | San Mateo, CA | Controls/robotics |  |  | Oct 26 · new |
-| Skydio | [Autonomy Engineer Intern, Simulation & Robotics, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a) | Zurich, Switzerland | Controls/robotics |  |  | Oct 26 · new |
+| Shield AI | [Engineer II, Autonomy (R5714)](https://jobs.lever.co/shieldai/d8efe97a-3bac-437b-94cd-c2ebb741b52c) | Taipei · Hybrid | Controls/robotics |  |  | Oct 26 |
+| Skydio | [Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)](https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17) | San Mateo, CA | Controls/robotics |  |  | Oct 26 |
+| Skydio | [Autonomy Engineer Intern, Simulation & Robotics, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a) | Zurich, Switzerland | Controls/robotics |  |  | Oct 26 |
 | Shield AI | [June 2027 Co-op - Reliability Engineering #5953](https://jobs.lever.co/shieldai/bef440ce-0365-4de7-9b1e-b1288cdaf7f3) | Seattle, WA; San Diego, CA +1 more | Test/validation |  |  | Oct 23 |
 | Skydio | [Embedded Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/d79ccbaa-2901-4303-bd90-675db7802366) | San Mateo, CA · Remote | Embedded/firmware |  |  | Oct 23 |
 | Commonwealth Fusion Systems | [Intern - Materials Test Engineer - Summer 2027](https://jobs.lever.co/cfsenergy/da8cc185-70d0-4a8e-b484-9866c71b593e) | Devens, MA | Test/validation |  | ITAR / export | Oct 22 |
@@ -162,7 +162,7 @@
 | Hermeus | [Avionics Electrical Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) | Atlanta, GA | PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Avionics Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989733003) | Long Beach, CA | PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Electrical Engineering Intern Spring 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990045003) | Toronto, CAN | General EE |  | US person / PR, ITAR / export | Sep 9 |
-| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Pasadena, CA +1 more | Embedded/firmware, Test/validation, FPGA/RTL/ASIC, PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
+| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Long Beach, CA +1 more | FPGA/RTL/ASIC, PCB/hardware, Embedded/firmware, Test/validation |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Flight Software Intern Spring 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989724003) | Littleton, CO | Embedded/firmware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Flight Software Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989722003) | Littleton, CO | Embedded/firmware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | Long Beach, CA | Test/validation |  | US person / PR, ITAR / export | Sep 9 |
@@ -189,7 +189,6 @@
 | Shield AI | [Summer 2027 - Electrical Engineering Co-op (June 2027)](https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6) | Dallas, TX; San Diego, CA +2 more | Analog/mixed-signal, Power electronics, PCB/hardware |  |  | Sep 1 |
 | Shield AI | [Summer 2027 - Electrical Engineering Intern](https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7) | Dallas, TX; Seattle, WA +2 more | PCB/hardware, Test/validation | Jr+ |  | Sep 1 |
 | Samsara | [Electrical Engineering Co-Op](https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118) | San Francisco - SF9 | Embedded/firmware, PCB/hardware, Test/validation | Jr+ |  | Aug 31 |
-| Zipline | [Electrical Project Engineer Intern (Spring 2027)](https://www.zipline.com/open-roles/7980874003?gh_jid=7980874003) | South San Francisco, CA | General EE |  |  | Aug 28 |
 | CesiumAstro | [Summer 2027 – Test Engineering Internship](https://jobs.lever.co/CesiumAstro/ab7dd1c4-7196-4cae-8fbd-cddec993b9b8) (co-op) | Westminster, CO | Analog/mixed-signal, RF/wireless, Test/validation |  | US person / PR, ITAR / export | Aug 27 |
 | Shield AI | [Staff Engineer, Perception (R5611)](https://jobs.lever.co/shieldai/b5a0906c-ecaa-47de-9173-fa7ce02989cd) | London · Hybrid | Controls/robotics |  |  | Aug 27 |
 | Eight Sleep | [Hardware Support & Test Intern](https://jobs.ashbyhq.com/eightsleep/f8de63e3-605e-404a-98b4-5b58d9fe7bc5) | San Francisco | General EE |  |  | Aug 25 |
@@ -224,8 +223,6 @@
 | Anduril Industries | [2027 Manufacturing Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | Atlanta, GA; Boston, MA +6 more | Controls/robotics |  | US person / PR, ITAR / export, Clearance | Jun 11 |
 | Astera Labs | [Physical Design Student](https://job-boards.greenhouse.io/asteralabs/jobs/4701792005) | Tel Aviv-Yafo, Tel Aviv District, Israel | FPGA/RTL/ASIC |  |  | Jun 2 |
 | PsiQuantum | [Intern, Optical Packaging and Characterization Engineer](https://www.psiquantum.com/apply?gh_jid=7761881003) | Milpitas, CA | Test/validation, Semi process/device, Photonics/optics |  | US person / PR | Jun 2 |
-| Etched | [Chip Simulation Software Intern](https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8) | San Jose | General EE |  |  | May 19 |
-| Etched | [PD Intern](https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77) | San Jose | FPGA/RTL/ASIC |  |  | May 19 |
 | Figure | [Electrical Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4676467006) | San Jose, CA | Embedded/firmware, Analog/mixed-signal, PCB/hardware |  |  | Apr 25 |
 | Neuralink | [Electrical Engineer Intern, Implant Embedded Systems](https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003) | Austin, TX; South San Francisco, CA | Embedded/firmware, PCB/hardware, Test/validation |  |  | Apr 16 |
 | Shield AI | [Electrical Engineering Co-op - January 2027](https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724) | Dallas, TX; San Diego, CA +1 more | Analog/mixed-signal, Power electronics, PCB/hardware |  | Clearance | Apr 15 |
@@ -256,6 +253,7 @@ Government and national-lab programs whose official pages list no junior-standin
 
 - **January 31, 2027**: [Summer Undergraduate Research Fellowship (SURF)](https://www.nist.gov/surf) (National Institute of Standards and Technology (NIST)), Summer 2027
 - **February 26, 2027**: [NASA OSTEM Internships](https://www.nasa.gov/learning-resources/internship-programs/) (NASA Office of STEM Engagement), Summer 2027
+- **May 21, 2027**: [NASA OSTEM Internships](https://www.nasa.gov/learning-resources/internship-programs/) (NASA Office of STEM Engagement), Fall 2027
 - [Research Experiences for Undergraduates (REU) Sites](https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates) (U.S. National Science Foundation): Set by each REU site. Students apply to sites directly, not to NSF; use the NSF search to find electrical and computer engineering sites.
 - [Sandia National Laboratories internships and co-ops](https://www.sandia.gov/careers/career-possibilities/students-and-postdocs/internships-co-ops/) (Sandia National Laboratories (operated for the U.S. Department of Energy)): No fixed deadline on the page: apply to current openings. Summer internships run 10 to 12 weeks (typically May to August); co-ops run 3 to 8 months during the academic year.
 - [Lawrence Livermore National Laboratory student internships](https://www.llnl.gov/join-our-team/careers/students) (Lawrence Livermore National Laboratory): Summer positions are generally posted September through February; phone interviews happen December through April.
