@@ -2,6 +2,34 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1tlaoky1wdbq16",
+   "company": "Commonwealth Fusion Systems",
+   "title": "Intern - Mechanical Engineer - Summer 2027",
+   "first_seen": "2026-10-16",
+   "closed_on": "2026-11-05"
+  },
+  {
+   "id": "r0z42h8308ivr95",
+   "company": "Lightmatter",
+   "title": "Photonics Characterization Intern- Winter 2026",
+   "first_seen": "2026-10-07",
+   "closed_on": "2026-11-05"
+  },
+  {
+   "id": "r0s6bshs16c26pe",
+   "company": "Hermeus",
+   "title": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-05"
+  },
+  {
+   "id": "r0dx4ajg0oz7a9e",
+   "company": "Verkada",
+   "title": "Hardware Engineer (Winter Co-op)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-05"
+  },
+  {
    "id": "r04cwuhh1xgooa1",
    "company": "Shield AI",
    "title": "Senior Staff Engineer, Autonomy and Motion Planning (R5538)",
