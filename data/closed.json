@@ -2,6 +2,41 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0bis94t1cxgmuj",
+   "company": "Shield AI",
+   "title": "Staff Engineer, Autonomy (R5682)",
+   "first_seen": "2026-10-19",
+   "closed_on": "2026-11-06"
+  },
+  {
+   "id": "r149uwbo14kznwk",
+   "company": "Astranis",
+   "title": "Guidance, Navigation, and Control Associate (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-06"
+  },
+  {
+   "id": "r1k5qt7m0cjolwe",
+   "company": "Astranis",
+   "title": "Guidance, Navigation, and Control Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-06"
+  },
+  {
+   "id": "r1pg0rms1294n2c",
+   "company": "Zipline",
+   "title": "Electrical Project Engineer Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-06"
+  },
+  {
+   "id": "r1a0r6c81u08vc2",
+   "company": "K2 Space",
+   "title": "RF Engineering Intern – Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-06"
+  },
+  {
    "id": "r1tlaoky1wdbq16",
    "company": "Commonwealth Fusion Systems",
    "title": "Intern - Mechanical Engineer - Summer 2027",
