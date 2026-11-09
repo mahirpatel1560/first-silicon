@@ -1,0 +1,49 @@
+Subject: 8 new hardware internships this week at 6 companies
+
+FIRST SILICON WEEKLY · November 9, 2026
+
+8 hardware internships and co-ops at 6 companies were first seen in the last 7 days, grouped by discipline below. No postings say freshmen or sophomores can apply right now. 5 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+Labels are automatic. Always check the posting on the employer's site.
+
+== EMBEDDED SYSTEMS & FIRMWARE (2) ==
+- Astranis: Embedded Software Developer, Network/Payload Intern (Winter 2027)
+  San Francisco · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/astranis/jobs/4704571006
+- Zoox: Hardware Engineer Intern, Vehicle Systems [Summer 2027]
+  Foster City, CA · Juniors+
+  https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b
+
+== FPGA, RTL & ASIC DESIGN AND VERIFICATION (1) ==
+- CesiumAstro: Summer 2027 - Electrical Engineering Internship, FPGA
+  Melbourne, FL · Class year not stated · US person / PR, ITAR / export
+  https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316
+
+== RF, MICROWAVE & WIRELESS (1) ==
+- Lightmatter: Photonics Characterization Intern- Winter 2026
+  Boston, MA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5473572008?gh_jid=5473572008
+
+== PCB & HARDWARE DESIGN (2) ==
+- Zoox: Hardware Engineer Intern [Summer 2027]
+  Foster City, CA · Juniors+
+  https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62
+- Zoox: Hardware Engineer Intern, Manufacturing Operations [Summer 2027]
+  Foster City, CA · Juniors+
+  https://jobs.lever.co/zoox/53f5297a-fe30-4e1e-ab1c-96db5b23eded
+
+== TEST, VALIDATION & RELIABILITY (2) ==
+- Skydio: Systems Engineering Intern - Summer 2027
+  San Mateo, CA · Class year not stated
+  https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a
+- Figure: Integration & Test - Mechanical Engineering Intern [Winter 2027]
+  San Jose, CA · Class year not stated
+  https://job-boards.greenhouse.io/figureai/jobs/4726631006
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- None with a fixed date in the next 60 days. Calendar: https://firstsilicon.pages.dev/programs/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-09
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-09
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}

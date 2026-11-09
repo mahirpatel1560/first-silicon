@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r170laob1t79on9",
+   "company": "Zoox",
+   "title": "Hardware Engineer Intern, Vehicle Development [Summer 2027]",
+   "first_seen": "2026-11-06",
+   "closed_on": "2026-11-09"
+  },
+  {
+   "id": "r1coing20telqfi",
+   "company": "Shield AI",
+   "title": "Summer 2027 Intern - Embedded Firmware - 5810",
+   "first_seen": "2026-11-03",
+   "closed_on": "2026-11-09"
+  },
+  {
+   "id": "r1tvz64907233gv",
+   "company": "Skydio",
+   "title": "Electrical Engineer Intern - Summer 2027",
+   "first_seen": "2026-11-03",
+   "closed_on": "2026-11-09"
+  },
+  {
    "id": "r0ve65to0uiqm1y",
    "company": "Rocket Lab",
    "title": "Avionics Engineering Intern Summer 2027",
