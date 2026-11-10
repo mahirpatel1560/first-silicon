@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r182q21m1k10rle",
+   "company": "Zoox",
+   "title": "Hardware Engineer Intern [Summer 2027]",
+   "first_seen": "2026-11-09",
+   "closed_on": "2026-11-10"
+  },
+  {
+   "id": "r08mi99d0qk0kwn",
+   "company": "Commonwealth Fusion Systems",
+   "title": "Intern - Materials Test Engineer - Summer 2027",
+   "first_seen": "2026-10-23",
+   "closed_on": "2026-11-10"
+  },
+  {
+   "id": "r1h8jn0x1fgza9x",
+   "company": "Zoox",
+   "title": "Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)",
+   "first_seen": "2026-10-06",
+   "closed_on": "2026-11-10"
+  },
+  {
    "id": "r170laob1t79on9",
    "company": "Zoox",
    "title": "Hardware Engineer Intern, Vehicle Development [Summer 2027]",
