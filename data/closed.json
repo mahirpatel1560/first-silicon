@@ -2,6 +2,76 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1qbt82k0lsmax4",
+   "company": "Astranis",
+   "title": "Electrical Integration Associate - Avionics (Winter 2027)",
+   "first_seen": "2026-09-26",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r1o9jwwm0s28c62",
+   "company": "Astranis",
+   "title": "Electrical Integration Intern - Avionics (Winter 2027)",
+   "first_seen": "2026-09-26",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r06kkl0b1r5tqfb",
+   "company": "Astranis",
+   "title": "RF Validation Associate (Summer 2027)",
+   "first_seen": "2026-09-26",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r1oq3tuv1wc0ujl",
+   "company": "Astranis",
+   "title": "RF Validation Associate (Winter 2027)",
+   "first_seen": "2026-09-26",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r1j8a1s803e1ksw",
+   "company": "Astranis",
+   "title": "Power Electronics Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r1j8tml418cfx7i",
+   "company": "Astranis",
+   "title": "Power Electronics Intern (Winter 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r0723wmp127373l",
+   "company": "Astranis",
+   "title": "Software Defined Radio Hardware Associate (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r1k88ce911eljhn",
+   "company": "Astranis",
+   "title": "Software Defined Radio Hardware Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r0ark85204dqv80",
+   "company": "Lightmatter",
+   "title": "Silicon, Hardware, & Photonics Engineering - Internship",
+   "first_seen": "2026-11-10",
+   "closed_on": "2026-11-11"
+  },
+  {
+   "id": "r0ex92yc1tjlco0",
+   "company": "Rocket Lab",
+   "title": "Test Engineering Intern - Avionics Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-11"
+  },
+  {
    "id": "r182q21m1k10rle",
    "company": "Zoox",
    "title": "Hardware Engineer Intern [Summer 2027]",
