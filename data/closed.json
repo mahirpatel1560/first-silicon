@@ -2,6 +2,55 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0hosl6w1g5cawq",
+   "company": "Astranis",
+   "title": "RF Hardware Associate (Summer 2027)",
+   "first_seen": "2026-10-03",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r16tcdxy1nore6o",
+   "company": "Astranis",
+   "title": "RF Hardware Intern (Summer 2027)",
+   "first_seen": "2026-10-03",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r10wmfbg1b7ze7m",
+   "company": "Astranis",
+   "title": "Electrical Reliability Intern (Winter 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r0qe5ebu1u7vtf6",
+   "company": "Rocket Lab",
+   "title": "Electrical Engineering Intern Spring 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r0atltf61uszqa6",
+   "company": "Rocket Lab",
+   "title": "Integration & Test Intern Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r1ruywns0th3qyw",
+   "company": "K2 Space",
+   "title": "Avionics Systems/Test Engineering Intern – Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-12"
+  },
+  {
+   "id": "r0y9y77q0b2r228",
+   "company": "K2 Space",
+   "title": "Electrical Engineering Intern – Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-12"
+  },
+  {
    "id": "r1qbt82k0lsmax4",
    "company": "Astranis",
    "title": "Electrical Integration Associate - Avionics (Winter 2027)",
