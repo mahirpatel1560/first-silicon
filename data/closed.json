@@ -2,6 +2,125 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r00rhf39152c0k9",
+   "company": "Shield AI",
+   "title": "June 2027 Co-op - Reliability Engineering #5953",
+   "first_seen": "2026-10-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0wbupoy0smhlya",
+   "company": "Shield AI",
+   "title": "Staff Autonomy Integration Engineer",
+   "first_seen": "2026-10-09",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0dsr6xl0z4hh4v",
+   "company": "Shield AI",
+   "title": "Staff Engineer, Autonomy Behaviors",
+   "first_seen": "2026-10-09",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0gdfgs20xxe7ys",
+   "company": "Shield AI",
+   "title": "Systems Test Engineer",
+   "first_seen": "2026-10-09",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r15kw2p10271e6l",
+   "company": "Muon Space",
+   "title": "Harness Design Intern (Summer 2027)",
+   "first_seen": "2026-10-03",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0hy5af31vch64v",
+   "company": "Shield AI",
+   "title": "Summer 2027 - Mechanical Engineering Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0dofvos1wyndcy",
+   "company": "Shield AI",
+   "title": "Senior Engineer, Autonomy (R5685)",
+   "first_seen": "2026-10-21",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0ukm31x0vjvfut",
+   "company": "Shield AI",
+   "title": "Senior Engineer, Test (R5833)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0w7d7yt13p81it",
+   "company": "Shield AI",
+   "title": "Senior Software Engineer, Embedded Linux Platform (R5718)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r08m4ri91opb1qv",
+   "company": "Shield AI",
+   "title": "Senior Staff Engineer, Autonomy (R5837)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0owohcp0kwnb8n",
+   "company": "Shield AI",
+   "title": "June 2027 Co-0p - Electrical Engineering Intern",
+   "first_seen": "2026-11-07",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r0ifkbvk0e809y4",
+   "company": "K2 Space",
+   "title": "GNC Engineering Intern – Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r1hcitgs05s5u9q",
+   "company": "Shield AI",
+   "title": "Summer 2027 - Electrical Engineering Intern",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r181bhk81i6rag6",
+   "company": "Shield AI",
+   "title": "Staff Engineer, Perception (R5611)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r1nrw5w3199vdpx",
+   "company": "Formlabs",
+   "title": "Electrical Engineering Intern (Winter/Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r1xwu39d0n51qad",
+   "company": "Zipline",
+   "title": "Electrical Engineer Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-13"
+  },
+  {
+   "id": "r1r7al2e03xs784",
+   "company": "Shield AI",
+   "title": "Electrical Engineering Co-op - January 2027",
+   "first_seen": "2026-10-14",
+   "closed_on": "2026-11-13"
+  },
+  {
    "id": "r0hosl6w1g5cawq",
    "company": "Astranis",
    "title": "RF Hardware Associate (Summer 2027)",
