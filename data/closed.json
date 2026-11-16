@@ -2,6 +2,62 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1xtskze1x0dsdy",
+   "company": "Samsara",
+   "title": "Firmware Engineer Co-Op",
+   "first_seen": "2026-09-25",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r0pa8pai0zuw480",
+   "company": "Astranis",
+   "title": "Electrical Reliability Associate (Winter 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r0kcjvq202gamto",
+   "company": "Lightmatter",
+   "title": "Silicon, Hardware, & Photonics Engineering Intern – Summer 2027",
+   "first_seen": "2026-11-11",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r0i5jvll1chf13h",
+   "company": "Zipline",
+   "title": "Electrical Engineer Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r0ha3ouc06pxx3w",
+   "company": "Zipline",
+   "title": "Mechanical Engineer Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r052jc5o13jfp4k",
+   "company": "Zipline",
+   "title": "Mechanical Engineer Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r07xxux20xa40ok",
+   "company": "Zipline",
+   "title": "Quality & Manufacturing Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
+   "id": "r0zqk1j20mgm630",
+   "company": "Zipline",
+   "title": "Quality & Manufacturing Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-16"
+  },
+  {
    "id": "r0rie62q15vmsy6",
    "company": "Rocket Lab",
    "title": "Flight Software Intern Spring 2027",
