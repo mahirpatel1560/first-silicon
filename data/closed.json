@@ -2,6 +2,41 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1ux1l3v0wmd17x",
+   "company": "Astranis",
+   "title": "RF Validation Intern (Summer 2027)",
+   "first_seen": "2026-09-25",
+   "closed_on": "2026-11-18"
+  },
+  {
+   "id": "r1oord0n15rrh0r",
+   "company": "Astranis",
+   "title": "RF Validation Intern (Winter 2027)",
+   "first_seen": "2026-09-25",
+   "closed_on": "2026-11-18"
+  },
+  {
+   "id": "r0u134gc0onfcqa",
+   "company": "Zipline",
+   "title": "Hardware Test Intern (Spring 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-18"
+  },
+  {
+   "id": "r1kqqjp019jhffe",
+   "company": "Zipline",
+   "title": "Hardware Test Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-18"
+  },
+  {
+   "id": "r0ulrkiz1hi8jvp",
+   "company": "Figure",
+   "title": "Hardware Reliability Intern [Winter 2027]",
+   "first_seen": "2026-10-16",
+   "closed_on": "2026-11-18"
+  },
+  {
    "id": "r0r7ypfv0w9xyyb",
    "company": "Skydio",
    "title": "Systems Engineering Intern - Summer 2027",
