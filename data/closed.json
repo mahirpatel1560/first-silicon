@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0g9a4kp0ubc4pb",
+   "company": "Lightmatter",
+   "title": "Hardware Test Engineering, Intern (Summer 2027)",
+   "first_seen": "2026-11-14",
+   "closed_on": "2026-11-19"
+  },
+  {
+   "id": "r02rqwjf1712tjz",
+   "company": "Astranis",
+   "title": "Antenna Associate (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-19"
+  },
+  {
+   "id": "r0ipbb7f1juhsdh",
+   "company": "Astranis",
+   "title": "Antenna Intern (Summer 2027)",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-19"
+  },
+  {
    "id": "r1ux1l3v0wmd17x",
    "company": "Astranis",
    "title": "RF Validation Intern (Summer 2027)",
