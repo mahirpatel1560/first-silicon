@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r12yxbq01m5cjp2",
+   "company": "Commonwealth Fusion Systems",
+   "title": "Intern - Electrical/Electromechanical Engineer - Spring 2027",
+   "first_seen": "2026-10-31",
+   "closed_on": "2026-11-21"
+  },
+  {
+   "id": "r0sp13e41jc9vcu",
+   "company": "Skydio",
+   "title": "Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)",
+   "first_seen": "2026-10-26",
+   "closed_on": "2026-11-21"
+  },
+  {
    "id": "r14kite4081q1qm",
    "company": "Lightmatter",
    "title": "Laser Firmware Intern - Summer 2027",
