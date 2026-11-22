@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run": "2026-11-21T17:57:46.902Z",
+  "last_run": "2026-11-22T18:30:34.453Z",
   "source": "live",
   "status": "ok",
   "boards": {
@@ -11,8 +11,8 @@
     "failed": 0,
     "failed_list": []
   },
-  "postings_seen": 16625,
-  "internships_seen": 661,
+  "postings_seen": 16649,
+  "internships_seen": 660,
   "hardware_internship_postings": 213,
   "counts": {
     "roles": 204,
@@ -47,7 +47,7 @@
       "Winter 2026": 1
     }
   },
-  "new_since_last_run": 6,
-  "closed_since_last_run": 2,
+  "new_since_last_run": 0,
+  "closed_since_last_run": 0,
   "carried_over_from_failed_boards": 0
 }
