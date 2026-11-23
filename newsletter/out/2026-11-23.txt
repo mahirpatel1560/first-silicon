@@ -1,0 +1,99 @@
+Subject: 22 new hardware internships this week at 7 companies
+
+FIRST SILICON WEEKLY · November 23, 2026
+
+22 hardware internships and co-ops at 7 companies were first seen in the last 7 days, grouped by discipline below. No postings say freshmen or sophomores can apply right now. 16 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+Labels are automatic. Always check the posting on the employer's site.
+
+== EMBEDDED SYSTEMS & FIRMWARE (3) ==
+- Lucid Motors: Intern, Embedded Software – BSP/Platform (ADAS/Autonomous Driving), Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290800007?gh_jid=5290800007
+- Lucid Motors: Intern, Embedded Software, Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290904007?gh_jid=5290904007
+- Lucid Motors: Power Electronics Control Engineer Intern, Summer 2027
+  Newark, CA · Juniors+ · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290949007?gh_jid=5290949007
+
+== ANALOG & MIXED-SIGNAL (2) ==
+- Lightmatter: Analog Engineering Intern - Summer 2027
+  Mountain View, CA; Boston, MA · Juniors+ · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5473749008?gh_jid=5473749008
+- Lightmatter: Chip Architecture Intern – Summer 2027
+  Boston, MA; Mountain View, CA · Juniors+ · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5468924008?gh_jid=5468924008
+
+== RF, MICROWAVE & WIRELESS (1) ==
+- Commonwealth Fusion Systems: Intern - Electrical Engineer, RF Heating Systems - Spring 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/a3a36962-1f34-40d3-b138-401b4e0c24e0
+
+== POWER ELECTRONICS (2) ==
+- Commonwealth Fusion Systems: Intern - Electrical Engineer - Spring 2027
+  Devens, MA · Class year not stated · ITAR / export
+  https://jobs.lever.co/cfsenergy/7d1080e7-395c-41ea-b166-641094725747
+- Lucid Motors: Intern, Motor Control Software Development and Validation Engineer, Summer 2027
+  Newark, CA · Juniors+ · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290947007?gh_jid=5290947007
+
+== PCB & HARDWARE DESIGN (3) ==
+- Etched: SI/PI Intern
+  San Jose · Class year not stated
+  https://jobs.ashbyhq.com/Etched/45639738-0414-43e2-a5e7-b4acc928d62d
+- Muon Space: Harness Design Co-Op
+  San Jose, CA · Class year not stated · US person / PR, ITAR / export
+  https://job-boards.greenhouse.io/muonspace/jobs/5304452007
+- Lightmatter: Electrical Engineering Intern - Summer 2027
+  Boston, MA; Mountain View, CA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5473816008?gh_jid=5473816008
+
+== TEST, VALIDATION & RELIABILITY (6) ==
+- Lucid Motors: Intern, Infotainment SW Validation Automation, Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290937007?gh_jid=5290937007
+- Lightmatter: Silicon Validation & Test Automation, Intern Summer 2027
+  Mountain View, CA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008
+- Lucid Motors: Intern, OTA Test and Validation Automation, Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290917007?gh_jid=5290917007
+- Lucid Motors: Intern, Simulation & Virtualization Engineer, Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290915007?gh_jid=5290915007
+- Lightmatter: Product & Test Engineering, Intern Summer 2027
+  Boston, MA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5474690008?gh_jid=5474690008
+- Skydio: Systems Engineering Intern
+  San Mateo, CA · Class year not stated
+  https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a
+
+== CONTROLS, ROBOTICS & GNC (2) ==
+- Planet: Working Student, Export Control/ International Trade Compliance (m/f/d)
+  Berlin, Germany · Class year not stated · ITAR / export
+  https://job-boards.greenhouse.io/planetlabs/jobs/8396468
+- Lucid Motors: Intern, Vehicle Motion Controls Engineer, Summer 2027
+  Newark, CA · Class year not stated · No visa sponsorship
+  https://lucidmotors.com/careers/search/5290899007?gh_jid=5290899007
+
+== PHOTONICS & OPTICS (2) ==
+- Lightmatter: Photonics Circuit Simulation Intern – Summer 2027
+  Mountain View, CA · Juniors+ · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5479849008?gh_jid=5479849008
+- Lightmatter: Optical Packaging Integration Internship – Summer 2027
+  Mountain View, CA · Juniors+ · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5478834008?gh_jid=5478834008
+
+== GENERAL EE / HARDWARE (1) ==
+- Lightmatter: Systems Engineering, Intern Summer 2027
+  Mountain View, CA · Class year not stated · ITAR / export
+  https://boards.greenhouse.io/lightmatter/jobs/5473822008?gh_jid=5473822008
+
+== PROGRAM DEADLINES (NEXT 60 DAYS) ==
+- None with a fixed date in the next 60 days. Calendar: https://firstsilicon.pages.dev/programs/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-23
+
+Full list with filters: https://firstsilicon.pages.dev/?utm_source=newsletter&utm_medium=email&utm_campaign=digest-2026-11-23
+
+You are receiving this because you subscribed at firstsilicon.pages.dev.
+Unsubscribe: {{UNSUBSCRIBE_URL}}
+{{MAILING_ADDRESS}}

@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1kxri351bgne5t",
+   "company": "Anduril Industries",
+   "title": "Winter 2027 Robotics Engineer Co-op",
+   "first_seen": "2026-10-22",
+   "closed_on": "2026-11-23"
+  },
+  {
+   "id": "r1wnkc9y0yxoy54",
+   "company": "Anduril Industries",
+   "title": "Winter 2027 EWIS Harness Engineer Co-op",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-23"
+  },
+  {
    "id": "r12yxbq01m5cjp2",
    "company": "Commonwealth Fusion Systems",
    "title": "Intern - Electrical/Electromechanical Engineer - Spring 2027",
