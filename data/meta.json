@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run": "2026-11-23T22:39:08.934Z",
+  "last_run": "2026-11-24T21:11:28.974Z",
   "source": "live",
   "status": "ok",
   "boards": {
@@ -11,25 +11,25 @@
     "failed": 0,
     "failed_list": []
   },
-  "postings_seen": 16575,
-  "internships_seen": 651,
-  "hardware_internship_postings": 213,
+  "postings_seen": 16591,
+  "internships_seen": 645,
+  "hardware_internship_postings": 212,
   "counts": {
-    "roles": 204,
-    "internships": 180,
+    "roles": 203,
+    "internships": 179,
     "coops": 24,
     "fs": 5,
     "jplus": 29,
-    "unspecified": 170,
-    "citizenship_free": 76,
-    "new_this_week": 22,
+    "unspecified": 169,
+    "citizenship_free": 75,
+    "new_this_week": 18,
     "remote": 7,
     "companies": 35,
     "by_discipline": {
       "test": 74,
       "pcb": 48,
       "controls": 42,
-      "embedded": 42,
+      "embedded": 41,
       "rf": 19,
       "photonics": 16,
       "analog": 15,
@@ -39,7 +39,7 @@
       "process": 1
     },
     "by_term": {
-      "Summer 2027": 118,
+      "Summer 2027": 116,
       "Winter 2027": 37,
       "Spring 2027": 31,
       "Fall 2026": 1,
@@ -47,7 +47,7 @@
       "Winter 2026": 1
     }
   },
-  "new_since_last_run": 2,
+  "new_since_last_run": 1,
   "closed_since_last_run": 2,
   "carried_over_from_failed_boards": 0
 }

@@ -2,6 +2,20 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r1csfyu500uzwyv",
+   "company": "Lucid Motors",
+   "title": "Intern, Embedded Software – BSP/Platform (ADAS/Autonomous Driving), Summer 2027",
+   "first_seen": "2026-11-20",
+   "closed_on": "2026-11-24"
+  },
+  {
+   "id": "r012j53x0kfrv09",
+   "company": "Hermeus",
+   "title": "Flight Software & GNC Intern - Spring/Summer 2027",
+   "first_seen": "2026-10-22",
+   "closed_on": "2026-11-24"
+  },
+  {
    "id": "r1kxri351bgne5t",
    "company": "Anduril Industries",
    "title": "Winter 2027 Robotics Engineer Co-op",

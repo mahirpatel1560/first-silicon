@@ -1,10 +1,10 @@
 # First Silicon: every hardware internship, labeled
 
-204 internships and co-ops at 35 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
+203 internships and co-ops at 35 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated November 23, 2026** · 204 open roles · 22 new this week · 76 without citizenship or export flags
+**Updated November 24, 2026** · 203 open roles · 18 new this week · 75 without citizenship or export flags
 
-**Class year:** Only 5 postings say freshmen or sophomores can apply. 170 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
+**Class year:** Only 5 postings say freshmen or sophomores can apply. 169 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
 > Labels are generated automatically from posting text and can be wrong. Always read the full posting on the employer's site before applying. Closed roles are removed on the next daily run.
 
@@ -14,7 +14,7 @@
 - **Flags**: `US citizen`, `US person / PR`, `ITAR / export`, `Clearance`, `No visa sponsorship` are detected from the posting text. No flag does not guarantee there is no restriction.
 - **Posted**: the employer's publish date when the job board provides one, otherwise the date we first saw it `(seen)`. `new` = first seen in the last 7 days (and, when dated, posted in the last 14).
 
-## Open roles (204, newest first)
+## Open roles (203, newest first)
 
 | Company | Role | Location | Discipline | Class year | Flags | Posted |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -25,7 +25,6 @@
 | Commonwealth Fusion Systems | [Intern - Electrical Engineer, RF Heating Systems - Spring 2027](https://jobs.lever.co/cfsenergy/a3a36962-1f34-40d3-b138-401b4e0c24e0) | Devens, MA | RF/wireless, PCB/hardware |  | ITAR / export | Nov 20 · new |
 | Lucid Motors | [Intern, Vehicle Motion Controls Engineer, Summer 2027](https://lucidmotors.com/careers/search/5290899007?gh_jid=5290899007) | Newark, CA | Controls/robotics |  | No visa sponsorship | Nov 20 · new |
 | Lucid Motors | [Power Electronics Control Engineer Intern, Summer 2027](https://lucidmotors.com/careers/search/5290949007?gh_jid=5290949007) | Newark, CA | Embedded/firmware, Power electronics, Controls/robotics | Jr+ | No visa sponsorship | Nov 20 · new |
-| Lucid Motors | [Intern, Embedded Software – BSP/Platform (ADAS/Autonomous Driving), Summer 2027](https://lucidmotors.com/careers/search/5290800007?gh_jid=5290800007) | Newark, CA | Embedded/firmware |  | No visa sponsorship | Nov 20 · new |
 | Lucid Motors | [Intern, Infotainment SW Validation Automation, Summer 2027](https://lucidmotors.com/careers/search/5290937007?gh_jid=5290937007) | Newark, CA | Test/validation |  | No visa sponsorship | Nov 20 · new |
 | Lucid Motors | [Intern, Embedded Software, Summer 2027](https://lucidmotors.com/careers/search/5290904007?gh_jid=5290904007) | Newark, CA | Embedded/firmware |  | No visa sponsorship | Nov 19 · new |
 | Lucid Motors | [Intern, Motor Control Software Development and Validation Engineer, Summer 2027](https://lucidmotors.com/careers/search/5290947007?gh_jid=5290947007) | Newark, CA | Power electronics, Test/validation, Controls/robotics | Jr+ | No visa sponsorship | Nov 19 · new |
@@ -33,8 +32,8 @@
 | Lucid Motors | [Intern, Simulation & Virtualization Engineer, Summer 2027](https://lucidmotors.com/careers/search/5290915007?gh_jid=5290915007) | Newark, CA | Test/validation |  | No visa sponsorship | Nov 19 · new |
 | Lightmatter | [Silicon Validation & Test Automation, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008) | Mountain View, CA | Test/validation |  | ITAR / export | Nov 19 · new |
 | Lightmatter | [Photonics Circuit Simulation Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479849008?gh_jid=5479849008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 18 · new |
-| Lightmatter | [Product & Test Engineering, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474690008?gh_jid=5474690008) | Boston, MA | Test/validation |  | ITAR / export | Nov 17 · new |
-| Lightmatter | [Optical Packaging Integration Internship – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5478834008?gh_jid=5478834008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 16 · new |
+| Lightmatter | [Product & Test Engineering, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474690008?gh_jid=5474690008) | Boston, MA | Test/validation |  | ITAR / export | Nov 17 |
+| Lightmatter | [Optical Packaging Integration Internship – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5478834008?gh_jid=5478834008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 16 |
 | Samsara | [Product Design (Mechanical Engineering) Co-Op](https://www.samsara.com/company/careers/roles/8214590?gh_jid=8214590) | San Francisco - SF9 | Test/validation | Jr+ |  | Nov 15 |
 | Lightmatter | [Physical Design, Intern (Summer 2027)](https://boards.greenhouse.io/lightmatter/jobs/5481668008?gh_jid=5481668008) | Boston, MA | FPGA/RTL/ASIC | Jr+ | ITAR / export | Nov 13 |
 | Lightmatter | [Quality & Reliability, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474812008?gh_jid=5474812008) | Mountain View, CA | Test/validation |  | ITAR / export | Nov 13 |
@@ -53,7 +52,7 @@
 | Loft Orbital | [Backend Engineering Intern: Ground Platform Control](https://jobs.lever.co/loftorbital/1014b6c1-049d-43e5-a67a-42aac6ba4c84) | Toulouse, Occitanie | Controls/robotics |  |  | Nov 10 |
 | Skydio | [Hardware In Loop (HIL) Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded) | San Mateo, CA · Remote | Embedded/firmware, Test/validation |  |  | Nov 10 |
 | Samsara | [Electrical Engineering Co-Op](https://www.samsara.com/company/careers/roles/8226608?gh_jid=8226608) | San Francisco - SF9 | Embedded/firmware, PCB/hardware, Test/validation | Jr+ |  | Nov 10 |
-| Skydio | [Systems Engineering Intern](https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a) | San Mateo, CA · Remote | Test/validation |  |  | Nov 9 · new |
+| Skydio | [Systems Engineering Intern](https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a) | San Mateo, CA · Remote | Test/validation |  |  | Nov 9 |
 | CesiumAstro | [Summer 2027 - Electrical Engineering Internship, FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316) (co-op) | Melbourne, FL | FPGA/RTL/ASIC |  | US person / PR, ITAR / export | Nov 9 |
 | Astranis | [Embedded Software Developer, Network/Payload Intern (Winter 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704571006) | San Francisco | Embedded/firmware |  | US person / PR, ITAR / export | Nov 6 |
 | Lightmatter | [Photonics Characterization Intern- Winter 2026](https://boards.greenhouse.io/lightmatter/jobs/5473572008?gh_jid=5473572008) | Boston, MA | RF/wireless, Test/validation, Photonics/optics |  | ITAR / export | Nov 5 |
@@ -173,7 +172,7 @@
 | Saronic Technologies | [Forward Deployed Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/saronic/cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce) | Austin, TX | Test/validation, Controls/robotics |  | US person / PR, ITAR / export | Sep 9 |
 | Formlabs | [Hardware Reliability Intern (Summer 2027)](https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619) | Somerville, MA | Test/validation |  |  | Sep 8 |
 | Skydio | [Flight Test Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/3eb06d6e-b6f0-4814-a80a-f1c43075873b) | San Mateo, CA | Test/validation |  |  | Sep 4 |
-| Hermeus | [Flight Software & GNC Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7) | Atlanta, GA | Embedded/firmware, Controls/robotics |  | US person / PR, ITAR / export | Sep 3 |
+| Hermeus | [Flight Software & GNC Intern - Spring 2027](https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7) | Atlanta, GA | Embedded/firmware, Controls/robotics |  | US person / PR, ITAR / export | Sep 3 |
 | Hermeus | [Mission Systems Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d) | Atlanta, GA; Los Angeles, CA | Test/validation |  | US person / PR, ITAR / export | Sep 3 |
 | Hermeus | [Software Engineering Intern (Command & Control) - Spring/Summer 2027](https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796) | Atlanta, GA | Controls/robotics | Jr+ | US person / PR, ITAR / export | Sep 3 |
 | Hermeus | [Manufacturing Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/1bdf3754-5649-4a50-913e-b05140cb004f) | Atlanta, GA | Test/validation | Jr+ | US person / PR, ITAR / export | Sep 2 |
