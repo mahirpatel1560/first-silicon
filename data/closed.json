@@ -2,6 +2,27 @@
  "schema": 1,
  "closed": [
   {
+   "id": "r0wk04ul1ctef7h",
+   "company": "Zoox",
+   "title": "Contract Student Worker – AI Validation and Benchmarking Engineer (40hrs / week Full-Time)",
+   "first_seen": "2026-10-14",
+   "closed_on": "2026-11-25"
+  },
+  {
+   "id": "r1ri3ch81rmgj5g",
+   "company": "Hermeus",
+   "title": "Flight Software & GNC Intern - Spring 2027",
+   "first_seen": "2026-11-24",
+   "closed_on": "2026-11-25"
+  },
+  {
+   "id": "r1bn94381dsr322",
+   "company": "Hermeus",
+   "title": "Software Engineering Intern (Command & Control) - Spring/Summer 2027",
+   "first_seen": "2026-09-24",
+   "closed_on": "2026-11-25"
+  },
+  {
    "id": "r1csfyu500uzwyv",
    "company": "Lucid Motors",
    "title": "Intern, Embedded Software – BSP/Platform (ADAS/Autonomous Driving), Summer 2027",
@@ -1071,34 +1092,6 @@
    "title": "Electrical Reliability Associate (Fall 2026)",
    "first_seen": "2026-09-24",
    "closed_on": "2026-09-26"
-  },
-  {
-   "id": "r12hmuwc1nf5ldy",
-   "company": "Eight Sleep",
-   "title": "Prototype & Test Engineering Intern, New Product Development",
-   "first_seen": "2026-09-24",
-   "closed_on": "2026-09-25"
-  },
-  {
-   "id": "r07n95ct1ot1q7j",
-   "company": "Rocket Lab",
-   "title": "GNC Intern Summer 2027",
-   "first_seen": "2026-09-24",
-   "closed_on": "2026-09-25"
-  },
-  {
-   "id": "r0hhwd0k1nz4i6m",
-   "company": "Anduril Industries",
-   "title": "2026 Robotics Engineer Intern",
-   "first_seen": "2026-09-24",
-   "closed_on": "2026-09-25"
-  },
-  {
-   "id": "r15567ex1al94l1",
-   "company": "Zoox",
-   "title": "Contract Student Worker – Hardware Software Integration Engineer (Full-Time 40 hrs/wk)",
-   "first_seen": "2026-09-24",
-   "closed_on": "2026-09-25"
   }
  ]
 }
