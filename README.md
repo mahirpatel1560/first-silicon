@@ -2,7 +2,7 @@
 
 210 internships and co-ops at 36 companies — PCB, embedded, RF, test, silicon — tagged by class year, discipline and citizenship. Updated every morning from the companies' own job boards. Filter the list at **[firstsilicon.pages.dev](https://firstsilicon.pages.dev/?ref=github)**.
 
-**Updated November 25, 2026** · 210 open roles · 26 new this week · 80 without citizenship or export flags
+**Updated November 26, 2026** · 210 open roles · 20 new this week · 80 without citizenship or export flags
 
 **Class year:** Only 5 postings say freshmen or sophomores can apply. 170 don't list a class year at all: apply to those unless the posting says juniors/seniors or a graduation date you can't meet.
 
@@ -38,17 +38,17 @@
 | Lucid Motors | [Intern, Motor Control Software Development and Validation Engineer, Summer 2027](https://lucidmotors.com/careers/search/5290947007?gh_jid=5290947007) | Newark, CA | Power electronics, Test/validation, Controls/robotics | Jr+ | No visa sponsorship | Nov 19 · new |
 | Lucid Motors | [Intern, OTA Test and Validation Automation, Summer 2027](https://lucidmotors.com/careers/search/5290917007?gh_jid=5290917007) | Newark, CA | Test/validation |  | No visa sponsorship | Nov 19 · new |
 | Lucid Motors | [Intern, Simulation & Virtualization Engineer, Summer 2027](https://lucidmotors.com/careers/search/5290915007?gh_jid=5290915007) | Newark, CA | Test/validation |  | No visa sponsorship | Nov 19 · new |
-| Lightmatter | [Silicon Validation & Test Automation, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008) | Mountain View, CA | Test/validation |  | ITAR / export | Nov 19 · new |
-| Lightmatter | [Photonics Circuit Simulation Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479849008?gh_jid=5479849008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 18 · new |
+| Lightmatter | [Silicon Validation & Test Automation, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008) | Mountain View, CA | Test/validation |  | ITAR / export | Nov 19 |
+| Lightmatter | [Photonics Circuit Simulation Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479849008?gh_jid=5479849008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 18 |
 | Lightmatter | [Product & Test Engineering, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474690008?gh_jid=5474690008) | Boston, MA | Test/validation |  | ITAR / export | Nov 17 |
 | Lightmatter | [Optical Packaging Integration Internship – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5478834008?gh_jid=5478834008) | Mountain View, CA | Photonics/optics | Jr+ | ITAR / export | Nov 16 |
 | Samsara | [Product Design (Mechanical Engineering) Co-Op](https://www.samsara.com/company/careers/roles/8214590?gh_jid=8214590) | San Francisco - SF9 | Test/validation | Jr+ |  | Nov 15 |
 | Lightmatter | [Physical Design, Intern (Summer 2027)](https://boards.greenhouse.io/lightmatter/jobs/5481668008?gh_jid=5481668008) | Boston, MA | FPGA/RTL/ASIC | Jr+ | ITAR / export | Nov 13 |
 | Lightmatter | [Quality & Reliability, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474812008?gh_jid=5474812008) | Mountain View, CA | Test/validation |  | ITAR / export | Nov 13 |
-| Lightmatter | [Electrical Engineering Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473816008?gh_jid=5473816008) | Boston, MA; Mountain View, CA | PCB/hardware, Photonics/optics |  | ITAR / export | Nov 12 · new |
-| Lightmatter | [Analog Engineering Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473749008?gh_jid=5473749008) | Mountain View, CA; Boston, MA | Analog/mixed-signal | Jr+ | ITAR / export | Nov 11 · new |
-| Lightmatter | [Chip Architecture Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5468924008?gh_jid=5468924008) | Boston, MA; Mountain View, CA | Analog/mixed-signal | Jr+ | ITAR / export | Nov 11 · new |
-| Lightmatter | [Systems Engineering, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473822008?gh_jid=5473822008) | Mountain View, CA | General EE |  | ITAR / export | Nov 11 · new |
+| Lightmatter | [Electrical Engineering Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473816008?gh_jid=5473816008) | Boston, MA; Mountain View, CA | PCB/hardware, Photonics/optics |  | ITAR / export | Nov 12 |
+| Lightmatter | [Analog Engineering Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473749008?gh_jid=5473749008) | Mountain View, CA; Boston, MA | Analog/mixed-signal | Jr+ | ITAR / export | Nov 11 |
+| Lightmatter | [Chip Architecture Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5468924008?gh_jid=5468924008) | Boston, MA; Mountain View, CA | Analog/mixed-signal | Jr+ | ITAR / export | Nov 11 |
+| Lightmatter | [Systems Engineering, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473822008?gh_jid=5473822008) | Mountain View, CA | General EE |  | ITAR / export | Nov 11 |
 | Lightmatter | [Packaging Mechanical Design Internship - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479684008?gh_jid=5479684008) | Mountain View, CA | Photonics/optics |  | ITAR / export | Nov 11 |
 | Lightmatter | [Photonics Engineer Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479605008?gh_jid=5479605008) | Boston, MA | Photonics/optics | Jr+ | ITAR / export | Nov 11 |
 | Lightmatter | [Photonics Layout Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479611008?gh_jid=5479611008) | Boston, MA | Photonics/optics |  | ITAR / export | Nov 11 |
@@ -172,7 +172,7 @@
 | Skydio | [Camera & Imaging Intern](https://jobs.ashbyhq.com/skydio/aabcda71-f098-4c42-a094-46dc9d832c94) | Tampere, Finland · Remote | Test/validation, Photonics/optics |  |  | Sep 14 |
 | Vast | [Emerging Talent - Electrical Engineering Internship](https://boards.greenhouse.io/vast/jobs/4711401006?gh_jid=4711401006) | Long Beach, CA | General EE |  |  | Sep 10 |
 | Hermeus | [Avionics Electrical Engineering Intern - Summer 2027](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) | Atlanta, GA | PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
-| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Pasadena, CA +1 more | Embedded/firmware, Test/validation, FPGA/RTL/ASIC, PCB/hardware |  | US person / PR, ITAR / export | Sep 9 |
+| Rocket Lab | [Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990043003) | Toronto, CAN; Long Beach, CA +1 more | FPGA/RTL/ASIC, PCB/hardware, Embedded/firmware, Test/validation |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [Flight Software Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989722003) | Littleton, CO | Embedded/firmware |  | US person / PR, ITAR / export | Sep 9 |
 | Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | Long Beach, CA | Test/validation |  | US person / PR, ITAR / export | Sep 9 |
 | Saronic Technologies | [Electrical Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/saronic/c7779462-3c4c-44d9-8314-1be93a0e478a) | Austin, TX | Analog/mixed-signal, PCB/hardware, Controls/robotics |  | US person / PR, ITAR / export | Sep 9 |

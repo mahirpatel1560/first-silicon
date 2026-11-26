@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run": "2026-11-25T20:31:49.732Z",
+  "last_run": "2026-11-26T20:11:25.569Z",
   "source": "live",
   "status": "ok",
   "boards": {
@@ -11,8 +11,8 @@
     "failed": 0,
     "failed_list": []
   },
-  "postings_seen": 16643,
-  "internships_seen": 657,
+  "postings_seen": 16689,
+  "internships_seen": 671,
   "hardware_internship_postings": 220,
   "counts": {
     "roles": 210,
@@ -22,7 +22,7 @@
     "jplus": 35,
     "unspecified": 170,
     "citizenship_free": 80,
-    "new_this_week": 26,
+    "new_this_week": 20,
     "remote": 7,
     "companies": 36,
     "by_discipline": {
@@ -47,7 +47,7 @@
       "Winter 2026": 1
     }
   },
-  "new_since_last_run": 10,
-  "closed_since_last_run": 3,
+  "new_since_last_run": 0,
+  "closed_since_last_run": 0,
   "carried_over_from_failed_boards": 0
 }
